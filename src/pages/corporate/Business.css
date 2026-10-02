@@ -1,0 +1,30 @@
+:root {
+  --red: #ee1b24;
+  --red2: #d8121b;
+  --dark-red: #a50710;
+  --yellow: #ffd21a;
+  --black: #050505;
+  --charcoal: #121212;
+  --soft: #f7f7f7;
+  --line: #ececec;
+  --muted: #6f6f6f;
+  --white: #fff;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.12);
+  --radius: 28px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--black);
+  background: #fff;
+  line-height: 1.45;
+}

@@ -1,0 +1,90 @@
+.country-search .stdropdown-container {
+  font-family: "DMSans" !important;
+}
+
+.country-search .stdropdown-container .stdropdown-menu .stdropdown-item {
+  display: flex;
+  gap: 8px;
+}
+
+.country-search .stdropdown-container span {
+  font-family: "Twemoji Mozilla", sans-serif !important;
+}
+
+.country-select .stdropdown-container {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.country-select .stdropdown-input {
+  padding: 8px;
+}
+
+.country-select .stdropdown-item span {
+  padding: 8px;
+}
+
+.country-select .stdropdown-menu {
+  max-height: 380px;
+}
+
+.country-search .stdropdown-container {
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.country-search.blackSearch .stdropdown-container {
+  border: 1px solid #424242;
+}
+
+.country-search .stsearch-box input::placeholder {
+  color: #eee;
+  font-weight: 400;
+}
+
+.country-search.blackSearch .stsearch-box input::placeholder {
+  color: #727272;
+}
+
+.country-search .stsearch-box input {
+  padding-left: 32px;
+  font-weight: 400;
+}
+
+.country-search.blackSearch .stsearch-box input {
+  color: #fff;
+}
+
+.nav-white .stsearch-box input {
+  color: #000;
+}
+
+.nav-white .stsearch-box input::placeholder {
+  color: #888888;
+}
+
+.nav-white .stdropdown-container {
+  border: 1px solid #eeeeee;
+}
+
+.country-search.whiteText .stsearch-box input {
+  color: #191919;
+}
+
+.country-search .stdropdown-menu {
+  color: #191919;
+}
+
+.country-search .stdropdown-tools {
+  display: none;
+}
+
+.navbarLang .countryName {
+  display: none !important;
+}
+
+@media (max-width: 1280px) {
+  .navbarLang .countryName {
+    display: inline-block !important;
+  }
+}

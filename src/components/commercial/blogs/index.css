@@ -1,0 +1,314 @@
+/* ============================================
+   Blog Post Styles
+   ============================================ */
+
+.blog-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header Section */
+.blog-page-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-metadata {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.blog-date {
+  font-weight: 500;
+}
+
+.blog-author::before {
+  content: "•";
+  margin-right: 0.5rem;
+}
+
+.blog-read-time::before {
+  content: "•";
+  margin-right: 0.5rem;
+}
+
+/* Content Wrapper */
+.blog-content-wrapper {
+  margin-bottom: 3rem;
+}
+
+/* Typography Styles */
+.blog-content-wrapper h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 2rem 0 1.5rem;
+  line-height: 1.2;
+  color: #1a1a1a;
+}
+
+.blog-content-wrapper h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 2.5rem 0 1rem;
+  line-height: 1.3;
+  color: #1a1a1a;
+}
+
+.blog-content-wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem;
+  line-height: 1.4;
+  color: #2a2a2a;
+}
+
+.blog-content-wrapper h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+  line-height: 1.4;
+  color: #2a2a2a;
+}
+
+.blog-content-wrapper p {
+  margin: 1rem 0;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.blog-content-wrapper img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+.blog-content-wrapper a {
+  color: #0066cc;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.2s ease;
+}
+
+.blog-content-wrapper a:hover {
+  border-bottom-color: #0066cc;
+}
+
+/* Tables */
+.blog-content-wrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  border: 1px solid #808080;
+  /* outer border */
+}
+
+/* Header row */
+.blog-content-wrapper table thead tr {
+  background-color: #005a9e;
+  /* dark blue */
+  color: #ffffff;
+}
+
+.blog-content-wrapper table th {
+  padding: 10px 14px;
+  font-size: 15px;
+  font-weight: bold;
+  border: 1px solid #4d4d4d;
+}
+
+/* Table body */
+.blog-content-wrapper table td {
+  padding: 10px 14px;
+  border: 1px solid #bfbfbf;
+  font-size: 14px;
+  color: #222222;
+}
+
+/* Dot style to match your screenshot */
+.blog-content-wrapper table .dot {
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Hover (optional) */
+.blog-content-wrapper table tr:hover {
+  background-color: #f2f7ff;
+}
+
+/* Lists */
+.blog-content-wrapper ul,
+.blog-content-wrapper ol {
+  margin: 1.5rem 0;
+  padding-left: 2rem;
+}
+
+.blog-content-wrapper ul {
+  list-style-type: disc;
+}
+
+.blog-content-wrapper ol {
+  list-style-type: decimal;
+}
+
+.blog-content-wrapper ul ul {
+  list-style-type: circle;
+}
+
+.blog-content-wrapper ul ul ul {
+  list-style-type: square;
+}
+
+.blog-content-wrapper li {
+  margin: 0.75rem 0;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.blog-content-wrapper li strong {
+  color: #1a1a1a;
+}
+
+/* Blockquotes */
+.blog-content-wrapper blockquote {
+  margin: 2rem 0;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid #0066cc;
+  background-color: #f8f9fa;
+  font-style: italic;
+  color: #555;
+}
+
+/* Code blocks */
+.blog-content-wrapper code {
+  padding: 0.2rem 0.4rem;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.blog-content-wrapper pre {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.blog-content-wrapper pre code {
+  padding: 0;
+  background-color: transparent;
+}
+
+/* Footer Section */
+.blog-footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid #e5e5e5;
+}
+
+.blog-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.blog-tag {
+  padding: 0.4rem 0.8rem;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  color: #555;
+  transition: background-color 0.2s ease;
+}
+
+.blog-tag:hover {
+  background-color: #e0e0e0;
+}
+
+.blog-cta {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.blog-cta-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.blog-cta-button:hover {
+  background-color: #0052a3;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blog-container {
+    padding: 1rem;
+  }
+
+  .blog-content-wrapper h1 {
+    font-size: 2rem;
+  }
+
+  .blog-content-wrapper h2 {
+    font-size: 1.5rem;
+  }
+
+  .blog-content-wrapper h3 {
+    font-size: 1.25rem;
+  }
+
+  .blog-content-wrapper p,
+  .blog-content-wrapper li {
+    font-size: 1rem;
+  }
+
+  .blog-metadata {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-container {
+    padding: 0.75rem;
+  }
+
+  .blog-content-wrapper h1 {
+    font-size: 1.75rem;
+  }
+
+  .blog-cta-button {
+    width: 100%;
+    padding: 0.875rem 1.5rem;
+  }
+}

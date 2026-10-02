@@ -1,0 +1,9 @@
+[
+  { "id": "111", "name": "Asia" },
+  { "id": "112", "name": "Europe" },
+  { "id": "113", "name": "Africa" },
+  { "id": "114", "name": "Oceania" },
+  { "id": "115", "name": "Americas" },
+  { "id": "116", "name": "Polar" },
+  { "id": "117", "name": "Antarctic" }
+]

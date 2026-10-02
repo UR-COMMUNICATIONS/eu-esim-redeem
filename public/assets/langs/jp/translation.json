@@ -1,0 +1,4800 @@
+{
+  "buttonText": {
+    "buyNow": "今すぐ購入",
+    "buyRent": "購入/レンタル",
+    "findOutMore": "詳しくはこちら",
+    "search": "検索",
+    "searchPlans": "プランを検索",
+    "seeDetails": "詳細を見る",
+    "aboutUs": "Yoowifiについて",
+    "howItWorks": "使い方",
+    "downloadApp": "アプリをダウンロード",
+    "loadMore": "もっと読み込む",
+    "submit": "送信",
+    "getInTouch": "お問い合わせ",
+    "exploreProducts": "製品を探す",
+    "contactUs": "お問い合わせ",
+    "enquireNow": "今すぐお問い合わせ",
+    "viewMore": "もっと見る",
+    "viewSimESim": "SIM/eSIMを見る",
+    "viewSteps": "ステップを見る",
+    "rentADeviceNow": "デバイスを今すぐレンタル",
+    "rental": "レンタル",
+    "topUp": "トップアップ",
+    "previous": "前へ",
+    "next": "次へ",
+    "addACountry": "国を追加",
+    "viewLocations": "場所を見る",
+    "sim": "SIM",
+    "eSim": "eSIM",
+    "homeorAddress": "ホームまたは住所",
+    "hotel": "ホテル",
+    "saveAddress": "住所を保存",
+    "buyPocketWifi": "ポケットWi-Fiを購入",
+    "dropOffLocations": "返却場所",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "continue": "続行",
+    "verify": "確認",
+    "keep": "購入する",
+    "viewPlans": "プランを見る",
+    "BuySIMeSIM": "SIM/eSIMを購入する",
+    "addnewOrder": "新しい注文を追加",
+    "addNew": "新規追加"
+  },
+  "extraText": {
+    "freeWifiListCountry": "90カ国 無料 Wi‑Fi リスト:",
+    "freeeSIMListCountry": "無料 eSIM 対応国:",
+    "amount": "金額",
+    "endDate": "終了日",
+    "from": "から",
+    "selectCountry": "国を選択してください",
+    "corporate": "企業向け",
+    "more": "もっと",
+    "unlimitedData": "無制限データ",
+    "amountTotal": "$1.90/",
+    "day": "日",
+    "endingIn": "まで",
+    "countryCoverage": "国のカバレッジ",
+    "country": "国",
+    "selectPackage": "パッケージを選択",
+    "information": "情報",
+    "service": "サービス",
+    "dataSize": "データサイズ",
+    "unlimited": "無制限",
+    "selectDevice": "デバイスを選択",
+    "selectDeviceToTopUp": "トップアップするデバイスを選択",
+    "wifiDevices": "Wi-Fiデバイス",
+    "planSummary": "プランの概要",
+    "chosenPlan": "選択したプラン",
+    "dataAvailable": "利用可能なデータ",
+    "startDate": "開始日",
+    "quantity": "数量",
+    "totalAmount": "合計金額",
+    "simType": "SIMタイプ",
+    "chooseNoOfDays": "日数を選択",
+    "noOfSimESim": "SIM/eSIMの数",
+    "selectShippingOption": "配送オプションを選択",
+    "selectLocation": "場所を選択",
+    "deliveryAddress": "配送先住所 (ご登録の住所を選択)",
+    "addAddress": "住所を追加",
+    "addNewAddress": "“こちらから新しい住所を登録して下さい.",
+    "addressDetails": "住所の詳細",
+    "noCountriesFoundInThisRegion": "この地域には国が見つかりません",
+    "searchAnything": "何かを検索...",
+    "filters": "フィルター",
+    "noOfRentalDevices": "レンタルデバイスの数",
+    "orderDate": "注文日",
+    "connectsSeamlessly": "無制限のインターネットアクセスをお楽しみください\nすべてのカバーされた国でシームレスに接続\n最大 10 台のデバイスで共有可能",
+    "annexCountryNote": "SKYTICKETプロモコードを適用する国を検索してください。",
+    "CountryNote": "続行するには、国と日付を選択してください。",
+    "calculatingCharges": "料金を計算中..."
+  },
+  "form": {
+    "agreedToTerms": "利用規約に同意する",
+    "companyInformation": "会社情報*",
+    "companyName": "会社名",
+    "cityState": "市/州 (し/しゅう)",
+    "additionalInformation": "追加情報 (ついかじょうほう)",
+    "optional": "任意 (にんい) / オプション",
+    "startDate": "開始日",
+    "endDate": "終了日",
+    "pickADate": "日付を選択",
+    "travelCountry": "渡航先の国",
+    "addressCountry": "住所の国",
+    "selectCountry": "国を選択",
+    "country": "渡航国",
+    "originCountry": "国",
+    "selectOriginCountry": "出身国を選択",
+    "language": "言語",
+    "selectLanguage": "言語を選択",
+    "fullName": "フルネーム",
+    "enterNameHere": "名前を入力してください",
+    "phoneNumber": "電話番号",
+    "enterNumber": "番号を入力してください",
+    "state": "州（日本在住の方は空欄）",
+    "selectState": "都市を選択してください",
+    "address": "住所",
+    "enterFullAddress": "完全な住所を入力してください",
+    "apartment": "アパート/階/ユニット/スイートなど",
+    "enterYourAddress": "住所を入力してください",
+    "enterApartmentDetails": "アパート/階/ユニット/スイートを入力してください",
+    "province": "県",
+    "enterProvince": "県を入力してください",
+    "postalCode": "郵便番号/ZIPコード",
+    "enterPostalCode": "郵便番号を入力してください",
+    "addCreditDebit": "クレジット/デビットを追加",
+    "cardholderName": "カード名義人*",
+    "cardholderNamePlaceholder": "フルネームを入力してください",
+    "cardNumber": "カード番号*",
+    "cardNumberPlaceholder": "番号を入力してください",
+    "cvcCvv": "CVC/CVV2*",
+    "cvcCvvPlaceholder": "CVCコードを入力してください",
+    "expiryDate": "有効期限",
+    "expiryDatePlaceholder": "MM/YY",
+    "contactSubjects": [
+      "製品情報",
+      "注文状況",
+      "請求および支払い",
+      "デバイスの回収/返品プロセス",
+      "アプリ関連",
+      "ビジネスに関する問い合わせ",
+      "フィードバックと提案",
+      "その他"
+    ]
+  },
+  "notFound": {
+    "noPackage": "検索に一致するパッケージが見つかりませんでした"
+  },
+  "navbar": {
+    "forYoo": "あなたのために",
+    "commercial": [
+      {
+        "name": "ホーム"
+      },
+      {
+        "name": "ポケットWiFi"
+      },
+      {
+        "name": "ルーター"
+      },
+      {
+        "name": "SIM/eSIM"
+      },
+      {
+        "name": "お問い合わせ"
+      },
+      {
+        "name": "Yoowifiについて"
+      }
+    ],
+    "commercialLatest": {
+      "home": "ホーム",
+      "pocketwifi": "ポケットWiFi",
+      "router": "ルーター",
+      "simesim": "SIM/eSIM",
+      "esim": "eSIM",
+      "contact": "お問い合わせ",
+      "about": "Yoowifiについて",
+      "privacyPolicy": "プライバシーポリシー",
+      "termsService": "利用規約"
+    },
+    "corporate": [
+      {
+        "name": "Iot"
+      },
+      {
+        "name": "ホテル"
+      },
+      {
+        "name": "旅行代理店"
+      },
+      {
+        "name": "海上インターネット"
+      },
+      {
+        "name": "オフィス/ロードショーイベント"
+      },
+      {
+        "name": "会社概要"
+      },
+      {
+        "name": "商業"
+      }
+    ],
+    "megamenu": {
+      "menuText": "その他",
+      "menuItems": [
+        {
+          "title": "トラベルデータ",
+          "items": [
+            "ポケットWiFi詳細",
+            "SIM/eSIM詳細"
+          ]
+        },
+        {
+          "title": "対応している国",
+          "items": [
+            "アジア",
+            "ヨーロッパ",
+            "アメリカ",
+            "オーストラリア",
+            "アフリカ"
+          ]
+        },
+        {
+          "title": "受け取り/返却場所",
+          "titleJP": "返却場所",
+          "items": [
+            "受け取り場所",
+            "返却場所"
+          ]
+        },
+        {
+          "title": "ご利用方法",
+          "items": [
+            "YoowifiポケットWiFiをレンタル",
+            "1分以内に簡単返却",
+            "新しい旅行を作成またはデータを追加"
+          ]
+        },
+        {
+          "title": "アフィリエイト",
+          "items": [
+            "YoowifiアフィリエイトYoo Wanderプログラムに参加",
+            "今すぐお問い合わせ！"
+          ]
+        },
+        {
+          "title": "使い方",
+          "items": [
+            "eSIMを設定する",
+            "ポケットWiFiに接続する方法？"
+          ]
+        }
+      ]
+    }
+  },
+  "heroHome": {
+    "heroConnected": {
+      "stayConnected": "つながり続ける",
+      "anyTimeAnyWhere": "いつでも、どこでも",
+      "seamlessConnectivity": "シームレスナ接続",
+      "subHeading": "シームレスナ接続, いつでも、どこでも"
+    },
+    "heroTravel": {
+      "travelCompanion": "あなたの#1旅行仲間"
+    },
+    "heroDiscover": {
+      "discover": "私たちの新しいポケットWiFiをご紹介します"
+    },
+    "slides": [
+      {
+        "title": "大容量バッテリー",
+        "subTitle": "",
+        "description": "Yoowifiでインターネット接続の心配ない旅行を！ "
+      },
+      {
+        "title": "より速く",
+        "subTitle": "",
+        "description": "最大150Mbpsのデータ速度"
+      },
+      {
+        "title": "画面ディスプレイを搭載",
+        "subTitle": "",
+        "description": "データ使用量を確認し、簡単に接続し、面倒なくさらに多くの情報にアクセスできます。"
+      }
+    ]
+  },
+  "productsData": {
+    "title": "私たちの製品",
+    "cardData": [
+      {
+        "title": "ポケットWiFi",
+        "description": "旅行者に最適：複数の国でローミング料金なしの安全で信頼性の高いインターネット。リモートワーカー、旅行者、家族、ソーシャルメディア愛好家に最適で、複数のデバイスをシームレスに接続できます。",
+        "offer": "50%割引"
+      },
+      {
+        "title": "ルーター",
+        "description": "イベント & ビジネス向けに設計：高速インターネットと無制限データで、主催者や大規模イベントをスムーズにサポート。"
+      },
+      {
+        "title": "SIM/eSIM",
+        "titleJp": "eSIM",
+        "description": "パーソナライズされたデータに最適: 私たちのeSIMは、個別対応の柔軟なプランオプションでデータ通信を提供し、信頼性が高く高速なインターネット接続を実現します。160以上の国で利用可能で、シームレスで個別対応の接続を求める旅行者に最適なソリューションです。",
+        "offer": "20%割引"
+      }
+    ],
+    "cardDataLatest": {
+      "D": {
+        "title": "ポケットWiFi",
+        "description": "旅行者に最適：複数の国でローミング料金なしの安全で信頼性の高いインターネット。リモートワーカー、旅行者、家族、ソーシャルメディア愛好家に最適で、複数のデバイスをシームレスに接続できます。",
+        "offer": "50%割引"
+      },
+      "R": {
+        "title": "ルーター",
+        "description": "イベント & ビジネス向けに設計：高速インターネットと無制限データで、主催者や大規模イベントをスムーズにサポート。"
+      },
+      "S": {
+        "title": "SIM/eSIM",
+        "titleJp": "eSIM",
+        "description": "パーソナライズされたデータに最適: 私たちのeSIMは、個別対応の柔軟なプランオプションでデータ通信を提供し、信頼性が高く高速なインターネット接続を実現します。160以上の国で利用可能で、シームレスで個別対応の接続を求める旅行者に最適なソリューションです。",
+        "offer": "20%割引"
+      }
+    }
+  },
+  "getYourOwn": {
+    "title": "今すぐ新品のポケットWiFiを手に入れよう！",
+    "features": [
+      "年間90カ国以上をカバー",
+      "最大6台のデバイスを共有可能",
+      "最大150Mbpsの通信速度",
+      "データチャージ対応",
+      "200GBの大容量プランあり"
+    ]
+  },
+  "internetPackages": {
+    "sectionHeading": "パッケージ",
+    "sectionSubHeading": "あなたのニーズに合わせたパッケージを見つけましょう",
+    "searchPlaceholder": "国を検索..",
+    "pocketwifi": "ポケットWiFi",
+    "sim": "SIM",
+    "esim": "eSIM"
+  },
+  "datas": [
+    {
+      "_id": 0,
+      "name": "すべて / 全て",
+      "value": "A"
+    },
+    {
+      "_id": 1,
+      "name": "ポケットWiFi",
+      "value": "D"
+    },
+    {
+      "_id": 2,
+      "name": "SIM",
+      "value": "S"
+    },
+    {
+      "_id": 3,
+      "name": "eSIM",
+      "value": "E"
+    }
+  ],
+  "whyYooWifi": {
+    "sectionHeading": "なぜYoowifiを選ぶのか？",
+    "servicesData": [
+      {
+        "title": "数々の受賞歴を持つ大手旅行用データプロバイダー"
+      },
+      {
+        "title": "160以上の国をカバー"
+      },
+      {
+        "title": "専門知識が不要な簡単設定"
+      },
+      {
+        "title": "カスタマイズ可能で柔軟なプラン"
+      },
+      {
+        "title": "他に負けない価格保証"
+      }
+    ]
+  },
+  "stayConnectedRegions": {
+    "sectionHeading": "どこでも接続を維持",
+    "sectionSubHeading": "今すぐ理想の目的地と完璧なパッケージを選んでください",
+    "regions": [
+      "アジア",
+      "アメリカ",
+      "アフリカ",
+      "オーストラリア",
+      "ヨーロッパ"
+    ]
+  },
+  "customerTestimonial": {
+    "sectionHeading": "お客様の声",
+    "sectionSubHeading": "私たちのサービスに対するお客様の体験談をご覧ください",
+    "testimonials": [
+      {
+        "description": "サービスが速く、効率的で、顧客へのコミットメントは常に完璧です。最も重要なのは、常に質問に素早く回答してくれることです！非常に迅速で、常にベストを尽くしてくれています！これからも頑張ってください、皆さん…ファイト！！！→サービスが速く、効率的で、顧客へのコミットメントは常に完璧です。最も重要なのは、常に質問に素早く回答してくれることです！非常に迅速で、常にベストを尽くしています！これからも頑張ってください！！！ ",
+        "author": "",
+        "designation": "Tony Richards"
+      },
+      {
+        "description": "素晴らしいサービスで、このポケットWi-Fiデバイスをおすすめしています。友達や家族とこのポケットWi-Fiデバイスを共有しており、一部の国では料金が高い現地のSIMカードを購入するよりもずっと便利です。",
+        "author": "",
+        "designation": "Gina"
+      },
+      {
+        "description": "「同僚に勧められました。非常に使いやすく、軽量です。スムーズな取引で、私は間違いなく再度このサービスを利用します！」",
+        "author": "",
+        "designation": "Eileen Wong"
+      },
+      {
+        "description": "「これはグループ旅行（またはカップル旅行）に非常に便利で、最大8台のデバイスを接続できます。また、SIMカードを購入するよりもコスト効率が良いです。強くお勧めしますし、今後もサポートし続けます！」",
+        "author": "",
+        "designation": "Jan"
+      },
+      {
+        "description": "この製品はセットアップが簡単で、日常的な使用には非常に信頼性が高く、が安定しており、ストリーミングや勉強に役立ちます",
+        "author": "",
+        "designation": "Dayan Ezryy"
+      }
+    ]
+  },
+  "howItWorks": {
+    "sectionHeading": "どこでも、いつでも接続を維持",
+    "sectionSubHeading": "指先で高速で携帯可能なWi-Fiを体験しよう",
+    "howItWorksData": [
+      {
+        "title": "レンタル方法",
+        "description": "Yoowifiに簡単な3ステップで接続できます！アプリをダウンロードし、目的地を選び、ご自身のニーズに合ったパッケージを選んでください。"
+      },
+      {
+        "title": "返却方法",
+        "description": "郵送などで簡単に返却できます。"
+      },
+      {
+        "title": "受取&返却の場所 ",
+        "description": "20以上の場所で、ポケットWiFiを簡単に受け取って、快適に接続を保つことができます。"
+      }
+    ]
+  },
+  "collaborateMarquee": {
+    "sectionHeading": "パートナー "
+  },
+  "downloadYooWifi": {
+    "downloadText": "ダウンロード",
+    "ctaText": "いつでもどこでも快適なデジタル体験を可能にする高度な機能！"
+  },
+  "pocketWifi": {
+    "product": {
+      "name": "ポケットWiFi",
+      "descriptionHighlight": "",
+      "description": "YoowifiのポケットWiFiは、移動中でも途切れない高速インターネットを実現する旅行必需品です。即座に安全で個人用のホットスポットを作成し、スマートフォン、タブレット、ノートPCをどこでも接続できます。\n\n国内旅行でも、数多くの海外旅行先でも、YoowifiのポケットWiFiがあれば安心して移動できます。どの目的地でも信頼できるデータアクセスを提供し、余計な心配をせずに旅行を楽しめます。",
+      "coloursofdevices": "デバイスの色は在庫状況により異なります",
+      "note": "*デバイスは在庫状況に基づき貸し出されます*",
+      "corporateMember": "法人メンバーになる",
+      "signUpCorporater": " 法人アカウントに登録し、初回購入時に50ドル分のクレジットを無料で受け取りましょう。",
+      "features": [
+        "最大10台まで同時接続可能",
+        "90か国以上をカバー",
+        "家族旅行中も簡単に接続"
+      ],
+      "buttons": {
+        "text2": "プランを見る"
+      },
+      "tabs": [
+        {
+          "title": "製品説明",
+          "content": "• 年間プランまたは日次パスから選択可能。\n• SIMやパッケージ不要で90か国以上で最大150Mbpsの速度を利用可能。\n• 簡単なセットアップですぐに接続し、最大10台と共有可能。\n• 1日3GBから年間200GBまでのデータオプションがあり、詳細を表示。\n• データや利用日数をいつでも追加可能。"
+        },
+        {
+          "title": "仕様",
+          "content": "CPU: SC8310\nLTE-FDD：Bands 1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 17 / 18 / 20 / 25 / 26 /28 / 66\nLTE-TDD：Bands 34 / 38 / 39 / 40 / 41 (194M)\nWCDMA：Bands 1 / 2 / 4 / 5 / 8\nTD-SCDMA：なし\nCDMA：なし\nEVDO：なし\nGSM：850 / 900 / 1800 / 1900\n最大速度：150Mbps\nWi-Fi：2.4GHz 802.11 b / g / n 1T1R\n最大WiFi接続数：10\nバッテリー：3000mAh\nポート：Type-C USB\n入力：5V – 1A\nサイズ：120mm x 64.6mm x 12mm\n重量：112g\n素材：プラスチック"
+        },
+        {
+          "title": "同梱物",
+          "content": "1x デバイス\n1x USB-C ケーブル\n1x マニュアル"
+        }
+      ],
+      "planInformation": [
+        {
+          "title": "情報",
+          "content": "description"
+        },
+        {
+          "title": "利用規約",
+          "content": "planTerms"
+        },
+        {
+          "title": "対応国",
+          "content": "coverage"
+        }
+      ]
+    },
+    "features": {
+      "heading": "主な特徴",
+      "subHeading": "遅いインターネットに縛られないで！ポータブルポケットWiFiで制限のない接続を体験してください。",
+      "featureList": [
+        "最大150Mbpsのデータ速度",
+        "柔軟なデータオプション",
+        "クラウドSIM技術",
+        "最大10台まで共有可能",
+        "12時間のバッテリー駆動"
+      ]
+    },
+    "aboutUs": [
+      {
+        "_id": 1,
+        "title": "エンタープライズソリューション",
+        "content": "移動中のビジネス向けに、信頼性が高く安全なインターネット接続を提供します。スケーラブルで効率的なソリューションにより、どこでもシームレスな運用を実現します。"
+      },
+      {
+        "_id": 2,
+        "title": "パートナーシップ",
+        "content": "私たちのパートナーシップは信頼と協力に基づいて構築され、革新を推進し、機会を拡大し、相互の成功を生み出します。"
+      },
+      {
+        "_id": 3,
+        "title": "カスタムソリューション",
+        "content": "お客様のニーズに合わせたカスタムソリューションをご用意しています。柔軟で革新的なサービスを設計し、成功とビジネス成果の向上をサポートします。"
+      }
+    ],
+    "services": [
+      {
+        "_id": 1,
+        "title": "グローバルカバレッジ",
+        "content": "YoowifiのトラベルWiFiサービスで、160か国以上でどこにいても接続可能です。"
+      },
+      {
+        "_id": 2,
+        "title": "マルチホーミングネットワーク",
+        "content": "複数の接続で信頼性とパフォーマンスを強化し、途切れない接続を保証します。"
+      },
+      {
+        "_id": 3,
+        "title": "ゼロタッチオンデマンド",
+        "content": "クラウドベースのポータルがサービスを事前設定し、現地での技術的知識なしでオンデマンド接続を展開します。"
+      },
+      {
+        "_id": 4,
+        "title": "コスト効率の高いサービス",
+        "content": "競争力のある価格で高品質のサービスを提供し、最大限の価値を実現します。"
+      },
+      {
+        "_id": 5,
+        "title": "管理ポータル",
+        "content": "直感的な管理ポータルで、サービスを効率的に管理できます。"
+      },
+      {
+        "_id": 6,
+        "title": "アプリカスタマイズ",
+        "content": "ブランドや目標に合わせてアプリをカスタマイズできます。"
+      }
+    ],
+    "whatWeDo": [
+      {
+        "_id": 1,
+        "title": "事業継続計画",
+        "content": "Yoowifiは、不確実性の中でもビジネスを継続できる堅牢で冗長性の高いプラットフォームを提供します。"
+      },
+      {
+        "_id": 2,
+        "title": "車載接続",
+        "content": "国内外を問わず、安全なデータ送受信に必要な帯域幅を提供します。"
+      },
+      {
+        "_id": 3,
+        "title": "リモートワーク",
+        "content": "どこからでも効率的にコラボレーションできる、途切れない接続を実現します。"
+      },
+      {
+        "_id": 4,
+        "title": "イベント向け接続",
+        "content": "高速で安全なインターネットにより、イベントをスムーズに運営できます。"
+      },
+      {
+        "_id": 5,
+        "title": "旅行代理店向けソリューション",
+        "content": "旅行代理店と提携し、旅行者にシームレスな接続を提供して体験を向上させます。"
+      },
+      {
+        "_id": 6,
+        "title": "ホテル",
+        "content": "ホテルに特化した高速で信頼性のある接続を提供し、ゲスト満足度を高め、効率的な運営を支援します。"
+      }
+    ],
+    "stayConnectedYourWay": {
+      "heading": "自分に合った方法でつながる",
+      "subHeading": "Yoowifiはお客様の接続ニーズに合わせて柔軟なオプションを提供します。海外旅行が多い方にはポケットWiFiを購入、時々の旅行にはレンタルを選べます。どんなニーズでも、Yoowifiが信頼できるインターネット接続を提供します。",
+      "ways": [
+        {
+          "title": "自分のポケットWiFiを購入",
+          "description": "旅行のたびに安心して接続できるよう、ポケットWiFiを購入しましょう。"
+        },
+        {
+          "title": "ポケットWiFiレンタル",
+          "description": "短期旅行、海外出張、イベントなどには、手頃で簡単なレンタルをご利用ください。"
+        }
+      ]
+    },
+    "whatsIncluded": {
+      "heading": "同梱物",
+      "subHeading": "シームレスな接続に必要なものがすべて含まれています。",
+      "includedList": {
+        "chargingCable": "充電ケーブル x1",
+        "quickstart": "クイックスタート",
+        "devicePouch": "デバイスポーチ x1",
+        "howToOperate": "操作方法",
+        "powerOn": "電源オン",
+        "powerOff": "電源オフ",
+        "pressNote": "電源ボタンを3秒間押してください"
+      }
+    },
+    "ledIndicators": {
+      "heading": "バッテリーLEDインジケーター",
+      "subHeading": "ポケットWiFiの電源状態を簡単に確認できます。",
+      "content": {
+        "capacity": {
+          "title": "",
+          "description": "バッテリー残量は色で表示されます"
+        },
+        "charging": {
+          "title": "",
+          "description": "充電中"
+        },
+        "support": "*サポート: hello@yoowifi.com または WhatsApp (65) 6100 9998 までご連絡ください",
+        "systemUpdateNote": "**全てのインジケーターが点滅している場合はシステム更新中です**"
+      }
+    },
+    "howToConnect": {
+      "heading": "ポケットWiFiに接続する方法",
+      "subHeading": "数ステップで簡単に接続できます",
+      "steps": [
+        {
+          "title": "電源を入れる",
+          "description": "電源ボタンを押し、ネットワークに接続されるまでお待ちください。"
+        },
+        {
+          "title": "WiFi名を確認する",
+          "description": "デバイス画面にSSID（WiFi名）が表示されます。"
+        },
+        {
+          "title": "WiFiに接続する",
+          "description": "スマホやPCでSSIDを選択し、デバイスに表示されたパスワードを入力すると接続完了です。"
+        }
+      ]
+    },
+    "howToReturn": {
+      "heading": "デバイスを返却する方法",
+      "subHeading": "簡単な手順で手間なく返却できます。",
+      "headertittle": "受け取り・返却場所を探す",
+      "cardData": [
+        {
+          "value": "pi",
+          "title": "受け取り・返却場所",
+          "description": "Yoowifiなら、指定の場所で簡単に受け取り、シンガポール全域30か所以上の返却ポイントで返却可能です。手間のないスムーズな体験を保証します。",
+          "buttonText": "場所を見る"
+        },
+        {
+          "value": "si",
+          "title": "Singpost返却",
+          "description": "デバイスをレンタルすると、同梱の返送ラベルを使って郵送返却ができます。返却後、処理が完了すると確認メールが届きます。",
+          "buttonText": "場所を見る"
+        },
+        {
+          "value": "jp",
+          "title": "日本郵便で返却",
+          "description": "注文はすべて自宅まで配送されます。返却用バッグも同梱されているので、日本郵便で簡単に返却可能です。",
+          "buttonText": null
+        }
+      ]
+    },
+    "planTopUp": {
+      "heading": "プランの追加方法",
+      "subHeading": "Yoowifiアプリでデータを簡単に管理",
+      "steps": [
+        {
+          "title": "デバイスを選択",
+          "description": "Yoowifiアプリで「My Data」から対象デバイスを選びます。"
+        },
+        {
+          "title": "プランを選択",
+          "description": "「Add Data」で国とプランを選び、開始日と終了日を設定します。"
+        },
+        {
+          "title": "チェックアウト",
+          "description": "選択内容を確認して支払いに進みます。"
+        }
+      ]
+    },
+    "otherProducts": {
+      "title": "おすすめの商品"
+    },
+    "doesItWork": {
+      "heading": "ポケットWiFiとは？どのように動作するのか？",
+      "connectsToLocal": "ポケットWiFiは現地のモバイルネットワークに接続し、複数デバイスで共有できる安全なホットスポットを瞬時に作成します。SIMの差し替えや高額なローミング料金を避け、簡単かつ手頃にインターネット接続を確保できます。"
+    },
+    "pocketWifiRental": {
+      "heading": "なぜポケットWiFiのレンタルを選ぶのか？",
+      "subHeading": "柔軟で手頃な価格の接続で、もっと自由に旅行を楽しもう。",
+      "items": [
+        {
+          "title": "ローミング料金よりもお得：",
+          "text": "ローミングはすぐに高額になりますが、ポケットWiFiレンタルならコストを抑えられます。透明な料金体系で、レンタル期間分だけ支払い、予期せぬ高額請求を避けられます。"
+        },
+        {
+          "title": "信頼できるインターネット接続：",
+          "text": "信頼できるネットワークに接続し、旅行中も地図やSNSを快適に利用できます。"
+        },
+        {
+          "title": "簡単な受け取り・返却オプション：",
+          "text": "チャンギ空港で受け取り、自宅に配送してもらうことも可能。使用後は30か所以上の返却ポイントで簡単に返却できます。"
+        },
+        {
+          "title": "グループや家族旅行に最適：",
+          "text": "友達や家族と旅行するとき、複数のSIMを買う代わりに1台のポケットWiFiで最大10台を接続できます。"
+        }
+      ]
+    }
+  },
+  "router": {
+    "product": {
+      "name": "ルーター",
+      "descriptionHighlight": "イベント & ビジネス向けに設計：",
+      "description": "高速インターネットと無制限データで、主催者や大規模イベントをスムーズにサポート。",
+      "features": [
+        "どこでも接続可能",
+        "国際ローミングで大幅に節約",
+        "無敵の価格保証"
+      ],
+      "price": {
+        "currency": "SGD",
+        "amount": "50",
+        "starting": "true"
+      },
+      "buttons": {
+        "text": "プランを見る",
+        "text2": "プランを見る"
+      },
+      "tabs": [
+        {
+          "title": "説明",
+          "content": "• Yoowifi ルーターは高速 5G インターネットを提供\n• シームレスな接続のための無制限データオプション\n• イベント主催者や大規模な集まりに最適\n• ニーズに応じたカスタムデータプラン\n• 簡単で手間のかからないセットアップ"
+        },
+        {
+          "title": "仕様",
+          "content": "CPU: SC8310\nLTE-FDD：バンド1 / 2 / 3 / 4 / 5 / 7 / 8 / 12 / 13 / 17 / 18 / 20 / 25 / 26 / 28 / 66\nLTE-TDD：バンド34 / 38 / 39 / 40 / 41 (194M)\nWCDMA：バンド1 / 2 / 4 / 5 / 8\nTD-SCDMA：NO\nCDMA：NO\nEVDO：NO\nGSM：850 / 900 / 1800 / 1900\n最大速度：ダウンロード150Mbps / アップロード50Mbps\nWi-Fi：2.4GHz 802.11 b / g / n 1T1R\n最大WiFi接続：10\n電源：ACアダプターを使用\n入力：5V – 1A\nアイテムサイズ：120mm x 64.6mm x 12mm\nアイテム重量：112g\nシェル素材：プラスチック"
+        },
+        {
+          "title": "含まれているもの",
+          "content": "1x Wi-Fi ルーター\n1x 電源アダプター"
+        }
+      ]
+    },
+    "features": {
+      "heading": "主な機能",
+      "subHeading": "遅いインターネットとはおさらば！ポータブルソリューションに切り替えて、制限のない接続を体験してください。",
+      "featureList": [
+        "最大 5G のデータ速度",
+        "柔軟なデータオプション",
+        "クラウドSIM技術",
+        "複数のデバイスでシェア可能",
+        "より広いカバレッジと安定性"
+      ]
+    },
+    "whatsIncluded": {
+      "heading": "含まれるもの",
+      "subHeading": "シームレスな接続のために必要なすべてが揃っています",
+      "includedList": [
+        "x1 WiFiルーター",
+        "x1 電源アダプター"
+      ]
+    },
+    "howToConnectRouter": {
+      "heading": "ルーターの接続方法",
+      "subHeading": "eSIMを簡単にセットアップするためのステップバイステップガイド",
+      "steps": [
+        "WiFiルーターに電源アダプターを接続し、電源ソケットに差し込みます。その後、電源ソケットをオンにします。",
+        "WiFiネットワークに接続するには、WiFiルーターの裏面または底面に記載されているデフォルトのWiFi名とパスワードを確認してください。",
+        "デフォルトのWiFi名に接続し、プロンプトが表示されたらパスワードを入力すると、接続完了です！"
+      ]
+    },
+    "otherProducts": {
+      "title": "あなたが気に入る可能性のあるその他の製品"
+    }
+  },
+  "sim": {
+    "product": {
+      "name": "SIM/eSIM",
+      "descriptionHighlight": "パーソナライズされたデータに最適:",
+      "description": "私たちのSIM/eSIMは、個別対応の柔軟なプランオプションでデータ通信を提供し、信頼性が高く高速なインターネット接続を実現します。160以上の国で利用可能で、シームレスで個別対応の接続を求める旅行者に最適なソリューションです。",
+      "features": [
+        "どこでも接続を維持",
+        "国際ローミングで大幅節約",
+        "他に負けない価格保証"
+      ],
+      "buttons": {
+        "text": "プランを見る",
+        "text2": "プランを見る"
+      },
+      "tabs": [
+        {
+          "title": "説明",
+          "content": "• シームレスなデータ専用SIM/eSIMで、最大4Gの高速接続に対応。\n• SIMは3種類のサイズを用意、eSIMにはQRコードとインストール手順付き。\n• 最適なカバレッジと速度を提供する最良の通信事業者に自動接続。\n• データの有効期限は渡航先での初回使用時から開始。\n• プランは500MB/日から30GB/月まで、期間は1日から1か月まで対応。"
+        },
+        {
+          "title": "主な機能",
+          "content": "• 高速インターネット接続を楽しむ\n• 即時アクティベーション\n• 4Gインターネット速度\n• 24/7カスタマーサポート"
+        }
+      ]
+    },
+    "features": {
+      "heading": "主な特徴",
+      "subHeading": "遅いインターネットとはおさらば！ポータブルソリューションに切り替えて、制限のない接続を体験してください。",
+      "featureList": [
+        "最大4G \n LTE速度",
+        "スロットルなし",
+        "迅速な配達",
+        "簡単なプラグと利用",
+        "24時間365日の技術サポート",
+        "3-in-1 SIMカード"
+      ]
+    },
+    "howToSetup": {
+      "heading": "SIMカードの設定方法",
+      "subHeading": "遅いインターネットとはおさらば！ポータブルソリューションに切り替えて、制限のない接続を体験してください。",
+      "howToBuyheading": "SIM/eSIMの購入方法",
+      "howToBuysubHeading": "SIMまたはeSIMを入手し、アプリで数回タップするだけで簡単にアクティベート！",
+      "steps": [
+        {
+          "title": "SIMカードを購入する",
+          "description": "Yoowifiアプリを使って簡単にSIMカードを注文し、自宅に届けられる便利さをお楽しみください。"
+        },
+        {
+          "title": "SIMカードを挿入する",
+          "description": "SIMカードを挿入してモバイルデバイスの電源を入れます。*データの有効期限は、目的地での最初の挿入時から開始されます。"
+        },
+        {
+          "title": "データローミングを有効化",
+          "description": "モバイルデバイスでデータローミングを有効にしてください。データローミングが有効にならない場合は、手順2の後に再起動し、データローミングがオンになっていることを確認してください。"
+        }
+      ]
+    },
+    "activateSteps": {
+      "heading": "eSIMを簡単に有効化する手順",
+      "steps": [
+        {
+          "title": "iOS",
+          "deviceSteps": [
+            {
+              "title": "ステップ 1",
+              "description": "YoowifiアプリでeSIMを有効化",
+              "steps": [
+                "eSIMを購入した後、マイオーダーに移動し、eSIMを有効化ボタンをクリックして有効化を完了させます。",
+                "有効化が完了すると、eSIMはマイデータに表示されます。"
+              ]
+            },
+            {
+              "title": "ステップ 2",
+              "description": "eSIMを有効化",
+              "steps": [
+                "iPhoneの設定に移動します。「モバイル通信」または「モバイルデータ」をタップします。",
+                "「eSIMを追加」をタップします。",
+                "「QRコードを使用」をタップします。",
+                "Yoowifiアプリで購入後に受け取ったQRコードをスキャンするか、手動で詳細を入力します。"
+              ]
+            },
+            {
+              "title": "ステップ 3",
+              "description": "データローミングを有効にする",
+              "steps": [
+                "手動設定の場合、YoowifiアプリでeSIM注文に提供されたアクティベーション詳細を入力する必要がある場合があります。詳細はマイデータで確認できます。",
+                "eSIMの有効化を続けます。",
+                "旅行先に到着したら、追加したeSIMを選択し、データローミングを有効にして接続します。"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Android",
+          "deviceSteps": [
+            {
+              "title": "ステップ 1",
+              "description": "YoowifiアプリでeSIMを有効化",
+              "steps": [
+                "eSIMを購入した後、マイオーダーに移動し、eSIMを有効化ボタンをクリックして有効化を完了させます。",
+                "有効化が完了すると、eSIMはマイデータに表示されます。"
+              ]
+            },
+            {
+              "title": "ステップ 2",
+              "description": "eSIMを有効にする",
+              "steps": [
+                "デバイスの設定アプリを開きます。。",
+                "「接続」をタップします。",
+                "「SIMカードマネージャー」または「モバイルネットワーク」を選択し、「モバイルプランを追加」または「eSIMを追加」をタップします。",
+                " YoowifiアプリでeSIMを購入後に受け取ったQRコードをスキャンするか、手動でアクティベーションコードを入力します。"
+              ]
+            },
+            {
+              "title": "ステップ 3",
+              "description": "データローミングを有効にする",
+              "steps": [
+                "手動設定の場合、YoowifiアプリでeSIM注文に提供されたアクティベーション詳細を入力する必要がある場合があります。詳細はマイデータで確認できます。",
+                "eSIMの有効化を続けます。",
+                "旅行先に到着したら、追加したeSIMを選択し、データローミングを有効にして接続します。"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "deviceCompatibilities": {
+      "heading": "デバイスの互換性を確認",
+      "subHeading": "eSIMを初めて使用する場合、デバイスがeSIMをサポートしているか確認する必要があるかもしれません。私たちはその手助けをいたします。お使いのデバイスのブランドを選択し、モデルがリストにあるか確認してください。さらに確認するには、デバイスの設定ページをご覧ください。",
+      "compatibilities": [
+        {
+          "title": "Apple",
+          "devices": [
+            {
+              "name": "iPhone",
+              "versions": [
+                "iPhone XR",
+                "iPhone XS",
+                "iPhone XS Max",
+                "iPhone 11",
+                "iPhone 11 Pro",
+                "iPhone 11 Pro Max",
+                "iPhone SE 2 (2020)",
+                "iPhone 12",
+                "iPhone 12 Mini",
+                "iPhone 12 Pro",
+                "iPhone 12 Pro Max",
+                "iPhone 13",
+                "iPhone 13 Mini",
+                "iPhone 13 Pro",
+                "iPhone 13 Pro Max",
+                "iPhone SE 3 (2022)",
+                "iPhone 14",
+                "iPhone 14 Plus",
+                "iPhone 14 Pro",
+                "iPhone 14 Pro Max",
+                "iPhone 15",
+                "iPhone 15 Plus",
+                "iPhone 15 Pro",
+                "iPhone 15 Pro Max",
+                "iPhone 16",
+                "iPhone 16 Plus",
+                "iPhone 16 Pro",
+                "iPhone 16 Pro Max",
+                "iPhone 16e",
+                "iPhone 17",
+                "iPhone 17 Pro",
+                "iPhone 17 Pro Max",
+                "iPhone 17e",
+                "iPhone Air"
+              ]
+            },
+            {
+              "name": "iPad (4G / cellular models)",
+              "versions": [
+                "iPad Pro 11″ (model A2068, from 2020)",
+                "iPad Pro 12.9″ (model A2069, from 2020)",
+                "iPad Air (model A2123, from 2019)",
+                "iPad (model A2198, from 2019)",
+                "iPad Mini (model A2124, from 2019)",
+                "iPad 10th generation (from 2022)"
+              ]
+            }
+          ],
+          "note": "On iPhone 13 and newer models, you can have two eSIMs activated simultaneously. iPhones from mainland China and iPhone devices from Hong Kong and Macao (except for iPhone 13 mini, iPhone 12 mini, iPhone SE 2020, and iPhone XS) don’t have eSIM capability. eSIM iPhone 14, iPhone 14 Plus, iPhone 14 Pro, iPhone 14 Pro Max, iPhone 15, iPhone 15 Plus, iPhone 15 Pro, and iPhone 15 Pro Max are not compatible with physical SIM cards in the USA. eSIM iPhone 17, iPhone 17 Pro, and iPhone 17 Pro Max are SIM-only in Mainland China, and eSIM-only in: Bahrain, Canada, Guam, Japan, Kuwait, Mexico, Oman, Qatar, Saudi Arabia, UAE, and USA. iPhone Air is Apple’s first globally eSIM-only iPhone; it is eSIM-compatible in China. eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Samsung",
+          "devices": [
+            {
+              "name": "Samsung Galaxy (eSIM-supported models)",
+              "versions": [
+                "Samsung Galaxy S20",
+                "Samsung Galaxy S20+",
+                "Samsung Galaxy S20+ 5g",
+                "Samsung Galaxy S20 Ultra",
+                "Samsung Galaxy S20 Ultra 5G",
+                "Samsung Galaxy S21",
+                "Samsung Galaxy S21+ 5G",
+                "Samsung Galaxy S21 Ultra 5G",
+                "Samsung Galaxy S22",
+                "Samsung Galaxy S22+",
+                "Samsung Galaxy S22 Ultra",
+                "Samsung Galaxy S23",
+                "Samsung Galaxy S23+",
+                "Samsung Galaxy S23 Ultra",
+                "Samsung Galaxy S23 FE* (Models from China or from Hong Kong do not support eSIM)",
+                "Samsung Galaxy S24",
+                "Samsung Galaxy S24+",
+                "Samsung Galaxy S24 Ultra",
+                "Samsung Galaxy S24 FE",
+                "Samsung Galaxy S25",
+                "Samsung Galaxy S25+",
+                "Samsung Galaxy S25 Ultra",
+                "Samsung Galaxy S25 Edge",
+                "Samsung Galaxy S25 FE",
+                "Samsung Galaxy S26",
+                "Samsung Galaxy S26+",
+                "Samsung Galaxy S26 Ultra",
+                "Samsung Galaxy Note 20",
+                "Samsung Galaxy Note 20 Ultra 5G",
+                "Samsung Galaxy Fold",
+                "Samsung Galaxy Z Fold2 5G",
+                "Samsung Galaxy Z Fold3 5G",
+                "Samsung Galaxy Z Fold4",
+                "Samsung Galaxy Z Fold5 5G",
+                "Samsung Galaxy Z Fold6 5G",
+                "Samsung Galaxy Z Fold7",
+                "Samsung Galaxy Z Flip",
+                "Samsung Galaxy Z Flip3 5G",
+                "Samsung Galaxy Z Flip4",
+                "Samsung Galaxy Z Flip5 5G",
+                "Samsung Galaxy Z Flip6 5G",
+                "Samsung Galaxy Z Flip7",
+                "Samsung Galaxy Z Flip7 FE",
+                "Samsung Galaxy A54 (SCG21, SC-53D, SM-A546B/DS, SM-A546S, SM-A546U1)",
+                "Samsung Galaxy A55 5G",
+                "Samsung Galaxy A35",
+                "Samsung Galaxy A56",
+                "Samsung Galaxy A36",
+                "Samsung Galaxy Z TriFold"
+              ]
+            }
+          ],
+          "note": "Not compatible: Samsung Galaxy S20 FE 4G/5G; Samsung S20/S21 (US versions); Galaxy Z Flip 5G (US versions); Samsung Note 20 Ultra (US and Hong Kong versions); Samsung Galaxy Z Fold 2 (US and Hong Kong versions); all Samsung phones sold in Hong Kong except Samsung Galaxy Z Flip (Model SM-F700F); and several models purchased in South Korea (S20 family through Z Flip3 5G). Depending on country of origin, your device may not support eSIM—verify for your region. eSIM functionality can vary by model and region."
+        },
+        {
+          "title": "Google",
+          "devices": [
+            {
+              "name": "Google Pixel",
+              "versions": [
+                "Google Pixel 2 (only phones bought with Google Fi service)",
+                "Google Pixel 2 XL",
+                "Google Pixel 3 (excl. Australia, Taiwan, Japan; US/Canada carriers other than Sprint and Google Fi may not support eSIM)",
+                "Google Pixel 3 XL",
+                "Google Pixel 3a (excl. Japan or Verizon)",
+                "Google Pixel 3a XL",
+                "Google Pixel 4",
+                "Google Pixel 4a",
+                "Google Pixel 4 XL",
+                "Google Pixel 5",
+                "Google Pixel 5a",
+                "Google Pixel 6",
+                "Google Pixel 6a",
+                "Google Pixel 6 Pro",
+                "Google Pixel 7a",
+                "Google Pixel 7",
+                "Google Pixel 7 Pro",
+                "Google Pixel 8a",
+                "Google Pixel 8",
+                "Google Pixel 8 Pro",
+                "Google Pixel Fold",
+                "Google Pixel 9",
+                "Google Pixel 9 Pro",
+                "Google Pixel 9 Pro XL",
+                "Google Pixel 10",
+                "Google Pixel 10 Pro",
+                "Google Pixel 10 Pro XL",
+                "Google Pixel 10a"
+              ]
+            }
+          ],
+          "note": "Google Pixel 3 devices from Australia, Japan, and Taiwan are not compatible with eSIM. Google Pixel 3a from South East Asia is not compatible with eSIM. All Google Pixel phones sold in Hong Kong are incompatible with eSIM. eSIM functionality can vary by model and region."
+        },
+        {
+          "title": "Huawei",
+          "devices": [
+            {
+              "name": "Huawei",
+              "versions": [
+                "Huawei P40",
+                "Huawei P40 Pro",
+                "Huawei Mate 40 Pro",
+                "Huawei Pura 70 Pro"
+              ]
+            }
+          ],
+          "note": "The Huawei P40 Pro+ and P50 Pro are not compatible with eSIM. eSIM functionality can vary by model and region."
+        },
+        {
+          "title": "Oppo",
+          "devices": [
+            {
+              "name": "Oppo",
+              "versions": [
+                "Oppo Find X3",
+                "Oppo Find X3 Pro",
+                "Oppo Find N2 Flip",
+                "Oppo Reno 5A",
+                "Oppo Reno 6 Pro 5G",
+                "Oppo Reno 9A",
+                "Oppo Find X5",
+                "Oppo Find X5 Pro",
+                "Oppo A55s 5G",
+                "Oppo Find N3",
+                "Oppo Find N3 Flip",
+                "Oppo Find X8",
+                "Oppo Find X8 Pro",
+                "Oppo Reno14",
+                "Oppo Reno14 Pro",
+                "Oppo Find X9",
+                "Oppo Find X9 Pro",
+                "Oppo Reno 15",
+                "Oppo Reno 15 Pro"
+              ]
+            }
+          ],
+          "note": "The OPPO Lite line does not support eSIM. eSIM functionality can vary by model and region."
+        },
+        {
+          "title": "Sony",
+          "devices": [
+            {
+              "name": "Sony Xperia",
+              "versions": [
+                "Sony Xperia 10 III Lite",
+                "Sony Xperia 10 IV",
+                "Xperia 10V",
+                "Xperia 1 IV",
+                "Sony Xperia 5 IV",
+                "Sony Xperia 1 V",
+                "Sony Xperia Ace III",
+                "Sony Xperia 5 V",
+                "Sony Xperia 1 VI"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Xiaomi",
+          "devices": [
+            {
+              "name": "Xiaomi",
+              "versions": [
+                "Xiaomi 12T Pro",
+                "Xiaomi 13",
+                "Xiaomi 13 Lite",
+                "Xiaomi 13 Pro",
+                "Xiaomi 13T",
+                "Xiaomi 13T Pro",
+                "Xiaomi 14",
+                "Xiaomi 14 Pro",
+                "Xiaomi 14T",
+                "Xiaomi 14T Pro",
+                "Xiaomi Redmi Note 13 Pro+",
+                "Xiaomi Redmi Note 14 Pro",
+                "Xiaomi Redmi Note 14 Pro+",
+                "Xiaomi Poco X7",
+                "Xiaomi 15",
+                "Xiaomi 15 Ultra",
+                "Xiaomi 15T",
+                "Xiaomi 15T Pro",
+                "Xiaomi Redmi Note 15 Pro",
+                "Xiaomi Redmi Note 15 Pro+",
+                "Xiaomi Poco X8 Pro Max",
+                "Xiaomi 17",
+                "Xiaomi 17 Ultra"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Motorola",
+          "devices": [
+            {
+              "name": "Motorola",
+              "versions": [
+                "Motorola Razr 2019",
+                "Motorola Razr 2022",
+                "Motorola Razr 5G",
+                "Motorola Razr 40",
+                "Motorola Razr 40 Ultra",
+                "Motorola Razr+",
+                "Motorola Edge 2022",
+                "Motorola Edge 2023",
+                "Motorola Edge+ (2023)",
+                "Motorola Edge 40",
+                "Motorola Edge 40 Pro",
+                "Motorola Edge 40 Neo",
+                "Motorola Edge 50 Pro",
+                "Motorola Edge 50 Ultra",
+                "Motorola Edge 50 Fusion",
+                "Motorola Moto G Power 5G (2024)",
+                "Motorola G52J 5G",
+                "Motorola G52J 5G II",
+                "Motorola G53J 5G",
+                "Moto G54 5G",
+                "Motorola G84",
+                "Motorola G34",
+                "Motorola Moto G53",
+                "Motorola Moto G54",
+                "Motorola Razr+ 2024",
+                "Motorola Razr 2024",
+                "Motorola Moto G Stylus 5G 2024",
+                "Motorola Moto G35",
+                "Motorola Edge 60",
+                "Motorola Edge 60 Pro",
+                "Motorola Edge 60 Fusion",
+                "Motorola Edge 60 Stylus",
+                "Motorola Razr 60",
+                "Motorola Razr 60 Ultra",
+                "Motorola Edge 70",
+                "Motorola Edge 70 Ultra",
+                "Motorola Edge 70 Fusion",
+                "Motorola Edge 70 Fusion+"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Sharp",
+          "devices": [
+            {
+              "name": "Sharp AQUOS",
+              "versions": [
+                "Sharp AQUOS sense4 lite",
+                "Sharp AQUOS Sense6s",
+                "AQUOS sense 7",
+                "AQUOS sense 7plus",
+                "Sharp AQUOS Wish",
+                "AQUOS wish 2 SHG08",
+                "AQUOS wish3",
+                "AQUOS zero 6",
+                "Simple Sumaho6",
+                "Sharp AQUOS R7",
+                "Sharp AQUOS R8",
+                "Sharp AQUOS R8 Pro",
+                "Sharp Aquos sense8"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Rakuten",
+          "devices": [
+            {
+              "name": "Rakuten",
+              "versions": [
+                "Rakuten Mini",
+                "Rakuten Big-S",
+                "Rakuten Big",
+                "Rakuten Hand",
+                "Rakuten Hand 5G"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Honor",
+          "devices": [
+            {
+              "name": "Honor",
+              "versions": [
+                "Honor Magic 4 Pro",
+                "Honor Magic 5 Pro",
+                "Honor Magic 6 Pro",
+                "Honor Magic 7 Pro",
+                "Honor Magic 8 Pro",
+                "Honor 90",
+                "Honor X8",
+                "Honor 200 Pro",
+                "Honor Magic V2",
+                "Honor Magic V3",
+                "Honor 400 Lite",
+                "Honor Magic V5",
+                "Honor Magic V6"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Vivo",
+          "devices": [
+            {
+              "name": "Vivo",
+              "versions": [
+                "Vivo X80 Pro",
+                "Vivo X90 Pro",
+                "Vivo X100 Pro",
+                "Vivo V29",
+                "Vivo V29 Lite",
+                "Vivo V29 Lite 5G (eSIM supported only in Europe)",
+                "Vivo V40",
+                "Vivo V40 lite",
+                "Vivo V40 SE",
+                "Vivo X200",
+                "Vivo X200s",
+                "Vivo X200 Pro",
+                "Vivo X200 FE",
+                "Vivo X300",
+                "Vivo X300 Pro"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        },
+        {
+          "title": "Other brands",
+          "devices": [
+            {
+              "name": "Other eSIM-compatible devices",
+              "versions": [
+                "Gemini PDA",
+                "Fairphone 4",
+                "Fairphone 5",
+                "DOOGEE V30",
+                "OnePlus Open",
+                "OnePlus 11",
+                "OnePlus 12",
+                "OnePlus 13",
+                "OnePlus 13R",
+                "OnePlus 13T",
+                "OnePlus 15",
+                "HAMMER Blade 3",
+                "HAMMER Explorer PRO",
+                "HAMMER Blade 5G",
+                "Nokia XR21",
+                "Nokia X30",
+                "Nokia G60 5G",
+                "myPhone NOW eSIM",
+                "OUKITEL WP30 Pro",
+                "OUKITEL WP33 Pro",
+                "Nuu X5",
+                "ZTE Nubia Flip",
+                "TCL 50 5G",
+                "Asus ROG Phone 9",
+                "Asus ROG Phone 9 Pro",
+                "Asus Zenfone 12 Ultra",
+                "Realme 14 Pro+",
+                "Realme GT 7",
+                "Realme GT 8 Pro",
+                "Nothing Phone 3",
+                "Nothing Phone 3a Pro",
+                "Nothing Phone 4a Pro",
+                "Infinix Note 60 Pro",
+                "Infinix Note 60 Ultra",
+                "TCL 50 Pro NxtPaper",
+                "TCL 60 XE NxtPaper",
+                "TCL NxtPaper 60 Ultra",
+                "TCL NxtPaper 70 Pro",
+                "Tecno Camon 50 Ultra"
+              ]
+            }
+          ],
+          "note": "eSIM functionality can vary by model and region. Please contact your local carrier for confirmation."
+        }
+      ]
+    },
+    "howToTopUp": {
+      "heading": "SIM/eSIMのチャージ方法",
+      "subHeading": "SIM/eSIMをチャージするための3つの簡単なステップ",
+      "steps": [
+        {
+          "title": "Yoowifiアプリを開く",
+          "description": "Yoowifiアプリで、「My Data」へ移動し、チャージしたいSIMまたはeSIMを選択します。"
+        },
+        {
+          "title": "データを追加",
+          "description": "「データを追加」をタップし、目的地の国、プラン、データサイズ、日数を選択します。"
+        },
+        {
+          "title": "支払に進む ",
+          "description": "選択内容を確認し、支払に進みます。 "
+        }
+      ]
+    },
+    "otherProducts": {
+      "title": "あなたが気に入る可能性のあるその他の製品"
+    }
+  },
+  "aboutUs": {
+    "header": {
+      "title": "Yoowifiについて",
+      "description": "どこへ旅しても、簡単に接続できる環境を提供します。",
+      "Subdescription": "シームレスな旅行を追求するグローバルブランドとして、Yoowifiは無制限のオンライン接続を提供します。複雑で信頼性の低い接続オプションに対する不満から生まれた私たちは、旅行者にもっと良いものを提供すべきだと考えました。私たちの使命？簡単で信頼性が高く、携帯性に優れたインターネットソリューションを提供し、冒険に集中できる環境を作ることです。"
+    },
+    "whoWeAre": {
+      "title": "こんにちは、Yoowifiです！",
+      "description": "Yoowifi は、直感的に使えるモバイルアプリを通じて、手間のかからないグローバル接続ソリューションを提供します。旅行体験の向上とスムーズな国際通信の実現に重点を置き、Yoowifiアプリは優れた利便性、信頼性、そして手頃な価格を実現しています。\n\n 私たちのビジョンは、旅行者や通信業界のプロフェッショナルが、高額なローミング料金の心配なく、国境を越えて常につながることができる世界を築くことです。誰もが安心して利用できる、信頼性の高い、国境のないモバイルサービスを提供するブランドを構築することを使命とし、世界を旅しながら大切な人とつながり続けられるよう支援しています。",
+      "image": "images.whoWeAre1"
+    },
+    "features": [
+      "どこに行っても信頼できるWiFi",
+      "160か国以上をカバー",
+      "24時間365日のカスタマーサポート",
+      "10か国以上に現地拠点あり"
+    ],
+    "companyMission": {
+      "title": "私たちの会社の使命",
+      "mission": {
+        "title": "いつでもどこでもつながる",
+        "year": "2001",
+        "description": "私たちの使命は、手頃で信頼性が高く、境界を越えたデータサービスを提供することです。新しい文化を探索し、冒険を体験し、さまざまな地域を旅する中で、愛する人々とシームレスにつながり続けられるようにすることを目指し、シームレスで充実した接続体験を保証します。",
+        "image": "images.companyMission1"
+      }
+    },
+    "awardsAndAchievements": {
+      "header": "私たちの受賞歴と実績",
+      "details": [
+        {
+          "year": "2024",
+          "title": "2024年最も革新的な旅行Wi-Fiソリューション企業",
+          "description": "AIビジネスエクセレンス賞による受賞"
+        },
+        {
+          "year": "2024",
+          "title": "2024年シンガポールで最も成長の早い企業",
+          "description": "The Straits TimesとStatistaによる受賞"
+        }
+      ]
+    },
+    "whatWeDo": {
+      "header": "私たちの提供するサービス",
+      "details": [
+        {
+          "title": "管理ポータル",
+          "description": "当社の管理ポータルは、シームレスなコントロールと監視のための使いやすいプラットフォームを提供し、サービスの効率的な管理をサポートします。"
+        },
+        {
+          "title": "モバイルソリューション ",
+          "description": "私たちのモバイルソリューションは、信頼性が高く、柔軟で最先端のサービスを提供し、個人およびビジネスの使用に合わせて、いつでもどこでも接続を保ちます。"
+        },
+        {
+          "title": "カスタムソリューション",
+          "description": "あなたのニーズに合わせたカスタムソリューションを見つけてください。成功を推進し、成果を向上させる革新的で柔軟なサービスを設計するために、私たちはあなたと緊密に協力します。"
+        },
+        {
+          "title": "イベント＆ロードショー",
+          "description": "エキサイティングなイベントやロードショーにおいて、顧客とのシームレスなコミュニケーションを形作る革新的なソリューションを提供します。"
+        }
+      ]
+    },
+    "personal": {
+      "heading": "個人向け",
+      "subHeading": "あなたの個人向け接続に信頼できるソリューション",
+      "content": [
+        {
+          "title": "グローバル対応",
+          "description": "Yoowifiの旅行Wi-Fiサービスで、どこに行っても160か国で接続できます。"
+        },
+        {
+          "title": "柔軟なデータプラン",
+          "description": "さまざまな柔軟なデータオプションから選び、使用ニーズに応じた最適なプランを選択できます。"
+        },
+        {
+          "title": "手間のかからない配達",
+          "description": "迅速で信頼性のあるサービスで、簡単で便利な配達をお楽しみください。"
+        }
+      ]
+    },
+    "business": {
+      "heading": "ビジネス向け",
+      "subHeading": "シームレスな接続でビジネスを支援",
+      "content": [
+        {
+          "title": "ゼロタッチオンデマンド",
+          "description": "あなたのニーズに合わせたシームレスで簡単なゼロタッチ、オンデマンドサービスをお楽しみください。"
+        },
+        {
+          "title": "柔軟なデータプラン",
+          "description": "企業向けの柔軟なデータプランで、会社の独自のニーズと使用状況に合わせて設計されています。"
+        },
+        {
+          "title": "マルチホーミングネットワーク",
+          "description": "信頼性とパフォーマンスを向上させるために、複数の接続を提供するマルチホーミングネットワークで途切れのない接続を保証します。"
+        }
+      ]
+    }
+  },
+  "recommendedPackages": {
+    "heading": "おすすめパッケージ",
+    "subHeading": "旅行のニーズに合わせたおすすめのポケットWiFiパッケージをご紹介します。"
+  },
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "ご質問がございましたら、フォームにご記入いただくか、24時間対応のカスタマーサポートにお問い合わせください。迅速に対応いたします。",
+    "letsTalk": {
+      "heading": "お話ししましょう",
+      "subHeading": "私たちはあなたのためにここにいます！WhatsAppを通じて24時間対応のカスタマーサポートにご連絡いただければ、即時にサポートいたします。また、ビジネスのお問い合わせはメールでご連絡ください。",
+      "social": [
+        {
+          "_id": 1,
+          "name": "WhatsApp",
+          "text": "WhatsAppでお問い合わせ",
+          "value": "(+65) 6100 9998",
+          "image": "images.whatsapp",
+          "type": "call"
+        },
+        {
+          "_id": 2,
+          "name": "Email",
+          "text": "メールアドレス",
+          "value": "hello@yoowifi.com",
+          "image": "images.email",
+          "type": "email"
+        }
+      ],
+      "form": {
+        "fields": [
+          {
+            "label": "名前",
+            "placeholder": "お名前を入力してください"
+          },
+          {
+            "label": "電話番号",
+            "placeholder": "電話番号を入力してください"
+          },
+          {
+            "label": "メールアドレス",
+            "placeholder": "メールアドレスを入力してください"
+          },
+          {
+            "label": "件名",
+            "placeholder": "件名を入力してください"
+          },
+          {
+            "label": "メッセージ",
+            "placeholder": "ご質問についてお知らせください"
+          }
+        ]
+      }
+    }
+  },
+  "faqs": {
+    "heading": "サポート & よくある質問",
+    "subHeading": "Yoowifiでの旅を最大限に活用できるよう、シンプルな解決策や役立つヒントを見つけてください。",
+    "content": [
+      {
+        "_id": 1,
+        "question": "ポケットWi-Fiで通話はできますか？",
+        "answer": "ポケットWi-Fiはインターネット接続を提供しますが、携帯電話回線を使った通常の通話はできません。ただし、Skype、Viber、Google VoiceなどのVoIP通話は可能です。"
+      },
+      {
+        "_id": 2,
+        "question": "メガバイト(MB)とギガバイト(GB)の違いは何ですか？",
+        "answer": "メガバイト(MB)は1,024キロバイト(KB)で、ギガバイト(GB)は1,024メガバイトです。一般的に、1GBは1,024MBに相当します。"
+      },
+      {
+        "_id": 3,
+        "question": "レンタル期間終了後にポケットWi-Fiを返却するにはどうすればよいですか？",
+        "answer": "ポケットWi-Fiはレンタル時に提供された指示に従って返却できます。通常は、返却場所に持参するか、提供された返却用封筒を使用します。"
+      },
+      {
+        "_id": 4,
+        "question": "注文後に予約情報を変更できますか？",
+        "answer": "はい、注文後にサポートチームに連絡することで、予約情報の変更を行えます。サポートチームが必要な変更を手伝ってくれます。"
+      },
+      {
+        "_id": 5,
+        "question": "予約をキャンセルするにはどうすればよいですか？",
+        "answer": "予約をキャンセルするには、カスタマーサービスチームに連絡してください。当社のキャンセルポリシーに従ってキャンセルがなされます。"
+      },
+      {
+        "_id": 6,
+        "question": "世界中のさまざまな国に旅行しますが、必要なデバイスの数は？",
+        "answer": "必要なデバイスの数は、旅行の行程に依存します。通常、1台のデバイスを推奨します。"
+      }
+    ],
+    "footer": {
+      "viewmore": "さらにFAQを見る",
+      "heading": "まだ質問がありますか？",
+      "description": "お探しの答えが見つかりませんか？ぜひ私たちのフレンドリーなチームとチャットしてください！"
+    }
+  },
+  "footer": {
+    "subscribeNewsLetter": "ニュースレターを購読してください！",
+    "copyRightText": "無断転載を禁じます。",
+    "contact": [
+      {
+        "type": "電話"
+      },
+      {
+        "type": "メール"
+      }
+    ],
+    "legals": [
+      {
+        "title": "利用規約"
+      },
+      {
+        "title": "プライバシーポリシー"
+      }
+    ],
+    "menuData": [
+      {
+        "title": "YOOWIFI",
+        "links": [
+          {
+            "label": "Yoowifiについて"
+          },
+          {
+            "label": "よくある質問"
+          },
+          {
+            "label": "アプリをダウンロード"
+          },
+          {
+            "label": "お問い合わせ"
+          },
+          {
+            "label": "利用規約"
+          },
+          {
+            "label": "プライバシーポリシー"
+          }
+        ]
+      },
+      {
+        "title": "FOR YOO",
+        "links": [
+          {
+            "label": "旅行データ"
+          },
+          {
+            "label": "対応エリア"
+          },
+          {
+            "label": "ローカルデータ"
+          },
+          {
+            "label": "受取/返却場所"
+          },
+          {
+            "label": "製品"
+          },
+          {
+            "label": "仕組み"
+          }
+        ]
+      },
+      {
+        "title": "CORPORATE",
+        "links": [
+          {
+            "label": "IoT"
+          },
+          {
+            "label": "ホテル"
+          },
+          {
+            "label": "旅行代理店"
+          },
+          {
+            "label": "海上インターネット"
+          },
+          {
+            "label": "オフィス/ロードショー＆イベント"
+          }
+        ]
+      }
+    ]
+  },
+  "corporateHero": {
+    "heading": "企業",
+    "subHeading": "Yoowifiは、信頼されるグローバルブランドで、革新的なモバイルアプリケーションを通じて最先端のソリューションを提供しています。旅行体験の向上とシームレスな通信の実現にコミットし、Yoowifiは他に類を見ない便利さ、信頼性、コスト効率を提供します。グローバルな通信プロバイダーとの戦略的パートナーシップに支えられ、広範なカバレッジ、独自の料金プラン、個々の旅行者、家族、ビジネス向けにカスタマイズされたデータソリューションを提供しています。Yoowifiを使えば、国境を越えた接続がこれまで以上に簡単になります。"
+  },
+  "iot": {
+    "pageTitle": "IOT",
+    "description": "単一のデバイスを通じて、いつでも自宅、家族、ビジネスに接続を維持しましょう！これらは個人でもビジネスでも、お客様の独自のニーズを満たすよう設計されています。",
+    "featureList": [
+      "データサイズ",
+      "オペレーター特化",
+      "管理プラットフォームとモニタリング",
+      "単一または複数の国"
+    ]
+  },
+  "hotel": {
+    "pageTitle": "ホテル",
+    "description": "高速インターネット接続でホテルを自宅のような快適な空間に変えましょう！お客様はどこにいても生産性を維持でき、貴社は競合他社との差別化を図ることができます。",
+    "featureList": [
+      "運営が中断された場合でも接続を維持",
+      "迅速な導入",
+      "チームを世界的に接続するためのカスタマイズソリューション"
+    ]
+  },
+  "travelAgency": {
+    "pageTitle": "旅行代理店",
+    "description": "当社のWiFiソリューションを通じて、クライアントのための情報を瞬時に提供しましょう。パートナーと効果的にコミュニケーションを取り、弱い接続や通信の不安定さによるストレスを避けましょう。",
+    "featureList": [
+      "データ量",
+      "オペレーター固有",
+      "管理プラットフォームと監視",
+      "単一国または複数国"
+    ]
+  },
+  "maritimeInternet": {
+    "pageTitle": "海上インターネット",
+    "description": "海上でのインターネットニーズを私たちにお任せください。クルーを常に接続し、ビジネスを円滑に進めるためのソリューションをご提供します。そのため、船がどこに航行していても、国境を越えたブロードバンドを楽しむことができます。",
+    "featureList": [
+      "単一国または複数国",
+      "迅速な導入",
+      "チームをグローバルに接続するためのカスタマイズされたソリューション"
+    ]
+  },
+  "office": {
+    "pageTitle": "オフィス/ロードショーイベント",
+    "description": "どこに行っても、YoowifiのWiFiソリューションで接続を維持しましょう！オフィスでもロードショーを開催する場合でも、シームレスで超高速のインターネットアクセスをお楽しみいただけます。Yoowifiと一緒なら、どんな作業を中断させません！",
+    "featureList": [
+      "高速で信頼性の高い接続",
+      "専用サポート",
+      "手頃なコストまたはスポンサーシップ"
+    ]
+  },
+  "events": {
+    "heroTitle": "SEAMLESS CONNECTIVITY FOR YOUR EVENTS",
+    "heroSubtitle": "From office setups to large-scale roadshows, stay connected with our reliable WiFi solutions. Fast, affordable, and hassle-free internet for every event.",
+    "heroImage": "marine-captain.webp",
+    "eventsSection": {
+      "heading": "Built for Events & Offices",
+      "subheading": "Reliable connectivity wherever your event takes you.",
+      "items": [
+        {
+          "title": "Fast Setup",
+          "description": "Get connected in minutes — no complex installations required.",
+          "image": ""
+        },
+        {
+          "title": "Scalable Coverage",
+          "description": "From small offices to large venue events, our network scales with you.",
+          "image": ""
+        },
+        {
+          "title": "Dedicated Support",
+          "description": "On-ground support to keep your connectivity running throughout.",
+          "image": ""
+        }
+      ]
+    },
+    "smarterInternet": {
+      "heading": "Want a personalized plan for your event?",
+      "description": "We offer tailored connectivity packages for roadshows, corporate events, and office setups. Tell us your needs and we'll handle the rest.",
+      "bullets": [
+        "Flexible short-term and long-term plans",
+        "Fast deployment to your venue",
+        "Customized solution for teams of any size"
+      ],
+      "enquireCta": "Enquire Today"
+    }
+  },
+  "corporateSharedHero": {
+    "heading": "旅をつなぐ",
+    "items": [
+      "ポータブルホットスポット",
+      "eSim",
+      "SIMカード"
+    ]
+  },
+  "corporateAccount": {
+    "title": "Yoowifi 法人アカウント",
+    "description": "接続を合理化しながら、特典を享受したい企業向けに設計されています。法人パートナーとして、スムーズな取引、簡単な注文管理、シンプルな請求処理をすべて一か所で利用できます。",
+    "signUpToday": "今すぐ登録して、Yoowifi のメリットを体験しましょう！",
+    "memberofYoowifi": "私は、Yoowifi の会員になること、およびマーケティング関連の連絡を受けることに同意します。私の情報は第三者に開示されることはなく、Yoowifi のみが使用します。",
+    "iAgreed": "*を読み、同意しました",
+    "termsConditions": "• コーポレートカードは、登録が成功した後にのみ有効となります。\n• $50 のクレジットは新規ユーザーのみ対象となり、既存または過去のユーザーは対象外です。\n• Yoowifi コーポレートカードは、Yoowifi プラットフォーム（ウェブサイトまたはアプリ）での購入にのみ有効です。\n• コーポレートカードの詳細は機密情報であり、指定されたユーザー以外の顧客や無許可の個人と共有することはできません。\n• Yoowifi コーポレートカードは、企業アカウントに直接紐付けられています。\n• 企業アカウントでは、取引履歴、コーポレートカードの詳細、請求書にアクセスできます。\n• 料金は月額で請求されます。\n• コーポレートカードを使用した購入の請求書は、登録されたアカウント情報に基づいて発行されます。\n• コーポレートカードの価格は標準料金ですが、適用可能な割引やプロモーションコードを利用することができます。\n• レンタル期間中または購入後のデバイスの管理と安全は、顧客の責任となります。Yoowifi は、デバイスの紛失、盗難、または損傷について一切の責任を負いません。\n• コーポレートカードに関するお問い合わせは、+65 9875 5598（Nadine）または +65 9270 3050（Alan）までご連絡ください。\n\n一般的な利用規約が適用されます。",
+    "whySignUp": {
+      "heading": "なぜ登録するのか？",
+      "subHeading": " 法人アカウントを作成すると、Yoowifi コーポレートカードを受け取ることができ、取引がこれまで以上に簡単になります。\n面倒な請求処理をなくし、複数の注文をスムーズに管理し、チームを簡単に接続し続けましょう。"
+    },
+    "startedSimple": {
+      "heading": "はじめるのは簡単です:",
+      "subHeading": "<strong>フォームに入力</strong> – 会社について教えてください\n<strong>認証を完了</strong> – お客様の情報を確認します\n<strong>特典を楽しむ</strong> – アカウントにアクセスして $50 分の無料クレジットを獲得！"
+    },
+    "exclusiveBenefits": {
+      "heading": "Yoowifi コーポレートカードの特典：",
+      "subHeading": "<strong>✔ 簡単注文</strong> – アプリまたはウェブサイトから、個人カードを使わずに注文可能\n<strong>✔ 請求の簡素化</strong> – 会社向けに統一された月次請求書を受け取る\n<strong>✔ 安心取引</strong> – カード残高を気にせず注文可能. ビジネスの接続性を向上させる準備はできましたか？"
+    }
+  },
+  "commercial": {
+    "pageTitle": "商業用",
+    "description": "シームレスな接続で生産性を次のレベルへ引き上げましょう！私たちは、あなたの日々を可能な限りスムーズにするデジタル世界へのゲートウェイを提供します。"
+  },
+  "benefits": {
+    "heading": "利点",
+    "subHeading": "遅いインターネット接続とはおさらば！ポータブルソリューションに切り替えて、安定した接続を体験してください。",
+    "benefitsData": [
+      {
+        "title": "専用アプリケーション",
+        "content": "オンライン管理ポータルで接続ニーズを管理し、スムーズで手間のかからない体験を提供します。"
+      },
+      {
+        "title": "コスト効率",
+        "content": "YoowifiのvSIMテクノロジーで手頃な価格で面倒な接続を実現し、高額なローミング料金を排除します。"
+      },
+      {
+        "title": "カスタマイズ可能なデータプラン",
+        "content": "ビジネスの成長に合わせて、特定のニーズに合わせたデータパッケージを調整できます。"
+      }
+    ]
+  },
+  "pocketWifiDetails": {
+    "pocketWifiDayPass": {
+      "headers": [
+        "ポケットWiFiモンスターデイリープラン",
+        "1日あたり3GB",
+        "1日あたり10GB"
+      ],
+      "plans": [
+        {
+          "region": "ブルネイ、カンボジア、タイ、ベトナム、香港、インドネシア、日本、ラオス、マカオ、マレーシア、フィリピン、シンガポール、韓国、台湾",
+          "prices": [
+            "S$2.50〜",
+            "S$2.50〜"
+          ]
+        },
+        {
+          "region": "アルバニア、アンドラ、オーストラリア、オーストリア、ベルギー、ボスニア・ヘルツェゴビナ、ブルネイ、ブルガリア、カンボジア、カナダ、中国、クロアチア、チェコ共和国、デンマーク、エストニア、フィンランド、フランス、ドイツ、ジブラルタル、ギリシャ、ガーンジー、ハンガリー、アイスランド、アイルランド、マン島、イタリア、ジャージー、ラオス、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マケドニア、マルタ、メキシコ、モナコ、モンテネグロ、オランダ、ニュージーランド、ノルウェー、ポーランド、ポルトガル、ルーマニア、ロシア、サンマリノ、セルビア、スロバキア、スロベニア、スペイン、スウェーデン、スイス、トルコ、ウクライナ、イギリス、アメリカ、バチカン",
+          "prices": [
+            "S$2.90〜",
+            "S$4.90〜"
+          ]
+        },
+        {
+          "region": "アルメニア、バーレーン、バングラデシュ、キプロス、エジプト、ジョージア、インド、イスラエル、ヨルダン、カザフスタン、クウェート、モロッコ、ネパール、オマーン、パキスタン、カタール、レユニオン、サウジアラビア、南アフリカ、スリランカ、UAE、ウズベキスタン（キルギス、タジキスタン、チュニジア - 3GB/日と10GB/日のみ対応）",
+          "prices": [
+            "S$3.90〜",
+            "S$6.90〜"
+          ]
+        }
+      ]
+    },
+    "restOfTheWorldDayPass": {
+      "headers": [
+        "その他の地域-無制限デイパス",
+        "1GB/日",
+        "5GB/日"
+      ],
+      "plan": "アルジェリア、アンギラ、アンティグア・バーブーダ、アルゼンチン、アルバ、アゼルバイジャン、ボリビア、ブラジル、英領ヴァージン諸島、チリ、コロンビア、コスタリカ、ドミニカ共和国、エクアドル、エルサルバドル、フィジー、フランス領アンティル（マルティニーク）、フランス領シント・マールテン、グレナダ、グアドループ、グアテマラ、ガイアナ、ハイチ、ジャマイカ、キルギス、モルディブ、モンゴル、ミャンマー、オランダ領アンティル（キュラソー）、ニカラグア、パナマ、パラグアイ、ペルー、プエルトリコ、セントビンセントおよびグレナディーン諸島、スリナム、タヒチ、タジキスタン、ケイマン諸島、トリニダード・トバゴ、タークス・カイコス諸島、ウルグアイ、ベネズエラ"
+    },
+    "sim": {
+      "heading": "SIM/eSIM",
+      "subHeading": "",
+      "description": {
+        "title": "説明",
+        "content": "私たちのSim/eSimは、便利さと使いやすさを重視する方に最適です。数分でアクティベートし、その利便性をすぐに享受できます。学生、社会人、または信頼できる通信サービスを必要とする方々にとって、私たちのSim/E-Simは完璧なソリューションです。競争力のある価格、柔軟なプラン、優れたカスタマーサポートを提供し、お客様に最良の価値をお届けします！"
+      }
+    },
+    "device": {
+      "heading": "ポケットWiFi"
+    },
+    "simDataPlan": {
+      "headers": [
+        "SIM/eSIM-無制限データプラン",
+        "500MB/日",
+        "1GB/日",
+        "2GB/日"
+      ],
+      "plans": [
+        "アルバニア、アンギラ、アンティグア・バーブーダ、アルゼンチン、アルメニア、アルバ、オーストラリア、オーストリア、アゼルバイジャン、バングラデシュ、バルバドス、ベラルーシ、ベルギー、バミューダ、ボスニア・ヘルツェゴビナ、ブラジル、イギリス領バージン諸島、ブルネイ、ブルガリア、カンボジア、カメルーン、カナダ、ケイマン諸島、中央アフリカ共和国、チリ、中国、コロンビア、コスタリカ、クロアチア、キュラソー、キプロス、チェコ共和国、コンゴ民主共和国、デンマーク、ドミニカ、ドミニカ共和国、エクアドル、エジプト、エルサルバドル、エストニア、フェロー諸島、フィジー、フィンランド、フランス、フランス領ギアナ、ジョージア、ドイツ、ガーナ、ジブラルタル、ギリシャ、グレナダ、グアドループ、グアム、グアテマラ、ガイアナ、ハイチ、ホンジュラス、香港、ハンガリー、アイスランド、インド、インドネシア、イラン、アイルランド、イスラエル、イタリア、コートジボワール、ジャマイカ、日本、ヨルダン、カザフスタン、ケニア、クウェート、キルギス、ラオス、ラトビア、リベリア、リトアニア、ルクセンブルク、マカオ、マダガスカル、中国本土、マラウイ、マレーシア、マルタ、マルティニーク、モーリシャス、メキシコ、モルドバ、モンゴル、モンテネグロ、モロッコ、モザンビーク、ネパール、オランダ、ニュージーランド、ニカラグア、ノルウェー、オマーン、パキスタン、パナマ、パプアニューギニア、パラグアイ、ペルー、フィリピン、ポーランド、ポルトガル、カタール、ルーマニア、ロシア、ルワンダ、サウジアラビア、セルビア、セーシェル、シエラレオネ、シンガポール、スロバキア、スロベニア、南アフリカ、韓国、スペイン、スリランカ、セントクリストファー・ネイビス、セントルシア、セントビンセント、スーダン、エスワティニ（スワジランド）、スウェーデン、スイス、台湾、タジキスタン、タンザニア、タイ、トンガ、トリニダード・トバゴ、チュニジア、トルコ、タークス・カイコス諸島、アラブ首長国連邦（UAE）、ウガンダ、ウクライナ、イギリス、ウルグアイ、アメリカ、ウズベキスタン、バヌアツ、ベトナム、イエメン、ザンビア"
+      ]
+    },
+    "regionalCountries": "*ヨーロッパ: アルバニア、アルメニア、アンドラ、オーストリア、ベルギー、ボスニア・ヘルツェゴビナ、ブルガリア、クロアチア、キプロス、チェコ共和国、デンマーク、エストニア、フィンランド、フランス、ドイツ、ジョージア、ジブラルタル、ギリシャ、ガーンジー、ハンガリー、アイスランド、アイルランド、マン島、イタリア、ジャージー、ラトビア、リヒテンシュタイン、リトアニア、ルクセンブルク、マケドニア、マルタ、モナコ、モンテネグロ、オランダ、ノルウェー、ポーランド、ポルトガル、ルーマニア、サンマリノ、セルビア、スロバキア、スロベニア、スペイン、スウェーデン、スイス、ウクライナ、イギリス、バチカン"
+  },
+  "pocketWifiRegion": {
+    "tabs": [
+      "ポケットWiFi",
+      "SIM/eSIM",
+      "ルーター"
+    ],
+    "header": {
+      "text": "製品を選択"
+    },
+    "form": {
+      "fields": [
+        {
+          "label": "国",
+          "placeholder": "国を選択"
+        },
+        {
+          "label": "プロモコード",
+          "placeholder": "プロモコード"
+        },
+        {
+          "label": "メンバーID",
+          "placeholder": "メンバーIDを入力"
+        }
+      ]
+    }
+  },
+  "pocketWifiPlan": {
+    "heading": "プランを選択",
+    "tabs": [
+      "すべて",
+      "日別",
+      "月別",
+      "複数国"
+    ],
+    "countryCoverage": "対応地域",
+    "countryCoverageInfo": "*パッケージを選択してください",
+    "information": "情報",
+    "informationInfo": "*パッケージを選択してください"
+  },
+  "discountDownloadApp": {
+    "title": "モバイルアプリで",
+    "percentage": "8%オフ",
+    "description": "どこでも、いつでも、効果的なデジタル体験を提供する高度な機能！"
+  },
+  "pickDropLocation": {
+    "heroTitle": "受取および返却場所"
+  },
+  "routerRegion": {
+    "tabs": [
+      "ポケットWiFi",
+      "SIM/eSIM",
+      "ルーター"
+    ],
+    "header": {
+      "text": "製品を選択"
+    },
+    "form": {
+      "fields": [
+        {
+          "label": "国",
+          "placeholder": "国を選択"
+        },
+        {
+          "label": "プロモコード",
+          "placeholder": "プロモコード"
+        },
+        {
+          "label": "メンバーID",
+          "placeholder": "メンバーIDを入力"
+        }
+      ]
+    }
+  },
+  "routerPlan": {
+    "heading": "プランを選択",
+    "tabs": [
+      "すべて",
+      "日別",
+      "月別",
+      "複数国"
+    ],
+    "countryCoverage": "対応地域",
+    "countryCoverageInfo": "*パッケージを選択してください",
+    "information": "情報",
+    "informationInfo": "*パッケージを選択してください"
+  },
+  "simRegion": {
+    "tabs": [
+      "ポケットWiFi",
+      "SIM/eSIM",
+      "ルーター"
+    ],
+    "header": {
+      "text": "製品を選択"
+    },
+    "form": {
+      "fields": [
+        {
+          "label": "国",
+          "placeholder": "国を選択"
+        },
+        {
+          "label": "プロモコード",
+          "placeholder": "プロモコード"
+        },
+        {
+          "label": "メンバーID",
+          "placeholder": "メンバーIDを入力"
+        }
+      ]
+    }
+  },
+  "simPlan": {
+    "heading": "プランを選択",
+    "tabs": [
+      "すべて",
+      "日別",
+      "月別",
+      "複数国"
+    ],
+    "countryCoverage": "対応地域",
+    "countryCoverageInfo": "*パッケージを選択してください",
+    "information": "情報",
+    "informationInfo": "*パッケージを選択してください"
+  },
+  "simInformation": {
+    "accordionData": {
+      "items": [
+        {
+          "title": "情報",
+          "content": "高速インターネット接続をお楽しみください。即時接続、最大10デバイス対応。4Gインターネット速度。最大12時間のデバイスバッテリー。24時間年中無休のカスタマーサポート。ポケットWiFiデバイス、充電ケーブル、ポーチを含みます。日数を延長したり、プランをいつでも追加できます。"
+        },
+        {
+          "title": "対象国",
+          "content": "planCountriesList"
+        },
+        {
+          "title": "利用方法",
+          "content": "50GBのグローバルデータは90か国で利用可能です。通信速度はモバイルネットワークパートナーに依存します。注文キャンセルには、注文金額の10％の手数料がかかります。一般的な利用規約が適用されます。Yoowifiは、いつでも変更を行う権利を有します。"
+        },
+        {
+          "title": "互換性",
+          "content": [
+            "50GBのグローバルデータは90か国で利用可能です。",
+            "サービス速度はモバイルネットワークパートナーに依存します。",
+            "注文キャンセルには、注文金額の10％の手数料がかかります。",
+            "Yoowifiは、いつでも変更を行う権利を有します。"
+          ]
+        }
+      ]
+    }
+  },
+  "shippingOptions": [
+    {
+      "title": "セルフピックアップ",
+      "subtitle": "場所を選択してください",
+      "description": "旅行の5日前にデバイスを受け取る"
+    }
+  ],
+  "orderSummary": {
+    "paymentMethod": "お支払い方法",
+    "orderSummary": "注文概要",
+    "planName": "プラン名",
+    "minimumCharges": "最低料金",
+    "deposit": "デポジット",
+    "subtotal": "小計",
+    "quantity": "数量",
+    "selfPickupDeliveryFee": "自己受け取り配送料",
+    "returnDropOffFee": "返却料金",
+    "totalDeliveryCharges": "合計配送料",
+    "totalDataCharges": "合計データ料金",
+    "totalAmount": "合計金額",
+    "paymentInformation": "支払い情報",
+    "noCardAdded": "カードが追加されていません",
+    "addCard": "カードを追加",
+    "addNewPaymentMethod": "新しい支払い方法を追加",
+    "termsAndConditions": "利用規約",
+    "privacyPolicy": "プライバシーポリシー",
+    "readAndAgree": "ご同意いただける場合は",
+    "orderConfirmed": "注文が確定しました！",
+    "welcomeMessage": "ご注文が確定しました！まもなく確認メールをお送りいたします。",
+    "continue": "続行",
+    "simType": "SIMタイプ",
+    "orderProcessing": "注文を処理中！",
+    "processingMessage": "ご注文を処理しています。しばらくお待ちください。",
+    "orderemailconfirmation": "ご注文が確認されました。確認メールをお受け取りください。",
+    "downloadtheyoowifi": "YoowifiアプリをダウンロードしてeSIMを有効化および管理してください",
+    "processedOrder": "注文が処理されました",
+    "pay": "支払う",
+    "completePayment": "支払い認証を完了する",
+    "scanQRCode": "QRコードをスキャン"
+  },
+  "process": {
+    "processing": "リクエストを処理中です！",
+    "processMessage": "リクエストを処理中です。しばらくお待ちください。",
+    "failed": "リクエスト失敗",
+    "success": "リクエスト成功",
+    "error": "エラー",
+    "datesError": "国と日付を選択してください。",
+    "processRates": "料金を計算中",
+    "ratesNotFound": "料金が見つかりませんでした",
+    "deletedAddress": "ユーザーの住所が削除されました",
+    "addeddAddress": "ユーザーの住所が追加されました",
+    "fillOut": "この項目を入力してください。",
+    "FailedAddress": "ユーザーの住所の追加に失敗しました"
+  },
+  "setupPocketWifi": {
+    "heading": "ポケットWiFiの接続方法",
+    "subHeading": "簡単な手順でポケットWiFiに簡単に接続できます",
+    "setupSteps": [
+      {
+        "step": 1,
+        "title": "ポケットWiFiをオンにする",
+        "description": "電源ボタンを押して電源を入れ、ネットワークに接続されるのを待ちます。"
+      },
+      {
+        "step": 2,
+        "title": "WiFi名を確認する",
+        "description": "デバイスの画面でWiFiネットワーク名（SSID）を確認してください。"
+      },
+      {
+        "step": 3,
+        "title": "WiFiに接続する",
+        "description": "スマートフォン、タブレット、またはノートパソコンでWiFi設定を開き、SSIDを選択して、デバイスに表示されているパスワードを入力すると、インターネットに接続できます。"
+      }
+    ]
+  },
+  "returnDevicePocketWifi": {
+    "heading": "デバイスの返却方法",
+    "subHeading": "簡単な手順に従って、ストレスのない返却体験を確保しましょう。",
+    "cardData": [
+      {
+        "title": "Singpost ドロップオフ",
+        "description": "デバイスをレンタルすると、パッケージに前払いの返却ラベルが含まれています。このラベルを使用して簡単にデバイスを返送できます。返却後、返却処理が完了すると、メールで確認の通知を受け取ることがあります。",
+        "buttonText": "ロケーションを表示"
+      },
+      {
+        "title": "ピックアップドロップオフロケーション",
+        "description": "Yoowifiでは、指定されたロケーションのいずれかでデバイスを簡単に受け取り、島全体にある30以上の便利なドロップオフポイントで返却できます。このスムーズなプロセスにより、旅行先でも常に接続状態を保つことができます！",
+        "buttonText": "ロケーションを表示"
+      }
+    ]
+  },
+  "pocketWifiTopUp": {
+    "heading": "プランのトップアップ方法",
+    "subHeading": "Yoowifiトップアップでデータ容量を簡単に管理",
+    "setupSteps": [
+      {
+        "step": 1,
+        "title": "デバイスを選択",
+        "description": "Yoowifiアプリを開き、「マイデータ」に進み、トップアップするデバイスを選択します。"
+      },
+      {
+        "step": 2,
+        "title": "プランを選択",
+        "description": "「データを追加」をクリックし、希望の国とプランを選択し、開始日と終了日を設定します。"
+      },
+      {
+        "step": 3,
+        "title": "支払へ進む",
+        "description": "選択内容を確認し、支払に進みます。"
+      }
+    ],
+    "sqStep": {
+      "heading": "無料WiFiを手に入れる3つの簡単なステップ",
+      "sectionSubHeading": "面倒な手続きやローミング料金なしで、無料WiFiを簡単に取得・アクティベートできます。",
+      "one": "「交換する」ボタンをクリック",
+      "two": "詳細を入力：氏名、メールアドレス、携帯電話番号、渡航先国、出発日、帰国日、配送先住所",
+      "three": "申し込んでポケットWiFiの到着を待つだけ！（Yoowifiアプリをダウンロードしてログイン）"
+    },
+    "sq": {
+      "termsTitle": "利用規約",
+      "termsList": [
+        "公平使用ポリシーが適用されます。1日あたり10GBの高速データが提供されます。",
+        "このプロモーションコードは1回限りのご利用で、他のオファーや割引、プロモーションとの併用はできません。",
+        "このプロモーションコードの有効期限延長はできません。",
+        "このプロモーションコードは現金との交換はできません。",
+        "Yoowifiは利用規約を変更する権利を留保します。"
+      ],
+      "getFreeeSIM": "150Mbpsの速度で14日間1日10GBのデータプランが付いた無料eSIMをゲット！",
+      "getFreeWifi": "150Mbpsの速度で10日間1日10GBのデータプランが付いた無料ポケットWiFiをゲット！*目的地の国が無料WiFi対象90カ国に含まれていない場合、1日2.50ドルの料金がかかります。",
+      "sqButton": {
+        "buttonTextSim": "無料eSIMを請求する",
+        "buttonTextWifi": "無料WiFiを請求する"
+      }
+    }
+  },
+  "affiliate": {
+    "buttontittle": " 今すぐ登録",
+    "affiliateServiceData": [
+      {
+        "title": "無料グローバルデータ",
+        "description": "私たちの限定インフルエンサープログラムに参加して、どこにいても接続を維持できる無料のグローバルデータをお楽しみください。"
+      },
+      {
+        "title": "つながりを保とう",
+        "description": "旅を共有し、シームレスなグローバルデータでインスピレーションを与えましょう。旅行も投稿も簡単につながり続けられます！"
+      },
+      {
+        "title": "限定リール交換",
+        "description": "冒険を投稿し、私たちをタグ付けして、あなたの物語で他の人々を感動させましょう！"
+      }
+    ],
+    "banner": {
+      "pageTitle": "アフィリエイト",
+      "description": "質問や疑問がある場合は、フォームに記入してください。すぐにご連絡いたします！"
+    },
+    "joinAffiliateSection": {
+      "sectionId": "join-affiliate",
+      "secCommon80Class": "sec_common_80 xl:!px-0",
+      "sectionHeader": {
+        "heading": "YooWanderプログラムに参加",
+        "midHeading": "世界を探求し、接続し続ける！",
+        "subHeading": "旅行が大好きで、冒険をフォロワーと共有するのが好きなインフルエンサーですか？Yoowifi の YooWander アフィリエイトプログラムに参加して、エキサイティングなパートナーシップを楽しみましょう。本物の旅行コンテンツをサポートするために、無料のグローバルデータを提供し、どの瞬間もあなたをつなぎます！"
+      }
+    }
+  },
+  "howItWorksPage": {
+    "rentWifiSection": {
+      "sectionHeader": {
+        "heading": "Yoowifiを3つの簡単なステップでレンタル！ ",
+        "subHeading": "プランを選び、デバイスを受け取り、どこでも簡単に接続して旅行を楽しもう！"
+      },
+      "rentWifiData": [
+        {
+          "step": "ステップ1",
+          "title": "Yoowifiアプリをダウンロード",
+          "description": "Yoowifiアプリをダウンロード（初回のみ）",
+          "buttonText": "Yoowifiをダウンロード",
+          "icon": "DownloadFillIcon"
+        },
+        {
+          "step": "ステップ2",
+          "title": "プランを選択",
+          "description": "アプリで目的地の国を検索し、データ量を選択、開始日と終了日を設定します。"
+        },
+        {
+          "step": "ステップ3",
+          "title": "予約を完了",
+          "description": "希望の配送方法を選択し、支払を進めます。"
+        }
+      ],
+      "links": [
+        {
+          "title": "返却場所"
+        },
+        {
+          "title": "お問い合わせ",
+          "variant": "secondary"
+        }
+      ]
+    },
+    "deliveryChargesSection": {
+      "sectionHeader": {
+        "heading": "配送料",
+        "subHeading": "遅いインターネットとはおさらば！ポータブルソリューションに切り替えて、制限のない接続を体験してください。"
+      }
+    },
+    "rentServices": [
+      {
+        "title": "ローカル返品用メールバッグ",
+        "description": "デバイスとアクセサリーをプリペイドメールバッグに入れて、シンガポール郵便の郵便箱に投函してください。"
+      },
+      {
+        "title": "セルフリターン",
+        "description": "デバイスとアクセサリーを包装し、いずれかの返却場所で返却してください。"
+      },
+      {
+        "title": "国際宅配便",
+        "description": "お住まいの地域のDHLや他の宅配業者に連絡して、デバイスとアクセサリーを引き取ってもらってください。"
+      }
+    ],
+    "selfReturnSection": {
+      "sectionHeader": {
+        "heading": "1分以内で簡単なセルフリターン",
+        "subHeading": "Yoowifiを使えば、指定されたどの場所でも簡単にデバイスを受け取り、20か所以上の場所で返却できます。どこへ行っても接続を維持できる、手間のかからない体験をお楽しみください！ "
+      },
+      "selfReturnData": [
+        {
+          "title": "Yoowifiアプリにログイン",
+          "description": "まず、20か所以上の受取および返却場所のいずれかを訪れます。アプリで「マイデータ」を開き、返却するデバイスを選択し、「デバイスを返却」をタップします。"
+        },
+        {
+          "title": "場所のQRコードをスキャン",
+          "description": "次に、スタッフが提供した場所のQRコードをスキャンします。"
+        },
+        {
+          "title": "デバイスのQRコードをスキャン",
+          "description": "デバイスの背面にあるQRコードをスキャンして、返却を完了します。"
+        }
+      ]
+    },
+    "topUpSection": {
+      "sectionHeader": {
+        "heading": "データを簡単に数ステップでトップアップ",
+        "subHeading": "数回のタップで簡単にデータを追加し、接続状態を維持できます"
+      },
+      "topUpData": [
+        {
+          "title": "デバイスを選択",
+          "description": "Yoowifiアプリを開き、「マイデータ」からトップアップしたいデバイスを選択します。"
+        },
+        {
+          "title": "プランを選択",
+          "description": "「データを追加」をクリックして、希望する国とプランを選び、開始日と終了日を設定します。"
+        },
+        {
+          "title": "支払へ進む ",
+          "description": "選択内容を確認し、支払に進みます。"
+        }
+      ]
+    }
+  },
+  "countryCoverage": {
+    "sectionHeader": {
+      "heading": "対応している国 ",
+      "subHeading": "自信を持って世界中を移動！どこでもいつでも接続可能でデータ準備完了！"
+    },
+    "regionList": [
+      {
+        "name": "アジア",
+        "value": "asia"
+      },
+      {
+        "name": "ヨーロッパ",
+        "value": "europe"
+      },
+      {
+        "name": "アメリカ",
+        "value": "america"
+      },
+      {
+        "name": "オーストラリア",
+        "value": "australia"
+      },
+      {
+        "name": "アフリカ",
+        "value": "africa"
+      }
+    ]
+  },
+  "stayConnectedCTA": {
+    "heading": "どこでも接続可能",
+    "subHeading": "140+カ国",
+    "description": "手のひらでインターネット接続の心配いらない世界中のWiFiを。どこに行っても、旅行中でも、質の高いインターネットに接続できます。"
+  },
+  "login": {
+    "title": "ログインが必要です！",
+    "text": "続行するにはログインしてください。"
+  },
+  "authModal": {
+    "authMessages": {
+      "welcomeBack": {
+        "title": "お帰りなさい！",
+        "text": "またお会いできて嬉しいです。Yoowifiを使い始めましょう。"
+      },
+      "verification": {
+        "title": "確認",
+        "text": "確認コードが送信されました\nあなたのWhatsApp、電話番号、メールアドレスに。"
+      },
+      "signUp": {
+        "title": "サインアップ",
+        "text": "登録はとても簡単です。さあ始めましょう！"
+      },
+      "signUpSuccessful": {
+        "title": "サインアップ完了！",
+        "text": "ご登録ありがとうございます！アカウントの準備ができました。"
+      },
+      "loginSuccessful": {
+        "title": "ログイン成功！",
+        "text": "お帰りなさい！Yoowifiを利用する準備はできていますか？ ",
+        "Hi": "やあ"
+      },
+      "accountReady": {
+        "title": "アカウント準備完了！",
+        "text": "ご登録ありがとうございます！アカウントの準備ができました。"
+      }
+    },
+    "placeholders": {
+      "firstName": "名前",
+      "lastName": "苗字",
+      "email": "メールアドレス"
+    },
+    "prompts": {
+      "noAccount": {
+        "text": "アカウントをお持ちではありませんか？",
+        "linkText": "今すぐ登録"
+      },
+      "hasAccount": {
+        "text": "すでにアカウントをお持ちですか？",
+        "linkText": "ログイン"
+      },
+      "resendOTP": {
+        "text": "認証コードが届きませんでしたか？",
+        "linkText": "コードを再送"
+      }
+    }
+  },
+  "TermsDetails": [
+    {
+      "heading": "般利用規約",
+      "content": "「当社」および「当社」とは、UR COMMUNICATIONS PTE. を意味します。株式会社(ヨーワイファイ)。\n 「顧客」とは注文をする人を意味し、。\n\n 「契約は同意されました」 - 電子注文フォームに記入して送信することにより、お客様は製品の購入を申し出たことになり、当社がこれを受け入れた場合、拘束力のある契約が成立します。当社からの承諾メールにより、契約が成立したことが確認されます。\n\n Yoowifi モバイル アプリケーションを使用してコンテンツを消費したり、オンラインで製品を購入したりすることにより、顧客は 18 歳以上であることを確認し、これらの利用規約とプライバシー ポリシーに同意したものとみなされます。\n\n ポケット Wi-Fi デバイスのレンタルは Yoowifi によって提供されます。"
+    },
+    {
+      "heading": "製品の購入とレンタル",
+      "content": "1.1. お客様は、UR COMMUNICATIONS PTE LTD が発行した、Yoowifi を通じた製品の購入に関するあらゆるガイドライン、通知、運営規則、ポリシーおよび指示、ならびに前述の修正に従うことに同意するものとします。 (Yoowifi)、随時_ Yoowifi は、これらのガイドライン、通知、運営規則、ポリシーおよび指示をいつでも改訂する権利を留保し、顧客は、Yoowifi 上で公開された時点で、前述の変更を認識し、それに拘束されるものとみなされます。\n\n 1.2. 注文とサブスクリプションは、Yoowifi アプリを使用して行う必要があります。 Yoowifi は、虐待的な顧客へのサービスを拒否する権利を留保します。例えば。暴言などの悪質な言葉遣いをするお客様。\n\n 1.3. すべての注文は、Yoowifi を通じて送信された時点で、取消不能かつ無条件とみなされます。"
+    },
+    {
+      "heading": "商品のお届け",
+      "content": "2.1. 顧客の注文による指定住所への宅配便の配送を含む標準配送オプションに備えるため、顧客は月曜日から金曜日の午後 5 時 (シンガポール標準時間) までに注文フォームを作成する必要があります (週末は注文は処理されません)。お客様の注文が午後 5 時以降に到着した場合、注文は翌営業日に処理されます。\n\n 2.2. 住所: 製品の配送は、注文時に顧客が指定した住所に行われます。\n 2.3. 配送期間: お客様は、製品の配送が在庫状況に応じて行われることを了承するものとします。 Yoowifi は、商品が掲載されている関連ページに記載されている配送期間内にお客様に商品をお届けするようあらゆる合理的な努力をいたしますが、お客様は、Yoowifi モバイル アプリケーションの在庫情報は定期的に更新されますが、場合によっては更新の間に商品が入手できなくなる可能性があることを了承します。\n\n 2.4. 表示されている配送時間はすべて推定値であり、遅延が発生する可能性があります。製品の納期が遅れる場合は、お客様に電子メールでその旨をご連絡し、製品は入荷次第発送させていただきます。\n\n 2.5. 顧客が配達予定日までに製品を受け取らない場合、顧客がかかる配達予定日から 3 日以内に Yoowifi に通知した場合、Yoowifi は製品を見つけて配達しようとします。 Yoowifi が配送予定日から 3 日以内に顧客から連絡がない場合、顧客は製品を受け取ったものとみなされます。\n\n 2.6 すべてのご注文はシンガポールから発送されます。配送時間は、選択したお届け先と配送方法によって異なる場合があります。目的地の国によって課される該当する輸入関税、税金、または通関手数料はお客様の負担となります。 Yoowifi は、通関手続きやその他の予期せぬ配送中断による遅延については責任を負いません。"
+    },
+    {
+      "heading": "支払い",
+      "content": "3.1. お客様は、Yoowifi が規定する支払い方法のいずれかを使用して、製品およびサービスの代金を随時支払う必要があります。登録および確認の目的で、お客様が注文する際、デバイスの紛失または破損に備えてクレジット カードの詳細を提供する必要があります。\n\n 3.2. Yoowifi モバイル アプリケーション全体の価格はシンガポール ドルで表示されており、支払いはシンガポール ドルでのみ受け付けられます。梱包および配送費用がかかる場合は、お客様の購入総額に追加されます。\n\n 3.3. Yoowifi モバイル アプリケーションに表示されている製品が、現在表示されている価格で入手できるようあらゆる努力を払っていますが、常にそうであることを保証することはできません。注文した製品が入手できない場合は、できるだけ早くお客様に通知されます。\n\n 3.4. 製品の価格がその後変更された場合でも、顧客が支払う価格は、顧客が注文した時点で表示されている製品の価格です。\n\n 3.5. 毎月の定期サービス プランの場合、お客様は月の初日に請求されます。\n\n 3.6. 日次定期サービス プランの場合、注文の送信時に選択した日数に基づいてお客様に請求されます。\n\n 3.7. 注文が正常に完了すると、顧客のクレジット カードから引き落とされます。最低請求総額は SGD10 です。\n\n 3.8. オファーに品目の値下げ（半額など）が記載されている場合、送料や梱包料が適用される前に、チェックアウト時に割引が計算されます。\n\n 3.9. 顧客が選択した支払い方法の利用規約に従って支払いを怠った場合、または何らかの理由で支払いがキャンセルされた場合、Yoowifiは他の権利を侵害することなく、支払いが全額行われるまで注文をキャンセルするか、商品の配送を一時停止する権利を有するものとします。"
+    },
+    {
+      "heading": "支払いの返金",
+      "content": "4.1. すべての払い戻しは、元の支払いメカニズムを介して、元の支払いを行った人に行われるものとします。\n\n 4.2. 当社は、お客様の口座に返金が適時に届くことについていかなる保証も行いません。支払いの処理には時間がかかる場合があり、各銀行および/または決済プロバイダーの内部処理タイムラインの影響を受けます。\n\n 4.3. 処理銀行および/または決済プロバイダーによって課される返金プロセスに関連するすべての費用は、お客様が負担するものとします。\n\n 4.4. すべての返金は、当社が製品の有効な返品を受諾することを条件とします。当社は、通知なしにいつでも返金処理の仕組みを変更する権利を留保します。返金手数料は10％かかります。\n\n 4.6 年間プランの返金資格 \n\n 4.6.1 年間プランは一度有効化されると返金不可となります。 \n\n 4.6.2 年間プランは延長または返金できません \n\n 4.7 使用量のしきい値 \n\n 4.7.1 使用量が該当する実質的使用しきい値（関連プラン条件に記載されている場合は例えば10GB）を超える場合、プランは「実質的に使用済み」とみなされ、返金は認められません。 \n\n 4.7.2 使用量が該当する実質的使用しきい値（そのしきい値が適用される場合は例えば10GB未満）を下回る場合、未使用日数に対する按分返金が、該当する事務手数料を差し引いた上で処理される場合があります。"
+    },
+    {
+      "heading": "端末の返却",
+      "content": [
+        "5.1 Yoowifi アプリで [デバイスの返品] を選択し、加入プランを終了し、デバイスと付属品を返送用の袋に梱包してください。返却用のメーラーバッグを SingPost のメールボックスに入れるか、デバイスを受け取り場所に返却してください。ホテルからのデバイスは各ホテルに返却されます。\n\n 5.2 プラン終了後 5 日以内に Yoowifi アプリからデバイスを返却する必要があります。デバイスが返却されない場合、または 7 日間使用されなかった場合は、100 シンガポールドルの手数料が課されます。端末の紛失・破損の場合は、それぞれ以下の料金をご請求させていただきます。",
+        {
+          "headers": [
+            "以下の物品の紛失、破損 ",
+            "充電器（SGD"
+          ],
+          "rows": [
+            [
+              "Yoowifi デバイス",
+              "100"
+            ],
+            [
+              "トラベルポーチ",
+              "20"
+            ],
+            [
+              "USBケーブル ",
+              "20"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "公正使用ポリシー (FUP)",
+      "content": "6.1. 「無制限」サービスは、必ずしも制限がないわけではありません。この制限は、サービスのユーザーが使用する単位量 (分、秒、キロバイトなど) にしきい値を課す一連のルールである公正使用ポリシーで設定されます。これは通常、「無制限」と呼ばれるサービスに課せられ、当初はユーザーが提供されるサービスを好きなだけ使用できることを意味します。\n\n 6.2. 意図的か非意図的かを問わず、虐待が発生する可能性があるため、制限が課されます。 1 人または一部のユーザーによるこの不正行為の制限として、他のユーザーは罰せられます。また、サービスを提供する会社も損をします。したがって、フェアユースポリシーは悪用を回避する手段として機能し、その過程でプロバイダーだけでなく他の消費者も保護します。\n\n 6.3.  レンタル者は、各国のインターネット サービス プロバイダーによるデータ制限 (ISO 公正使用ポリシー (FUP)) に注意することをお勧めします。インターネット サービス プロバイダー (ISP) は、チャネルが過負荷になったときにユーザーにデータ制限を導入しますが、この制限はポリシー規制に応じて国によって異なります。\n\n 6.4. データ使用量が割り当てられた制限を超えた場合、ユーザーはデータ速度が遅くなったり、一定期間一時的にアイドル状態になったりすることがあります。超過したデータによって、顧客のレンタル料金に追加料金が発生することはありません。"
+    },
+    {
+      "heading": "サービスの終了",
+      "content": "7.1.  お客様がデバイスをレンタルしており、サービスの終了を希望する場合、お客様は Yoowifi モバイル アプリケーションを通じてサービス プランを終了し、デバイスを Yoowifi に返却する必要があります。お客様がサービス プランを終了し、デバイスを返却すると、定期的な支払いは停止されます。お客様は、Yoowifi モバイル アプリケーション内の「お問い合わせ」ページを通じて Yoowifi に書面で通知することで、製品を発送する前に注文をキャンセルすることができます。製品がすでに発送されている場合、お客様は注文をキャンセルすることはできませんが、製品を返品することのみが可能です。"
+    },
+    {
+      "heading": "購入したポータブル デバイスの保証条件",
+      "content": "8.1. デバイスは、購入日から 6 か月間 (以下「保証期間」) の限定保証の対象となります。\n\n 8.2. 保証期間中、当社は独自の裁量により、通常の使用条件下で発生した材料または製造上の欠陥に起因するデバイスまたはそのコンポーネントの欠陥を修理または交換します。\n\n 8.3.  当社は、独自の裁量により、デバイスに対象となるハードウェアの問題があると確認した場合、デバイスの修理または同等の機能との交換を進めるものとします。交換用デバイスは正常な動作状態にありますが、新品ではなく再生ユニットである可能性があります。\n\n 8.4. この保証は、以下の原因による損傷または欠陥には適用されません。\n\n     • 液体への暴露、湿気、水への浸漬などの外部要因。\n      • デバイスの外部ケースの亀裂、破損、損傷を含むがこれらに限定されない物理的損傷。\n     • 許可されていない改造、修理、改造。\n     • 過失、誤用、誤った取り扱い、または不適切な取り付け。\n     • 事故、火災、盗難、自然災害、またはその他の外部要因。\n\n 8.5 この期間を過ぎた後、デバイスは通常の摩耗の対象となり、交換の対象外となります。"
+    }
+  ],
+  "policyDetails": [
+    {
+      "heading": "プライバシーポリシー",
+      "subheading": "お客様向けのデータ保護に関する通知",
+      "content": "このデータ保護通知(\"<strong>「通知」</strong>\") は、<strong>UR COMMUNICATIONS PTE.</strong> 株式会社</strong> (\"<strong>「当社」</strong>\")は、個人データ保護法 (\"<strong>「PDPA」</strong>\"). に従って、お客様の個人データを収集、使用、開示、またはその他の方法で処理する場合があります。この通知は、当社が保有または管理している個人データに適用されます。これには、当社の目的のために個人データの収集、使用、開示、または処理を委託した組織が保有する個人データも含まれます。"
+    },
+    {
+      "heading": "個人データ",
+      "subheading": null,
+      "content": "1. この通知で使用されるもの:\n\n <strong>「顧客」</strong>とは、(a) 当社が提供する商品またはサービスの詳細を知るために何らかの手段を通じて当社に連絡した個人、または (b) 当社による商品またはサービスの供給について当社と契約を締結した可能性がある、または締結した個人を指します。 「個人データ」とは、真実かどうかにかかわらず、次のとおり識別できる顧客に関するデータを意味します。(a) そのデータから。または (b) 当社がアクセスできる、またはアクセスできる可能性があるデータおよびその他の情報から。\n\n1. 当社とのやり取りの性質に応じて、当社がお客様から収集する個人データの例には、名前、居住地住所、電子メール アドレス、電話番号、国籍、性別、生年月日、写真が含まれます。 \n\n2. この通知で使用されるその他の用語は、PDPA で与えられた意味を有するものとします (文脈が許可する場合)。"
+    },
+    {
+      "heading": "個人データの収集、使用、開示",
+      "subheading": null,
+      "content": "1. 当社は、次のいずれかの場合に、お客様の個人データを収集します。(a) お客様が自発的に当社に直接提供する場合、または、お客様が当社に個人データを開示することを正式に認めた第三者（お客様の「認可代理人」）が提供する場合で、かつお客様（またはお客様の認可代理人）がデータ収集の目的を通知されている場合。または (b) 同意なしの当該収集、使用または開示が、シンガポールの2012年個人データ保護法（PDPA）またはその他の適用法律により認められているか、または要求されている場合。お客様が自発的に当社に個人データを提供する場合、お客様は、お客様に通知した目的およびそれらに合理的に関連する目的のために、当社による当該個人データの収集、使用および開示に同意したものとみなされます。PDPAまたはその他の適用法律で認められているか認可されている場合、当社は、追加の同意なくお客様の個人データを収集、使用または開示することがあります。\n\n2. 当社は、次の目的のいずれかまたはすべてのために、お客様の個人データを収集および使用することがあります。\n\n2.1 お客様が要求した商品および/またはサービスの提供の過程において、またはそれに関連して、当社の義務を履行すること；\n2.2 お客様の本人確認；\n2.3 お客様からのお問い合わせ、ご要望、申請、苦情およびフィードバックへの対応、処理および取扱い；\n2.4 お客様と当社との関係の管理；\n2.5 支払いまたはクレジット取引の処理；\n2.6 適用される法律、規制、実務規範、ガイドラインまたは規則の遵守、またはいずれの政府および/または規制当局による法執行および調査の支援；\n2.7 PDPAおよびその他の適用法律に従い、電子メール、SMS、電話、WhatsAppメッセージおよび/またはその他のメッセージングプラットフォームを通じて、当社の製品、サービス、プロモーション、イベント、キャンペーンまたは特別オファー（該当する場合、当社の関連法人、パートナーまたは関連会社のものを含む）に関するマーケティング、広告、プロモーションおよび/またはダイレクトマーケティングの通信をお客様に送信すること。お客様は、通信に記載の配信停止手順に従うか、当社に直接連絡することにより、いつでもかかるマーケティング通信の受信を選択解除することができます；\n2.8 お客様が情報を提供したその他の目的；\n2.9 前述の目的のために、当社の第三者サービスプロバイダーおよび代理人、ならびに関連する政府および/または規制当局（シンガポール国内または国外を問わず）を含む、無関係の第三者へのお客様の個人データの送信；および\n2.10 上記に関連する、またはそれと関連するその他の付随的な業務目的。"
+    },
+    {
+      "heading": "当社はお客様の個人データを開示する場合があります。",
+      "subheading": null,
+      "content": "1. お客様が要求した商品やサービスの当社の提供の過程で、またはそれに関連して義務を履行するためにかかる開示が必要な場合。または \n\n2. 上記の目的に関連して当社が業務の遂行に従事する第三者サービスプロバイダー、代理店、その他の組織に対して。\n\n3. 上記の条項に記載された目的は、お客様と当社との関係（例えば、契約に基づく）が何らかの形で終了または変更された状況であっても、その後の合理的な期間（該当する場合、当社がお客様との契約に基づく権利を行使できる期間を含む）は引き続き適用されることがあります。"
+    },
+    {
+      "heading": "正当な利益の例外への依存",
+      "subheading": null,
+      "content": "1.  PDPA に従い、当社は、Yoo Networks Pte Ltd またはその他の者の正当な利益のために、お客様の同意なしにお客様の個人データを収集、使用、または開示する場合があります。 PDPA の例外として正当な利益に依存する場合、UR COMMUNICATIONS PTE.株式会社個人に対する起こり得る悪影響を評価し、正当な利益が悪影響を上回ると判断します。 \n3. 不正行為の検出と防止。 \n4. サービスの不正使用の検出と防止。 \n5. 詐欺や金融犯罪を防止し、信用分析を行うためのネットワーク分析。そして \n6. データ損失を防ぐため、会社支給のデバイスで個人データを収集および使用します。 \n\n 上記の条項に記載されている目的は、お客様と当社との関係 (たとえば、契約に基づく) が何らかの形で終了または変更された状況でも、その後の合理的な期間は引き続き適用される場合があります。"
+    },
+    {
+      "heading": "同意の撤回",
+      "subheading": null,
+      "content": "1. お客様の個人データの収集、使用、開示に対する同意は、お客様が書面により撤回するまで有効です。お客様は、下記の連絡先詳細にあるデータ保護担当者に書面または電子メールで要求を提出することにより、同意を撤回し、上記の目的のいずれかまたはすべてでの個人データの収集、使用、および/または開示の停止を当社に要求することができます。 \n\n2.  お客様からの同意撤回の書面による要求を受け取った後、当社は、お客様の要求が処理され、当社に対するお客様の権利と責任に影響を与える可能性のある法的結果を含む、当社がこれに同意した場合の結果をお客様に通知するまでに、（要求の複雑さおよびお客様との関係への影響に応じて）合理的な時間を要する場合があります。通常、当社はお客様のリクエストを受領してから 60 営業日以内に処理するよう努めるものとします。 \n\n3. 当社は、同意を撤回するというお客様の決定を尊重しますが、お客様のリクエストの性質および範囲によっては、当社の商品またはサービスをお客様に提供し続けることができない場合があり、そのような状況では、当社はお客様のリクエストの処理を完了する前にお客様に通知するものとします。同意の撤回を取り消す場合は、上記第 8 項に記載の方法で書面で当社に通知してください。 \n\n4. 適用法の下で同意なしでの個人データの収集、使用、開示が許可または義務付けられている場合、同意を撤回しても、個人データの収集、使用、開示を継続する当社の権利には影響しないことにご注意ください。"
+    },
+    {
+      "heading": "個人データへのアクセスと修正",
+      "subheading": null,
+      "content": "1. お客様が、(a) 当社がお客様について保持している個人データのコピー、または当社がお客様の個人データを使用または開示する方法に関する情報へのアクセス要求、または (b) 当社がお客様について保持している個人データの修正または更新を求める修正要求を行うことを希望する場合は、書面または電子メールで、下記の連絡先詳細にある当社のデータ保護担当者に要求を提出することができます。 \n\n2. アクセス要求には相応の料金が請求される場合があることに注意してください。その場合、リクエストを処理する前に料金をお知らせします。 \n\n3. 当社は、合理的に可能な限り速やかにお客様のリクエストに対応します。通常、弊社からの返答は 60 営業日以内に行われます。お客様のリクエストを受け取ってから 30 日以内に当社がお客様のリクエストに回答できない場合は、お客様のリクエストに回答できるようになるまでの時間を 30 日以内に書面で通知します。当社が個人データをお客様に提供できない場合、またはお客様が要求した修正を行うことができない場合は、通常、提供できない理由をお客様に通知します (PDPA に基づいてそうする必要がない場合を除く)。"
+    },
+    {
+      "heading": "個人データの保護",
+      "subheading": null,
+      "content": "1.  お客様の個人データを不正アクセス、収集、使用、開示、コピー、変更、廃棄または同様のリスクから保護するために、当社は、個人データの収集の最小限化、認証およびアクセス制御（適切なパスワードの実践、データ開示の根拠の必要性など）、データの暗号化、最新のウイルス対策保護、オペレーティング システムおよびその他のソフトウェアの定期的なパッチ適用、ワンタイム パスワード（otp）/2要素認証の使用など、適切な管理的、物理的および技術的対策を導入しています。 (2fa)/多要素認証 (mfa) によりアクセスを保護します。 \n\n2.  ただし、インターネット上の送信方法や電子保存方法は完全に安全ではないことに注意してください。セキュリティを保証することはできませんが、当社はお客様の情報のセキュリティを保護するよう努め、情報セキュリティ対策を常に見直し、強化しています。"
+    },
+    {
+      "heading": "個人データの正確性",
+      "subheading": null,
+      "content": "当社は通常、お客様 (またはお客様の権限のある代理人) から提供された個人データに依存します。お客様の個人データが最新、完全、正確であることを保証するため、お客様の個人データに変更があった場合は、当社のデータ保護担当者に書面または下記の連絡先詳細に電子メールで通知して最新情報をお知らせください。"
+    },
+    {
+      "heading": "個人データの保持",
+      "subheading": null,
+      "content": "1. 当社は、収集された目的を達成するために必要な期間、または適用される法律で要求または許可されている限り、お客様の個人データを保持することがあります。\n\n2. 当社は、そのような保持が個人データが収集された目的を果たさなくなり、法律上またはビジネス上の目的で不要になったと想定するのが合理的であると判断され次第、お客様の個人データの保持を停止するか、データをお客様に関連付けることができる手段を削除します。"
+    },
+    {
+      "heading": "シンガポール国外への個人データの転送",
+      "subheading": null,
+      "content": "当社は通常、お客様の個人データをシンガポール以外の国に転送しません。ただし、その場合、当社は転送が行われることについてお客様の同意を得て、お客様の個人データが少なくとも PDPA に基づいて提供される保護基準と同等の保護基準を受け続けることを保証するための措置を講じます。"
+    },
+    {
+      "heading": "データ保護責任者",
+      "subheading": null,
+      "content": "当社の個人データ保護ポリシーおよび手順に関する問い合わせやフィードバックがある場合、またはリクエストを希望する場合は、次の方法で当社のデータ保護責任者に連絡することができます。\n\n連絡先番号: +65 6100 9998\nメールアドレス: <span class=\"text-red-400\">hello@yoowifi.com</span>."
+    },
+    {
+      "heading": "通知の効果と通知の変更",
+      "subheading": null,
+      "content": "1. この通知は、当社によるお客様の個人データの収集、使用、開示に関連して適用される他の通知、契約条項、および同意条項と併せて適用されます。\n\n2.  当社は、予告なく本通知を随時改訂することがあります。この通知が最後に更新された日付を参照することで、そのような改訂が行われたかどうかを判断できます。当社のサービスを継続してご利用いただくことにより、かかる変更を承認し、受諾したものとみなされます。\n\n発効日: 2022 年 8 月 16 日\n最終更新日:2022/08/16"
+    }
+  ],
+  "FilterList": {
+    "daily": "終了日",
+    "monthly": "毎月",
+    "multiCountry": "複数国",
+    "clear": "削除"
+  },
+  "anaxYoowifi": {
+    "catchUsAt": "私たちを見つける場所",
+    "mattaFair": "MATTA FAIR 2026",
+    "stayConnected": "ANA x Yoowifi 限定旅行特典",
+    "stayWherever": "どこへ行ってもつながる — 私たちからのプレゼント！",
+    "understandImportance": "Yoowifi は ANA と提携し、世界を旅する間も常に接続を維持できるようにします。ANA のお客様は、Yoowifi による毎日 1GB の高速データを 14 日間無料でご利用いただけます — 条件は一切ありません！",
+    "UnlimitedData": "もっとデータが欲しいですか？MATTA Fair限定で、4月3日〜5日の期間中、1日10GBにアップグレード可能、料金はRM30です。",
+    "howtoRedeem": "無料ポケットWiFiの受け取り方法",
+    "startedEasy": "簡単に始められます！以下の簡単なステップに従ってください：",
+    "specialOffer": "この特別オファーをお見逃しなく — どこへ行ってもつながります。\n今すぐANAフライトを予約し、Yoowifiでデジタル体験を新しいレベルに引き上げましょう！",
+    "howtoRedeemSteps": [
+      "下の「無料ポケットWiFiを受け取る」ボタンをクリックします。",
+      "旅行先と出発日を入力し、プロモコードを適用します。",
+      "プランを選択します：",
+      "チェックアウト手続きを完了します。",
+      "出発前に選択した場所でポケットWiFiを受け取ります。"
+    ],
+    "plans": [
+      "無料プラン：1日1GB、14日間",
+      "アップグレードプラン：1日10GB、RM30（MATTA Fair特別）"
+    ],
+    "fairSpecial": "MATTA Fair特別オファー",
+    "fromSeptember": "2026年4月3日〜5日の期間限定、1日10GBにRM30でアップグレード可能 — ANAブースのみで提供。お見逃しなく！",
+    "termsConditions": "利用規約",
+    "terms": [
+      {
+        "text": "公正利用ポリシーが適用されます。",
+        "bullet": true
+      },
+      {
+        "text": "毎日1GBの高速データを提供します。日ごとの上限に達した場合、速度が制限されることがあります。",
+        "bullet": false
+      },
+      {
+        "text": "プロモコードは1回限り有効です。",
+        "bullet": true
+      },
+      {
+        "text": "他のオファー、割引、またはプロモーションと併用できません。",
+        "bullet": true
+      },
+      {
+        "text": "プロモコードは延長不可、現金との交換はできません。",
+        "bullet": false
+      },
+      {
+        "text": "Yoowifiは予告なしに利用規約を変更する権利を有します。",
+        "bullet": true
+      }
+    ],
+    "redeemButton": "無料ポケットWiFiを受け取る"
+  },
+  "umrahHajj": {
+    "heroTitle": "ウムラ・ハッジに最適なインターネット",
+    "heroSubtitle": "サウジアラビア対応のポケットWiFi、SIM、eSIMで巡礼中もつながる。ウムラとハッジに安心のデータ。",
+    "heroImage": "umrah-hajj-banner.webp",
+    "pilgrimageSection": {
+      "heading": "巡礼中もずっとつながる",
+      "subheading": "サウジアラビア全域で到着から帰国まで安定した接続。",
+      "items": [
+        {
+          "title": "巡礼にやさしいインターネット",
+          "description": "シンプルで、すぐに開通。旅の間ずっと安定して使えます。",
+          "image": "pilgrimage"
+        },
+        {
+          "title": "ウムラ・ハッジ向けの簡単インターネット",
+          "description": "ご年配や初めての方向け。手間いらずの接続。",
+          "image": "easy-umrah-hajj"
+        },
+        {
+          "title": "シンプルで頼れる接続",
+          "description": "簡単セットアップで、ウムラ・ハッジ中も安定したインターネット。",
+          "image": "umrah-conectivity"
+        }
+      ]
+    }
+  },
+  "languageOptions": {
+    "en": "英語",
+    "es": "スペイン語",
+    "fr": "フランス語",
+    "gm": "ドイツ語",
+    "id": "インドネシア語",
+    "jp": "日本語",
+    "ms": "マレー語",
+    "ph": "タガログ語",
+    "th": "タイ語",
+    "vi": "ベトナム語",
+    "zhcn": "中国語（簡体字）",
+    "zhhk": "中国語（繁体字）",
+    "ko": "韓国語"
+  },
+  "languageOptionsOld": [
+    {
+      "label": "英語"
+    },
+    {
+      "label": "中国語（簡体字）"
+    },
+    {
+      "label": "中国語（繁体字）"
+    },
+    {
+      "label": "マレー語"
+    },
+    {
+      "label": "インドネシア語"
+    },
+    {
+      "label": "日本語"
+    },
+    {
+      "label": "タイ語"
+    },
+    {
+      "label": "ベトナム語"
+    },
+    {
+      "label": "フィリピン語"
+    },
+    {
+      "label": "スペイン語"
+    },
+    {
+      "label": "ドイツ語"
+    },
+    {
+      "label": "フランス語"
+    }
+  ],
+  "countryOptions": {
+    "America": "アメリカ",
+    "China": "中国",
+    "Malaysia": "マレーシア",
+    "Indonesia": "インドネシア",
+    "Japan": "日本",
+    "Thailand": "タイ",
+    "Vietnam": "ベトナム",
+    "Phillipine": "フィリピン",
+    "Spain": "スペイン",
+    "Germany": "ドイツ",
+    "France": "フランス"
+  },
+  "months": {
+    "January": "1月",
+    "February": "2月",
+    "March": "3月",
+    "April": "4月",
+    "May": "5月",
+    "June": "6月",
+    "July": "7月",
+    "August": "8月",
+    "September": "9月",
+    "October": "10月",
+    "November": "11月",
+    "December": "12月"
+  },
+  "formErrors": {
+    "fullName": "氏名は必須です。",
+    "country": "国を選択してください。",
+    "phone": "電話番号は必須です。",
+    "addressOne": "住所は必須です。",
+    "addressTwo": "アパートの詳細を入力してください。",
+    "zipCode": "郵便番号は必須です。"
+  },
+  "pocketwifiDeviceInfo": {
+    "refurbishedDevice": "現在ご利用いただけるのは再生品デバイスのみです*"
+  },
+  "DeviceUpgrade": {
+    "deviceUpgrade": "あなたのデバイスのアップグレードが準備できました — あなた専用です",
+    "upgradeDevice": "デバイスのアップグレードがこれまでになく簡単になりました — 今すぐご利用いただける特別オファーです。そして、現在のデータ残量？<strong>面倒なくそのまま引き継がれます。</strong>",
+    "howtoUpgrade": "アップグレードの手順は以下の通りです：",
+    "openYoowifi": "<strong>Yoowifiアプリ</strong>を開く",
+    "PromoCode": "プロモコードを使用：<strong>UPGRADE</strong>（特別価格が表示されます）",
+    "pickPreferred": "<strong>GBアップグレード</strong>と<strong>配達オプション</strong>を選択",
+    "checkOut": "チェックアウトして完了！",
+    "preloaded": "新しいデバイスには、既存のデータとアップグレードプランがあらかじめインストールされています。設定不要、データ損失もありません。すべて私たちが対応します。",
+    "waitingforYou": "あなたを待っているもの：",
+    "upSpeed": "最大150Mbpsの速度",
+    "connectDevices": "最大10台のデバイスに接続可能",
+    "smartDisplay": "使用状況を確認し接続を簡単に管理できる<strong>スマートスクリーンディスプレイ</strong>",
+    "hurry": "お急ぎください！このプロモーションは6月で終了します。",
+    "buttonBelow": "下のボタンをタップしてアプリを開くか、<strong>Yoowifiアプリ</strong>に直接アクセスしてください：",
+    "upgradeToday": "今すぐアップグレード",
+    "devicesReady": "デバイスは6月第2週に発送されます。\nこのオファーは期間限定で利用可能です。見逃さずに簡単にアップグレードするチャンスをつかんでください。"
+  },
+  "DeviceUpgradePH": {
+    "PromoCode": "プロモコードを使用：<strong>UPGRADEPH</strong>（特別価格が表示されます）",
+    "hurry": "お急ぎください！このプロモーションは6月で終了し、デバイスは2025年6月15日から利用可能になります。",
+    "buttonBelow": "下のボタンをタップしてアプリを開くか、<strong>Yoowifiアプリ</strong>に直接移動してください：",
+    "reserveDevice": "デバイスを予約する"
+  },
+  "pocketWifiChina": {
+    "heading": "中国旅行に最適なポケットWiFi",
+    "hero": {
+      "para1": "中国での滞在中にインターネット接続を維持することは、観光客や出張者にとって非常に重要です。にぎやかな都市を移動したり、会議を調整したりする際には、信頼性の高いインターネットが欠かせません。しかし、従来のローミングや現地SIMカードには制限がある場合があります。高額なローミング料金に驚いたり、到着後にSIMカードを探し回ったり、中国のインターネット規制に悩まされる心配はもうありません。",
+      "para2": "ポケットWiFiデバイスは、スムーズな接続を提供する最適なソリューションです。このコンパクトで携帯性に優れたデバイスは、超高速かつ無制限のデータ通信を提供し、すべてのデバイスで使用可能です。複雑な設定やSIMカードの煩わしさもなく、信頼性が高く手頃な価格でインターネットに接続できます。中国旅行の前にレンタルするだけで、旅の間ずっとネットに接続できます。"
+    },
+    "wifiPlan": {
+      "title": "YoowifiポケットWiFiプラン",
+      "titlefollow": "Yoowifiは、中国への旅行者向けに便利なポケットWiFiプランを提供しています。現地SIMカードや複雑な設定が不要で、シームレスな接続が可能です。",
+      "plans": [
+        {
+          "title": "日額料金",
+          "description": "Yoowifiのモンスタープランは、1日S$2.50から利用でき、1日あたり3GBまたは10GBのデータ量、最大150Mbpsの速度が選べます。"
+        },
+        {
+          "title": "フェアユースポリシー (FUP)",
+          "description": "各プランには1日のデータ上限が設定されており、その上限に達すると通信速度が制限されます。"
+        },
+        {
+          "title": "配送と返却の流れ",
+          "description": "Yoowifiは、柔軟な配送および返却オプションを提供しています。複数の受け取り拠点からのセルフピックアップまたは旅行の5営業日前までの無料配達を選択可能です。返却も簡単で、国内20か所以上の返却拠点に返却できます。"
+        },
+        {
+          "title": "キャンセルポリシー",
+          "description": "予約をキャンセルする場合は、カスタマーサポートまでご連絡ください。キャンセルには弊社の規約が適用されます。"
+        }
+      ]
+    },
+    "wifiFeatures": {
+      "title": "YoowifiポケットWiFiの特長（中国向け）",
+      "titlefollow": "中国旅行中に快適に接続を維持するために、YoowifiのポケットWiFiが選ばれる主な理由をご紹介します。",
+      "features": [
+        {
+          "title": "お得な料金プラン",
+          "description": "1日S$2.50から、3GBまたは10GBのデータを毎日利用可能。"
+        },
+        {
+          "title": "高速通信",
+          "description": "最大150Mbpsの4G LTE通信を体験可能。"
+        },
+        {
+          "title": "データ無制限",
+          "description": "データ上限に達した後でも、3Mbpsの速度で無制限に利用可能。"
+        },
+        {
+          "title": "選べるデータプラン",
+          "description": "標準プランや大容量プランなど、ヘビーユーザー向けのオプションも用意（最大200GB）。"
+        },
+        {
+          "title": "複数デバイス同時接続",
+          "description": "最大10台のデバイスを同時に接続可能。家族旅行やチームでの使用に最適。"
+        },
+        {
+          "title": "長時間バッテリー",
+          "description": "1回の充電で最大12時間連続使用可能（1台接続時）。"
+        },
+        {
+          "title": "旅行に最適なデザイン",
+          "description": "コンパクトで持ち運びやすく、軽量設計。"
+        },
+        {
+          "title": "簡単な充電方式",
+          "description": "USBまたはコンセントから充電可能。ケーブルはすべて付属。"
+        },
+        {
+          "title": "簡単なプラン管理",
+          "description": "必要に応じて日数を延長したり、プランのアップグレードが可能。"
+        },
+        {
+          "title": "レンタルまたは購入可能",
+          "description": "短期使用にはレンタル、長期使用には購入も選択可能。"
+        },
+        {
+          "title": "全国対応エリア",
+          "description": "北京、上海、深圳など、中国本土の主要都市で使用可能。"
+        }
+      ]
+    },
+    "whyUse": {
+      "title": "ポケットWiFiを使う理由",
+      "titlefollow": "中国旅行中にインターネット接続を維持するために、ポケットWiFiが最適な選択肢である理由はこちら：",
+      "benifits": [
+        {
+          "title": "ローミング料金の回避",
+          "description": "シンガポールの通信会社の高額なローミング料金を回避し、手頃な日額料金を利用。"
+        },
+        {
+          "title": "安定した接続",
+          "description": "中国国内の主要都市や地方でもインターネットに安定接続。"
+        }
+      ],
+      "extraBenifits": [
+        {
+          "title": "複数デバイスの同時接続：",
+          "description": "1台のポケットWiFiでスマホ、タブレット、ノートPCなどを同時接続可能。"
+        },
+        {
+          "title": "SIM交換不要：",
+          "description": "互換性の心配は不要。電源を入れるだけですぐに接続可能。"
+        },
+        {
+          "title": "グループに最適",
+          "description": "家族やチームなど一緒に旅行する人々に最適で、簡単に共有でき、無制限に利用可能です。"
+        }
+      ]
+    },
+    "howToGet": {
+      "title": "中国向けポケットWiFiの入手方法",
+      "titlefollow": "以下は、中国旅行に向けてポケットWiFiを予約するための簡単なステップバイステップガイドです：",
+      "steps": [
+        {
+          "title": "Yoowifiアプリをダウンロードするか、yoowifi.comにアクセス。"
+        },
+        {
+          "title": "プランを選び、レンタルまたはチャージを選択。"
+        },
+        {
+          "title": "データ容量を選択（例：3GBまたは10GB／日）。"
+        },
+        {
+          "title": "渡航先（中国）を選択。"
+        },
+        {
+          "title": "旅行日程（開始日と終了日）を選択。"
+        },
+        {
+          "title": "使用するデバイスの数を入力し、「次へ」をタップしてプランの概要と合計料金を確認。"
+        },
+        {
+          "title": "配送または自己受け取りの希望方法を選択。"
+        },
+        {
+          "title": "チェックアウトへ進み、支払いを完了。"
+        }
+      ]
+    },
+    "deliveryOptions": {
+      "title": "配送オプション",
+      "titlefollow": "ポケットWiFiを簡単に受け取るか、柔軟で旅行者に優しいオプションから選んで受け取り方法を決めましょう。",
+      "plans": [
+        {
+          "title": "セルフピックアップ",
+          "description": "ご自身で受け取りたいですか？シンガポール内の複数の便利な受け取り場所からお選びいただけます。旅行の5日前までにデバイスを受け取ることができ、計画的な方に最適です。"
+        },
+        {
+          "title": "標準配送",
+          "description": "出発の5営業日前までに国内配送が可能で、料金はS$1.99です。返品用の郵送袋も付属しており、簡単に返却できます。事前注文の場合、通常は出発の3日前までに配送されます。"
+        },
+        {
+          "title": "エクスプレス配送",
+          "description": "もっと早く必要ですか？S$10のエクスプレス配送サービスを選択すると、午後2時までのご注文で2営業日以内にデバイスを受け取れます。返品用郵送袋も含まれています。"
+        },
+        {
+          "title": "スーパーエクスプレス配送",
+          "description": "同日配送をご希望の場合は、S$20のスーパーエクスプレス配送をお選びください。午後2時までにご注文いただくと、当日の営業日中にデバイスをお届けします。返品用郵送袋も付属しています。"
+        }
+      ]
+    },
+    "conparision": {
+      "title": "中国でのポケットWiFiとSIM/eSIMの比較",
+      "titlefollow": "中国でポケットWiFiとSIMまたはeSIMのどちらを選ぶかは旅行のニーズによります。以下は、中国で接続を保つための最適なオプションを選ぶのに役立つ簡単な比較です。",
+      "comparisionTable": {
+        "th": {
+          "1": "特徴",
+          "2": "ポケットWiFi",
+          "3": "SIM/eSIM"
+        },
+        "tr": [
+          {
+            "1": "適している人",
+            "2": "旅行者、リモートワーカー、家族、ソーシャルメディア愛好家",
+            "3": "個人向けのパーソナライズされたデータ、短期・長期滞在に最適"
+          },
+          {
+            "1": "カバレッジ国数",
+            "2": "90か国以上",
+            "3": "世界160か国以上"
+          },
+          {
+            "1": "速度",
+            "2": "最大150Mbps",
+            "3": "最大4G LTE速度"
+          },
+          {
+            "1": "データオプション",
+            "2": "1日あたり3GBから年間200GBまで、チャージの柔軟性あり",
+            "3": "1日あたり500MBから月30GBまでの柔軟なプラン"
+          },
+          {
+            "1": "設定",
+            "2": "簡単にプラグアンドプレイ、SIM不要",
+            "3": "QRコードやインストール手順で迅速にSIM/eSIMをアクティベート"
+          },
+          {
+            "1": "共有",
+            "2": "最大10台のデバイスで共有可能",
+            "3": "SIM/eSIMにつき1台のデバイスに限定"
+          },
+          {
+            "1": "プラン",
+            "2": "年間プランや日割りプランあり",
+            "3": "1日から1か月までの柔軟なプラン"
+          },
+          {
+            "1": "バッテリー寿命",
+            "2": "最大12時間の連続使用",
+            "3": "デバイスによる"
+          },
+          {
+            "1": "アクティベーション方法",
+            "2": "デバイスの電源を入れ、WiFi名を見つけてパスワードで接続",
+            "3": "アプリまたはSIM挿入後にデータローミングを有効化してアクティベート"
+          },
+          {
+            "1": "料金",
+            "2": "1日あたりS$2.50から",
+            "3": "データ容量と期間により変動"
+          },
+          {
+            "1": "柔軟性",
+            "2": "短期レンタルまたは長期購入が可能",
+            "3": "柔軟に購入・チャージ可能なSIM/eSIM"
+          }
+        ]
+      }
+    },
+    "ImportantConsiderations": {
+      "title": "中国のインターネット — 重要な考慮事項",
+      "titlefollow": "中国に旅行する際は、現地のインターネット環境を理解することが、接続を維持し必要な情報にアクセスするために重要です。",
+      "considerations": [
+        {
+          "title": "VPNの制限",
+          "description": "ポケットWiFiデバイス自体はVPN機能を提供しません。ブロックされたコンテンツにアクセスするには、中国到着前にデバイスにVPNをインストールする必要があります。"
+        },
+        {
+          "title": "フェアユースポリシー（FUP）",
+          "description": "出発の5営業日前までに国内配送が可能で、料金はS$1.99です。返品用の郵送袋も付属しており、簡単に返却できます。事前注文の場合、通常は出発の3日前までに配送されます。"
+        },
+        {
+          "title": "ポケットWiFi＋VPN",
+          "description": "ポケットWiFiデバイスとVPNアプリを組み合わせることは実用的な解決策です。ポケットWiFiは中国全土で安定したインターネットアクセスを提供し、VPNは制限されたウェブサイトやサービスへのアクセスを可能にします。"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "中国向けポケットWiFiに関するよくある質問",
+      "faqs": [
+        {
+          "question": "ポータブルWiFiにはSIMカードが必要ですか？",
+          "answer": "従来のポータブルWiFiはSIMカードが必要ですが、YoowifiのポケットWiFiはクラウドSIM技術を採用しており、物理的なSIMカードの差し替えなしに最適なネットワークに自動接続できます。"
+        },
+        {
+          "question": "ポケットWiFiにVPNをインストールできますか？",
+          "answer": "ポケットWiFi本体に直接VPNをインストールすることはできませんが、スマホやタブレット、ノートパソコンなどの端末にVPNをインストールすれば、ポケットWiFiを使用しながら制限されたコンテンツにアクセスできます。"
+        },
+        {
+          "question": "毎日充電する必要がありますか？",
+          "answer": "ポケットWiFiのバッテリーは1回の充電で最大12時間持続しますので、ご使用状況に応じて毎日充電が必要になる場合があります。"
+        },
+        {
+          "question": "中国でポケットWiFiをレンタルできますか？",
+          "answer": "はい、Yoowifiから中国で使えるポケットWiFiをレンタル可能です。国際宅配サービスも対応しており、地元のDHLなどの宅配業者に機器を受け取ってもらう手配ができます。"
+        },
+        {
+          "question": "中国でのWiFiの料金はいくらですか？",
+          "answer": "中国では、WiFiの料金は接続タイプや場所によって大きく異なる場合があります。中国へ旅行する場合、Yoowifiを通じてシンガポールでポケットWiFiを購入またはレンタルできます。プランは1日S$2.50から利用でき、高速データと簡単な接続を提供します。"
+        },
+        {
+          "question": "ポケットWiFiを紛失したらどうなりますか？",
+          "answer": "中国でポケットWiFiを紛失または破損した場合、100シンガポールドルの弁償料金が発生し、旅行用ポーチやUSBケーブルの紛失はそれぞれ20シンガポールドルの費用がかかります。"
+        },
+        {
+          "question": "中国での接続速度はどのくらいですか？",
+          "answer": "中国では接続速度は通常3Gから4G LTEの範囲で、高速プランの場合、YoowifiのポケットWiFiは最大150Mbpsの速度を提供します。"
+        }
+      ]
+    }
+  },
+  "pocketWifiJapan": {
+    "heading": "日本旅行に最適なポケットWiFi",
+    "hero": {
+      "para1": "シームレスな接続で日本の冒険を解き放とう。東京の複雑な地下鉄をナビゲートしたり、京都の標識を翻訳したり、大阪でビジネスミーティングを調整したりする際にも、信頼できるインターネットは不可欠です。シンガポールのプロバイダーからの高額なローミング料金や、現地のSIM登録や言語の壁による手間を避けましょう。",
+      "para2": "そんな時、ポケットWiFiが優れた選択肢となります。高速な4G LTE速度、無制限のデータ、多数のデバイス対応で、日本の旅全体を通じて簡単かつ信頼性の高いオンライン環境を提供します。技術的な手間やSIMの入れ替えは不要で、到着した瞬間から即時で安全なインターネットを利用可能です。"
+    },
+    "wifiPlan": {
+      "title": "Yoowifi ポケットWiFiプラン",
+      "titlefollow": "Yoowifiは日本へ向かう旅行者向けに便利なポケットWiFiプランを提供しています。現地のSIMカードや複雑な設定の手間なく、シームレスな接続を実現します。",
+      "plans": [
+        {
+          "title": "日額料金",
+          "description": "ポケットWiFiのレンタル価格はわずかS$2.50/日から。日本国内での高速データ3GBまたは10GBからお選びいただけます。"
+        },
+        {
+          "title": "フェアユースポリシー（FUP）",
+          "description": "1日のデータ使用量上限に達した場合でも、速度制限（最大3Mbps）付きで無制限にデータ利用を継続できます。"
+        },
+        {
+          "title": "配送および返却手続き",
+          "description": "シンガポール国内での標準配送は無料です。多くの受け取り拠点でのセルフピックアップも選べます。返却はYoowifiのキオスクへ持ち込むか、同梱の返送用バッグを利用してください。"
+        },
+        {
+          "title": "キャンセルポリシー",
+          "description": "プランはサポートチームへの連絡によりキャンセル可能で、当社の利用規約に従って処理されます。"
+        }
+      ]
+    },
+    "wifiFeatures": {
+      "title": "Yoowifiの日本向けポケットWiFiの特徴",
+      "titlefollow": "旅行者に選ばれるYoowifiポケットWiFiの理由はこちらです",
+      "features": [
+        {
+          "title": "高速4G LTE",
+          "description": "最大150Mbpsの4G LTE速度でサーフィンやストリーミング、ナビゲーションが可能です。"
+        },
+        {
+          "title": "無制限データ",
+          "description": "使用量の上限なし。高速データ利用後も速度制限付きで継続利用可能です。"
+        },
+        {
+          "title": "マルチデバイス対応",
+          "description": "最大10台のデバイスを同時接続可能。家族や友人、仕事のグループに最適です。"
+        },
+        {
+          "title": "携帯に便利なデザイン",
+          "description": "軽量でコンパクト、ポケットやバッグに簡単に収まります。"
+        },
+        {
+          "title": "長時間バッテリー",
+          "description": "1回の充電で最大12時間の連続使用が可能です。"
+        },
+        {
+          "title": "広範囲のカバレッジ",
+          "description": "東京、京都、大阪、北海道、さらには地方の町でも安定した電波を提供します。"
+        }
+      ]
+    },
+    "whyUse": {
+      "title": "ポケットWiFiを使う理由",
+      "titlefollow": "日本旅行でポケットWiFiは便利なだけでなく、賢い旅行テクノロジーです。その理由はこちら：",
+      "benifits": [
+        {
+          "title": "ローミング料金を回避",
+          "description": "シンガポールのプロバイダーからの思わぬ請求を避けられます。"
+        },
+        {
+          "title": "安定したインターネット接続",
+          "description": "不安定なホテルや公共WiFiとは異なり、日本全国で繋がり続けます。"
+        }
+      ],
+      "extraBenifits": [
+        {
+          "title": "複数接続可能",
+          "description": "1台のデバイスで最大10台のスマホ、タブレット、ノートPCなどを接続できます。"
+        },
+        {
+          "title": "SIM不要",
+          "description": "互換性や現地SIMカードのルールを気にせずに済みます。"
+        },
+        {
+          "title": "グループに最適",
+          "description": "家族やビジネスチームが1つのホットスポットを共有してシームレスに使えます。"
+        }
+      ]
+    },
+    "howToGet": {
+      "title": "日本でポケットWiFiを入手する方法",
+      "titlefollow": "日本旅行のためにポケットWiFiを予約する簡単なステップバイステップガイドです",
+      "steps": [
+        {
+          "title": "yoowifi.comで注文するか、アプリをダウンロードしてください。"
+        },
+        {
+          "title": "希望のデータプランを選び、レンタルサービスを選択します。"
+        },
+        {
+          "title": "目的地として日本を選択します。"
+        },
+        {
+          "title": "旅行の日程を選択します。"
+        },
+        {
+          "title": "利用予定のデバイス数を入力し、「次へ」をタップします。"
+        },
+        {
+          "title": "配送またはセルフピックアップを選びます。"
+        },
+        {
+          "title": "その後、チェックアウトして支払いを完了してください。"
+        }
+      ]
+    },
+    "deliveryOptions": {
+      "title": "配送オプション",
+      "titlefollow": "Yoowifiは柔軟な配送方法を提供しており、ご希望に合わせてポケットWiFiを受け取れます：",
+      "plans": [
+        {
+          "title": "セルフピックアップ",
+          "description": "シンガポール内の便利な受け取り拠点でポケットWiFiを受け取れます。日本出発の最大5日前から受け取り可能で、準備やテストができます。"
+        },
+        {
+          "title": "標準配送",
+          "description": "標準配送は通常、出発予定日の3～5営業日前に行われ、S$1.99の料金です。返送用のプリペイドメールバッグが含まれており、返却が簡単です。"
+        },
+        {
+          "title": "エクスプレス配送",
+          "description": "午後2時までの注文で、2営業日以内にポケットWiFiをお届けします。返却用封筒も含まれており、返却がスムーズです。"
+        },
+        {
+          "title": "スーパーエクスプレス配送",
+          "description": "急ぎの場合はS$20のスーパーエクスプレス配送を選択可能。午後2時までに注文すると当日中に配達されます。"
+        }
+      ]
+    },
+    "whatToExpect": {
+      "title": "日本で期待できること",
+      "titlefollow": "日本は高度なモバイルインフラで知られていますが、どこでも安定したインターネット接続が保証されているわけではありません",
+      "expectations": [
+        {
+          "title": "速度と信頼性",
+          "description": "東京、大阪、京都などの主要都市では強固なインフラがありますが、地方では課題がある場合があります。"
+        },
+        {
+          "title": "必須の旅行アプリ",
+          "description": "Googleマップ、翻訳アプリ、配車アプリを途切れずに使用できます。"
+        },
+        {
+          "title": "公共WiFiの制限",
+          "description": "空港、駅、カフェなど限られた場所で無料WiFiがあります。ポケットWiFiなら日本全国で安定した接続を確保します。"
+        }
+      ]
+    },
+    "conparision": {
+      "title": "日本でのポケットWiFiとSIM/eSIMの比較",
+      "titlefollow": "日本でのポケットWiFiとSIMまたはeSIMの選択は旅行のニーズによります。どちらが日本での接続に最適かを比較しました。",
+      "comparisionTable": {
+        "th": {
+          "1": "特徴",
+          "2": "ポケットWiFi",
+          "3": "SIM/eSIM"
+        },
+        "tr": [
+          {
+            "1": "対象",
+            "2": "グループ、家族、旅行者、リモートワーカー",
+            "3": "一人旅または長期滞在者"
+          },
+          {
+            "1": "対応国数",
+            "2": "90か国以上",
+            "3": "160か国以上"
+          },
+          {
+            "1": "速度",
+            "2": "最大150Mbps",
+            "3": "最大4G LTE速度"
+          },
+          {
+            "1": "データプラン",
+            "2": "1日3GB～年間200GB",
+            "3": "1日500MB～月30GB"
+          },
+          {
+            "1": "設定方法",
+            "2": "簡単プラグアンドプレイ",
+            "3": "QRコードで素早くアクティベート"
+          },
+          {
+            "1": "共有機能",
+            "2": "最大10台接続可能",
+            "3": "SIM/eSIMあたり1台のみ"
+          },
+          {
+            "1": "プラン",
+            "2": "柔軟なプラン設定",
+            "3": "最大12時間の使用"
+          },
+          {
+            "1": "バッテリー持続時間",
+            "2": "最大12時間",
+            "3": "デバイスにより異なる"
+          },
+          {
+            "1": "アクティベーション",
+            "2": "電源オン、WiFi名を見つけてパスワードで接続",
+            "3": "アプリで有効化、またはSIM挿入後データローミングを有効化"
+          },
+          {
+            "1": "料金",
+            "2": "S$2.50/日から",
+            "3": "データ量と期間により異なる"
+          },
+          {
+            "1": "柔軟性",
+            "2": "短期レンタルまたは長期購入が可能",
+            "3": "SIM/eSIM購入でいつでもチャージ可能"
+          }
+        ]
+      }
+    },
+    "ImportantConsiderations": {
+      "title": "日本のインターネット利用における重要な注意点",
+      "titlefollow": "日本旅行時に接続を維持し必要な情報にアクセスするために、現地のインターネット環境を理解することが重要です。",
+      "considerations": [
+        {
+          "title": "VPNの制限",
+          "description": "ポケットWiFi自体にはVPN機能がありません。ブロックされたコンテンツにアクセスするには、日本到着前に端末にVPNをインストールしてください。"
+        },
+        {
+          "title": "フェアユースポリシー（FUP）",
+          "description": "出発5営業日前までに国内配送（S$1.99）を利用可能。返却用のメールバッグも付属し、返却が簡単です。予約が早ければ通常3日前までに配送されます。"
+        },
+        {
+          "title": "ポケットWiFiとVPNの併用",
+          "description": "ポケットWiFiとVPNアプリを組み合わせることで、日本全国で信頼できるインターネットアクセスを確保しつつ、制限されたウェブサイトやサービスにもアクセス可能です。"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "日本向けポケットWiFiに関するよくある質問",
+      "faqs": [
+        {
+          "question": "ポータブルWiFiにはSIMカードが必要ですか？",
+          "answer": "いいえ、当社のポータブルWiFiはクラウドSIM技術を使用しており、日本の最良のローカルネットワークに接続されます。物理的なSIMカードは不要です。"
+        },
+        {
+          "question": "日本でポケットWiFiはいくらかかりますか？",
+          "answer": "日本でのポケットWiFiレンタルは、通常1日あたり770円から1,320円で無制限データが利用でき、月額では約4,980円です。価格はプロバイダー、データ制限、機能によって異なる場合があります。"
+        },
+        {
+          "question": "ポケットWiFi端末を紛失したらどうなりますか？",
+          "answer": "ポケットWiFi端末の紛失や破損には、S$100の交換手数料と、旅行用ポーチまたはUSBケーブル1つにつきS$20の手数料が発生します。"
+        },
+        {
+          "question": "日本での接続速度はどれくらいですか？",
+          "answer": "日本での接続速度は場所やネットワークによって異なります。北京や上海などの大都市では4G/LTEの速度は一般的に高速ですが、地方では遅くなることがあります。YoowifiのポケットWiFiは最適なパフォーマンスのために自動的に最適なネットワークを選択します。"
+        },
+        {
+          "question": "日本の空港でポケットWiFiを購入できますか？",
+          "answer": "はい、日本の空港でポケットWiFiを購入することは可能ですが、価格が高くなることが多いです。事前にシンガポールのYoowifiからレンタルすることで、到着時にすぐに利用できます。"
+        },
+        {
+          "question": "日本でポケットWiFiをレンタルできますか？",
+          "answer": "はい、シンガポールから日本でポケットWiFiをレンタルできます。ご要望に応じて国際配送も対応しています。"
+        },
+        {
+          "question": "ポケットWiFiには速度制限がありますか？",
+          "answer": "いいえ、YoowifiのポケットWiFiは端末にVPNを直接インストールすることはできません。ただし、接続されたスマートフォン、ノートパソコン、またはタブレットでVPNを使用すれば、中国滞在中に制限されたウェブサイトにアクセスできます。"
+        },
+        {
+          "question": "ポケットWiFiにVPNをインストールできますか？",
+          "answer": "いいえ、VPNはスマートフォンやノートパソコンなどご自身の端末にインストールする必要があります。ポケットWiFiは日本でのインターネット接続のみを提供します。"
+        },
+        {
+          "question": "日本の複数の都市で使用できますか？",
+          "answer": "はい、当社のポケットWiFiは東京、大阪、京都など日本各地でシームレスに使用できます。"
+        }
+      ]
+    }
+  },
+  "eSimChina": {
+    "heading": "中国旅行に最適なeSIM",
+    "hero": {
+      "para1": "多様で活気あふれる中国の旅でも、常に接続を保ちましょう。北京でGoogleマップを使ったり、万里の長城からWeChatやTikTokで瞬間を共有したりする際に、信頼できるインターネット接続はスムーズで充実した体験の鍵となります。高額なローミング料金を避け、現地到着後にSIMカードを探す手間を省きましょう。",
+      "para2": "そこでYoowifiのeSIMが役立ちます。中国の探検に欠かせないシームレスな接続を提供します。安心してナビゲートし、体験を共有できるよう、信頼性が高く手頃なインターネットアクセスを常にご提供します。",
+      "imageHeading": "Yoowifiの中国プラン",
+      "para3": "Yoowifiは中国旅行向けに柔軟で手頃な価格のeSIMプランを提供しています。1日わずかS$0.75から始まり、これらのデータ専用eSIMは最大4Gの高速接続を提供し、快適にブラウジング、ストリーミング、ナビゲートが可能です。",
+      "para4": "さらに、中国向けのeSIMはシンプルなQRコードとインストール手順が付属しており、迅速にアクティベーションできます。Yoowifiは中国内で利用可能な最良のサービスオペレーターに接続し、最適なカバレッジと速度を保証します。データの有効期限は、初回使用時から開始されます。",
+      "para5": "プランは多様で、1日あたり500MBから月あたり30GBまであり、短期の1日旅行から1ヶ月の長期旅行まであらゆる旅行に対応しています。"
+    },
+    "getSim": {
+      "title": "中国向けeSIMの取得方法",
+      "titlefollow": "中国向けeSIMの取得は簡単です！迅速に接続するための簡単なステップをご紹介します",
+      "plans": [
+        {
+          "title": "プランと旅行の詳細を選択",
+          "description": "旅行の期間と予想されるデータ使用量に最適なeSIMオプションを選んでください。"
+        },
+        {
+          "title": "中国向けeSIMをアクティベート",
+          "description": "購入完了後、ユニークなQRコードと簡単な説明書が届きます。対応デバイスでコードをスキャンするだけで、迅速かつ即時にアクティベーションが完了します。"
+        }
+      ]
+    },
+    "whatsBetter": {
+      "title": "eSIMと物理SIMカードの違い - どちらが良い？",
+      "titlefollow": "Yoowifiはすべての方に合うわけではないことを知っているので、選択肢を提供します。デジタルノマドでもカジュアルな旅行者でも、あなたをサポートします：",
+      "esim": {
+        "title": "eSIM",
+        "points": {
+          "1": "QRコードによる高速アクティベーション - 即時接続",
+          "2": "SIMの差し替え不要",
+          "3": "国際旅行に便利",
+          "4": "すべてのネットワーク/携帯電話がeSIMに対応しているわけではありません"
+        }
+      },
+      "pocketWifi": {
+        "title": "物理SIMカード",
+        "points": {
+          "1": "ほとんどの携帯電話で利用可能",
+          "2": "デバイス変更時にSIMを簡単に交換可能",
+          "3": "テクノロジーに詳しくないユーザーに最適",
+          "4": "物理的な配送または受け取りが必要"
+        }
+      }
+    },
+    "simFeatures": {
+      "title": "中国での接続にYoowifiを選ぶ理由",
+      "titlefollow": "Yoowifiは、中国で信頼できる接続を必要とするシンガポールの観光客にとっての頼れるソリューションであり、その理由は以下の通りです",
+      "features": [
+        {
+          "title": "手頃な料金",
+          "description": "わずかS$0.75から始まるeSIMオプションで接続しましょう。"
+        },
+        {
+          "title": "高速接続",
+          "description": "使用制限なし、高速データの後に速度制限されたアクセスが続きます。"
+        },
+        {
+          "title": "柔軟なオプション",
+          "description": "ポケットWiFi、従来のSIMカード、または中国向けeSIMなど、接続に必要なすべてのオプションを提供します。"
+        },
+        {
+          "title": "複数デバイス対応",
+          "description": "中国向けポケットWiFiを選択すると、最大10台のデバイスを同時にサポートできます。"
+        },
+        {
+          "title": "24時間年中無休のサポート",
+          "description": "eSIMやその他の問い合わせについて、24時間対応のカスタマーサポートを提供しています。"
+        },
+        {
+          "title": "広範囲のカバレッジ",
+          "description": "東京、京都、大阪、北海道、さらには田舎の町でも信頼できる信号を提供します。"
+        }
+      ]
+    },
+    "deliveryPickup": {
+      "title": "配送＆受け取りオプション",
+      "titlefollow": "従来のSIMまたはポケットWiFiを選択する場合、Yoowifiは注文を簡単に受け取れる便利な配送および受け取りオプションを提供します",
+      "steps": [
+        {
+          "title": "標準配送",
+          "description": "3〜4営業日以内に注文を受け取ります。"
+        },
+        {
+          "title": "速達配送",
+          "description": "すぐに必要ですか？翌営業日配送（締め切り：午後9時）を選択してください。"
+        },
+        {
+          "title": "自分で受け取り",
+          "description": "より柔軟に、20か所以上の便利な場所から注文を受け取れます。"
+        }
+      ]
+    },
+    "setupActivation": {
+      "title": "設定＆アクティベーションガイド",
+      "titlefollow": "タイ、中国、その他の国のeSIMを入手しても、Yoowifiは簡単に接続できるようにします。",
+      "titlefollow2": "eSIM QRコードのアクティベーション（WiFiまたはデータ接続が必要）",
+      "guides": [
+        {
+          "device": "iOS",
+          "steps": [
+            "「設定」に移動します。",
+            "「モバイルサービス」または「モバイル」をタップします。",
+            "「eSIMを追加」または「モバイルプランを追加」をタップします。",
+            "「QRコードを使用」をタップし、eSIMのQRコードをスキャンします。",
+            "データローミングを有効にすると、タイ向けのeSIMが利用可能になります。"
+          ]
+        },
+        {
+          "device": "Samsung/Android",
+          "steps": [
+            "「設定」+「接続」に移動します。",
+            "「SIMマネージャー」をタップします。",
+            "「eSIMを追加」をタップします。",
+            "「QRコードをスキャン」または「アクティベーションコードを入力」をタップします。",
+            "「追加」または「確認」をタップしてeSIMをデバイスに追加します。タイ向けのeSIMが利用可能になります。"
+          ]
+        },
+        {
+          "device": "物理SIMのインストールガイド",
+          "steps": [
+            "デバイスの電源を切ります。",
+            "SIMカードを挿入します。",
+            "デバイスの電源を入れます。",
+            "データローミングを有効にします。"
+          ]
+        }
+      ]
+    },
+    "thingsToKnow": {
+      "title": "中国向けeSIM購入前に知っておくべきこと",
+      "titlefollow": "中国向けeSIMを購入する前に、知っておくべき重要なポイントがあります",
+      "steps": [
+        {
+          "title": "eSIM互換性チェック",
+          "description": "すべてのデバイスが対応しているわけではないため、eSIMテクノロジーに対応していることを確認してください。"
+        },
+        {
+          "title": "パスポートの要件",
+          "description": "国内のSIM登録に関するパスポートの要件に注意してください。eSIMを有効化するためにパスポート情報を求められる場合があります。"
+        },
+        {
+          "title": "ローミング費用",
+          "description": "中国でeSIMを使わない場合にかかる可能性のあるローミング料金を理解してください。これらの料金は高額になる可能性があるため、eSIMはお金の節約になります。"
+        },
+        {
+          "title": "速度とカバレッジの期待",
+          "description": "プロバイダーによって速度とカバレッジが異なるため、調査してください。Yoowifiは高速接続を提供するよう努めていますが、地域によって異なる場合があります。"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "当社のeSIM中国に関するよくある質問",
+      "faqs": [
+        {
+          "question": "我的手機支援eSIM嗎？",
+          "answer": "eSIM的相容性因設備和電信運營商而異。請查看您手機的規格說明或運營商網站，確認您的設備是否支援中國的eSIM。"
+        },
+        {
+          "question": "如果我在中國的數據用完了怎麼辦？",
+          "answer": "Yoowifi為中國eSIM提供多種數據套餐。您可以通過Yoowifi應用程式或網站輕鬆充值，確保旅途中持續連接。"
+        },
+        {
+          "question": "中國的旅遊SIM卡多少錢？",
+          "answer": "與eSIM類似，中國旅遊SIM卡的費用根據供應商、數據額度和有效期不同而變化。價格範圍從實惠的日套餐到更全面的月套餐不等。"
+        },
+        {
+          "question": "使用中國eSIM時，我可以保持新加坡號碼啟動嗎？",
+          "answer": "許多雙SIM手機允許同時使用新加坡號碼和中國eSIM。這樣您可以在使用eSIM數據的同時，接聽和接收新加坡號碼的電話和短信。"
+        },
+        {
+          "question": "使用中國eSIM需要VPN嗎？",
+          "answer": "是的，即使使用eSIM，中國某些網站仍可能被屏蔽。如果您需要不受限制的網絡訪問，建議使用VPN。"
+        }
+      ]
+    }
+  },
+  "eSimThailand": {
+    "heading": "タイ旅行に最適なeSIM",
+    "hero": {
+      "para1": "タイでの冒険中もつながり続けましょう。バンコクでGoogleマップを使ったり、プーケットからInstagramに投稿したりするとき、信頼できるインターネットアクセスはストレスフリーな旅のパスポートです。",
+      "para2": "Yoowifiは旅行者に信頼される高品質な接続ソリューションを提供します。接続の問題はなく、タイ全土で信頼性が高く手頃なインターネットをご利用いただけます。",
+      "imageHeading": "Yoowifiのタイプラン",
+      "para3": "Yoowifiの柔軟でお手頃なeSIMオプションでタイ全土での簡単な接続を実現。1日わずかシンガポールドル1ドルから高速4Gデータにアクセスでき、快適なブラウジングとスムーズなナビゲーションを保証します。",
+      "para4": "開始は簡単です：提供されたQRコードをスキャンするだけで、SIMの入れ替えや店舗訪問は不要。シンプルなインストール手順に従ってすばやくアクティベートできます。さらに、Yoowifiはタイで利用可能な最強のネットワークオペレーターに自動的に接続し、どこにいても最適なカバレッジと速度を保証します。タイに到着してeSIMを使用開始した瞬間からデータアクセスが始まります。",
+      "para5": "多様なプランをご用意し、短時間の都市探検から長期のスマイルランド周遊まで、どんな旅程にも対応。さまざまなデータ容量と期間から選択して、自分のスタイルでつながり続けましょう。"
+    },
+    "getSim": {
+      "title": "タイのeSIMを入手する方法",
+      "titlefollow": "Yoowifiなら、接続はとても簡単。飛行機がタイに着陸する前にオンラインになれます。",
+      "plans": [
+        {
+          "title": "プランと旅行の詳細を選択",
+          "description": "旅の期間と予想されるデータ使用量に最適なeSIMオプションを選びましょう。"
+        },
+        {
+          "title": "タイのeSIMをアクティベート：",
+          "description": "購入完了後、QRコードと簡単な説明が送られます。対応デバイスでコードをスキャンするだけでタイのeSIMをアクティベートできます。"
+        }
+      ]
+    },
+    "whatsBetter": {
+      "title": "eSIMと物理SIMの違いは？どちらが良い？",
+      "titlefollow": "Yoowifiは多様な選択肢を提供します。すべての人にぴったりな1つの方法はないからです。デジタルノマドでもカジュアルな旅行者でも安心してください。",
+      "esim": {
+        "title": "eSIM",
+        "points": {
+          "1": "QRコードで素早くアクティベート—即時接続",
+          "2": "SIMカードの入れ替え不要—タイ滞在中も自分のSIMを使い続けられる",
+          "3": "重要な電話のためにメイン番号を保持",
+          "4": "出発前にアクティベート—到着したらすぐにつながる",
+          "5": "新しいスマートフォンのみ対応"
+        }
+      },
+      "pocketWifi": {
+        "title": "物理SIMカード",
+        "points": {
+          "1": "ほぼすべての携帯電話モデルで使用可能",
+          "2": "シンプルさを好む旅行者に最適",
+          "3": "互換性の心配なし",
+          "4": "タイ全土で広く入手可能",
+          "5": "物理的な配送または受け取りが必要"
+        }
+      }
+    },
+    "simFeatures": {
+      "title": "タイのeSIM購入前に知っておくべきこと",
+      "titlefollow": "タイのeSIMを購入する前に、知っておきたい重要なポイントをまとめました。",
+      "features": [
+        {
+          "title": "高速接続",
+          "description": "高速4G接続で、どこにいてもカバーされます。"
+        },
+        {
+          "title": "手頃な料金",
+          "description": "1日シンガポールドル1ドルからの驚きの低価格です。"
+        },
+        {
+          "title": "複数デバイス対応",
+          "description": "最大10台のデバイスを同時接続可能。友人や家族とシェアできます。"
+        },
+        {
+          "title": "柔軟なオプション",
+          "description": "タイ旅行に合わせたeSIM、SIMカード、ポケットWiFiの選択肢。旅のスタイルに合わせて選べます。"
+        },
+        {
+          "title": "24時間サポート",
+          "description": "24時間365日サポート体制。いつでもお手伝いします。"
+        }
+      ]
+    },
+    "deliveryPickup": {
+      "title": "配送と受け取りオプション",
+      "titlefollow": "従来のSIMカードやポケットWiFiを選んだ場合でも、Yoowifiは便利な配送・受け取りオプションを提供し、注文品を簡単に受け取れます。",
+      "steps": [
+        {
+          "title": "通常配送",
+          "description": "J&Tエクスプレスで3〜4営業日配送。計画的な旅行に最適です。"
+        },
+        {
+          "title": "速達配送",
+          "description": "翌営業日配送（午後9時までの注文）。急な旅行計画にも対応。"
+        },
+        {
+          "title": "店頭受け取り",
+          "description": "シンガポールの30以上の便利な場所でデバイスを受け取れます。"
+        }
+      ]
+    },
+    "setupActivation": {
+      "title": "セットアップ＆アクティベーションガイド",
+      "titlefollow": "タイ、 中国、その他の国のeSIMを入手しても、Yoowifiなら簡単に接続できます。",
+      "titlefollow2": "eSIM QRコードのアクティベーション（WiFiまたはデータ接続が必要）",
+      "guides": [
+        {
+          "device": "iOS",
+          "steps": [
+            "「設定」に移動します。",
+            "「モバイル通信」または「セルラー」をタップします。",
+            "「eSIMを追加」または「モバイルプランを追加」をタップします。",
+            "「QRコードを使用」をタップし、eSIMのQRコードをスキャンします。",
+            "データローミングを有効にして、タイのeSIMの準備完了です。"
+          ]
+        },
+        {
+          "device": "Samsung/Android",
+          "steps": [
+            "「設定」>「接続」に移動します。",
+            "「SIMマネージャー」をタップします。",
+            "「eSIMを追加」をタップします。",
+            "「QRコードをスキャン」または「アクティベーションコードを入力」をタップします。",
+            "「追加」または「確認」をタップし、デバイスにeSIMを追加します。タイのeSIMが利用可能になりました。"
+          ]
+        },
+        {
+          "device": "物理SIMインストールガイド",
+          "steps": [
+            "デバイスの電源を切る",
+            "SIMカードを挿入する。",
+            "デバイスの電源を入れる。",
+            "データローミングを有効にする。"
+          ]
+        }
+      ]
+    },
+    "thingsToKnow": {
+      "title": "購入前の注意事項",
+      "titlefollow": "Yoowifiでは透明性を大切にし、タイでの快適な接続体験に必要な情報をすべて提供します。",
+      "steps": [
+        {
+          "title": "eSIM対応チェック",
+          "description": "最新のeSIM対応機種は、Apple iPhone 14〜17、Samsung Galaxy S、A、Z、XCover、Google Pixel 8〜9、Sony Xperia 1〜10、Xiaomi 15シリーズ、Motorola RazrとEdge、OnePlus 13TとOpen、Honor Magic 6 Proと90、さらにVivo X100 Pro、Fairphone 5など多数含まれます。"
+        },
+        {
+          "title": "パスポートの必要性",
+          "description": "タイのローカルSIMカードを購入するにはパスポートIDが必要です。"
+        },
+        {
+          "title": "ローミング料金",
+          "description": "eSIMを使わない場合、通常のモバイルプランでタイでのローミング料金が発生する可能性があります。料金は速く積み重なることがあるため、eSIMはコスト効果の高い代替手段です。"
+        },
+        {
+          "title": "速度とカバレッジの期待",
+          "description": "タイの各プロバイダーのインターネット速度とネットワーク範囲を調査してください。Yoowifiは高速接続を目指していますが、地域によって電波強度は異なることがあります。"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "タイeSIMに関するよくある質問",
+      "faqs": [
+        {
+          "question": "私の携帯電話はeSIMに対応していますか？",
+          "answer": "2018年以降のほとんどのスマートフォンはeSIM対応です。弊社の対応確認ツールで数秒で対応状況をチェックできます。"
+        },
+        {
+          "question": "タイでデータがなくなったらどうすればいいですか？",
+          "answer": "ご安心ください。アプリやウェブサイトからすぐにデータをチャージできます。"
+        },
+        {
+          "question": "タイの観光用SIMカードはいくらですか？",
+          "answer": "eSIMと同様に、タイの観光用SIMカードの価格は選択したネットワーク、データ量、有効期間によって異なります。手頃な日単位プランから充実した月単位プランまで様々な選択肢があります。"
+        },
+        {
+          "question": "タイ用のeSIMを使いながらシンガポールの番号を維持できますか？",
+          "answer": "もちろんです。これがeSIMの利点です。タイのデータを使いながら通話には元の番号を使い続けられます。ただし、Yoowifiはシンガポール内のローカルデータサービスは提供していません。弊社のサービスは国際旅行向けに特化しています。"
+        },
+        {
+          "question": "プーケット、バンコク、チェンマイで使うならどのSIMカードが最適ですか？",
+          "answer": "eSIMと同様に、タイの観光用SIMカードの価格は選択したネットワーク、データ量、有効期間によって異なります。手頃な日単位プランから充実した月単位プランまで様々な選択肢があります。"
+        }
+      ]
+    }
+  },
+  "newPockectWifiBanner": {
+    "theNew": "新登場",
+    "pocket": "ポケット",
+    "wifi": "Wi-Fi",
+    "pocketWifi": "ポケットWi-Fi"
+  },
+  "easySteps": {
+    "heading": "無料eSIMを取得するための3つの簡単なステップ",
+    "sectionSubHeading": "数ステップで無料eSIMを請求・アクティベートできます — 手間なし、ローミング料金なし。",
+    "one": "「無料eSIMを請求」ボタンをクリックして始めましょう。",
+    "two": "氏名、メールアドレス、電話番号を入力してください。",
+    "three": "すぐにeSIMのQRコードを受け取り、アクティベートできます。",
+    "astindo": {
+      "heading": "eSIMを取得するための3つの簡単なステップ",
+      "sectionSubHeading": "数ステップでeSIMを請求・アクティベートできます — 手間なし、ローミング料金なし。",
+      "one": "「eSIMを請求」ボタンをクリックして始めましょう。",
+      "two": "氏名、メールアドレス、電話番号を入力してください。",
+      "three": "すぐにeSIMのQRコードを受け取り、アクティベートできます。"
+    }
+  },
+  "loveFreeSim": {
+    "heading": "この無料eSIMが愛される理由",
+    "sectionSubHeading": "もうSIMカードの手間や高額なローミング料金は不要です。\n以下の利便性をお楽しみください：",
+    "speed": "100以上の国で高速4G/LTE",
+    "activation": "メールで即時eSIMアクティベーション",
+    "compatiblephones": "すべてのeSIM対応端末で利用可能",
+    "absolutelyfree": "完全無料 — 隠れた料金なし",
+    "network": "安全で信頼できるネットワーク",
+    "rechargeanytime": "いつでもどこでもチャージ可能",
+    "default": {
+      "heading": "この無料eSIMが愛される理由",
+      "sectionSubHeading": "もうSIMカードの手間や高額なローミング料金は不要です。\n以下の利便性をお楽しみください：",
+      "speed": "100以上の国で高速4G/LTE",
+      "activation": "メールで即時eSIMアクティベーション",
+      "compatiblephones": "すべてのeSIM対応端末で利用可能",
+      "absolutelyfree": "完全無料 — 隠れた料金なし",
+      "network": "安全で信頼できるネットワーク",
+      "rechargeanytime": "いつでもどこでもチャージ可能"
+    },
+    "astindo": {
+      "heading": "このeSIMが愛される理由"
+    },
+    "sindoferry": {
+      "speed": "高速4G/LTE",
+      "heading": "このeSIMを気に入る理由"
+    }
+  },
+  "freesimbnr": {
+    "bannerTittle": "無料\neSIM",
+    "Trip": "旅行用",
+    "dec": "<b>JTB!</b> 提供",
+    "indonesiatraveler": "JTBの旅行者は、目的地用の無料eSIMを受け取る資格があります。\n旅行前にアクティベートして、到着時にすぐ使用可能。",
+    "buttonTittle": "無料eSIMを請求",
+    "footerText": "© 2025 JTB | 全著作権所有",
+    "sindoferrytraveler": "Sindo Ferry をご利用いただきありがとうございます。以下から eSIM を有効化して、快適に接続をお楽しみください。",
+    "sindoferrybuttonTittle": "eSIM を受け取る",
+    "sindoferryNote": "⚠️ ご注意: eSIM の QR コードは発行日から 30 日間有効です。後日ご旅行の場合は、スムーズな接続のために出発日に近いタイミングで生成してください。",
+    "astindo": {
+      "bannerTittle": "eSIM",
+      "Trip": "旅行用",
+      "dec": "<b>Astindo!</b> 提供",
+      "indonesiatraveler": "Astindoの旅行者は、目的地用の無料eSIMを受け取る資格があります。\n旅行前にアクティベートして、到着時にすぐ使用可能。",
+      "buttonTittle": "eSIMを請求",
+      "footerText": "© 2025 Astindo | 全著作権所有"
+    },
+    "ibtaFooterText": "© 2025 IBTA | 全著作権所有",
+    "phtaFooterText": "© 2025 PHTA | 全著作権所有",
+    "esim5gb7days": "eSIM 5GB 7日間",
+    "joiningChannel": "チャンネルに参加すると、旅行用の無料eSIMを受け取ることができます。出発前にアクティベートして、到着後すぐに使用できるようにしましょう。"
+  },
+  "FsimRegister": {
+    "main": "メインに戻る",
+    "header": "どこに着いてもオンラインを維持",
+    "dec": "フライトを確認するための簡単な情報入力 — その後、無料の目的地eSIMが届きます。",
+    "buttonText": "請求を続ける\n無料eSIMを取得",
+    "condition": "「続ける」をクリックすると、\n<a1>利用規約</a1>および<a2>プライバシーポリシー</a2>に同意したものとみなされます。",
+    "name": "フルネームを入力",
+    "email": "メールアドレスを入力",
+    "scanqr": "eSIMの請求に成功しました！",
+    "verifydevice": "QRコードをスキャンしてeSIMをアクティベート",
+    "activateEsim": "eSIMをアクティベート",
+    "noPlans": "利用可能なプランはありません",
+    "noVariations": "利用可能なバリエーションはありません",
+    "astindo": {
+      "header": "どこに着いてもオンラインを維持",
+      "dec": "フライトを確認するための簡単な情報入力 — その後、目的地eSIMが届きます。",
+      "buttonText": "請求を続ける\neSIMを取得",
+      "condition": "「続ける」をクリックすると、\n<a1>利用規約</a1>および<a2>プライバシーポリシー</a2>に同意したものとみなされます。",
+      "name": "フルネームを入力",
+      "email": "メールアドレスを入力",
+      "scanqr": "eSIMの請求に成功しました！",
+      "verifydevice": "QRコードをスキャンしてeSIMをアクティベート",
+      "activateEsim": "eSIMをアクティベート",
+      "noPlans": "利用可能なプランはありません",
+      "noVariations": "利用可能なバリエーションはありません"
+    },
+    "kol": {
+      "header": "どこに着いてもオンラインでいよう",
+      "dec": "フライトを確認するためにいくつかの簡単な情報を入力するだけで、目的地のWi-Fiがすぐに利用できます。",
+      "buttonText": "無料Wi-Fiを受け取る\n手続きを続ける",
+      "buttonTextWifi": "無料Wi-Fiを受け取る",
+      "buttonTextEsim": "無料eSIMを受け取る",
+      "condition": "「続ける」をクリックすると、<a1>利用規約</a1>および<a2>プライバシーポリシー</a2>に同意したものとみなされます。",
+      "name": "氏名を入力してください",
+      "email": "メールアドレスを入力してください",
+      "scanqr": "eSIMの受け取りが完了しました！",
+      "verifydevice": "QRコードをスキャンしてeSIMを有効化してください",
+      "activateEsim": "eSIMを有効化",
+      "noPlans": "利用可能なプランがありません",
+      "noVariations": "利用可能なバリエーションがありません"
+    },
+    "sq": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "sqfairid": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "avia": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "obaja": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "obaja2026": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "wita": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "wita2026": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "panorama26": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    },
+    "gdrama26": {
+      "buttonTextWifi": "Continue to Claim\nMy Free Wifi"
+    }
+  },
+  "signup": {
+    "createAccount": "登録",
+    "verifyAccount": "アカウントを確認",
+    "fillDetailsBelow": "以下に情報を入力して開始",
+    "enterOtpSent": "送信された認証コードを入力",
+    "firstName": "名",
+    "lastName": "姓",
+    "email": "メールアドレス",
+    "signUp": "サインアップ",
+    "creatingAccount": "アカウント作成中...",
+    "alreadyHaveAccount": "すでにアカウントをお持ちですか？",
+    "signIn": "サインイン",
+    "verifyOtp": "コード確認",
+    "verifying": "確認中...",
+    "didntReceiveOtp": "コードを受け取っていませんか？",
+    "resendOtp": "再送",
+    "resendingOtp": "コード再送中...",
+    "verifyCaptcha": "私はロボットではありませんを確認してください",
+    "cancel": "キャンセル",
+    "otpSent": "認証コードを送信しました！",
+    "accountCreated": "アカウントを作成しました！",
+    "registrationFailed": "登録に失敗しました。もう一度お試しください。",
+    "verificationFailed": "認証に失敗しました。もう一度お試しください。",
+    "failed": "問題が発生しました。もう一度お試しください。",
+    "processing": "処理中...",
+    "pleaseCorrectErrors": "以下のエラーを修正してください",
+    "invalidOtp": "有効な6桁のコードを入力してください",
+    "yoowifi": "<1>Yoowifi</1> および ",
+    "ana": "プライバシーポリシー",
+    "instantSignup": "即時登録",
+    "heroTitle": "今すぐ登録",
+    "benefit1": "30秒で登録完了",
+    "benefit2": "安全で暗号化済み",
+    "trustedBy": "10,000+ ユーザーが利用中",
+    "agreeToTerms": "登録することで、利用規約に同意したことになります",
+    "privacyPoliciesJoiner": " 及び ",
+    "privacyPolicyMyLink": "プライバシーポリシー",
+    "anaPrivacyPolicyLink": "ANAプライバシーポリシー",
+    "signUpInstant": "今すぐ登録",
+    "secureMessage": "あなたのデータは暗号化され、安全に保護されています",
+    "creatingyourAccount": "アカウントを作成中…",
+    "accountcreatedSuccess": "アカウントが正常に作成されました！",
+    "registrationSuccess": "ゲームに参加するために、これを引き換えスタッフに見せてください。",
+    "accountReady": "アカウントの準備が整いました！",
+    "backToForm": "引き換えフォームに戻る",
+    "createyourAccount": "アカウントを作成する",
+    "filldetailsInstant": "アカウントを作成して、ANAのメールマガジンにご登録ください",
+    "instant": "即時",
+    "secure": "安全",
+    "quickSecurity": "簡単なセキュリティチェック",
+    "captchaMessage": "サインアップを完了するために、人間であることを確認してください"
+  },
+  "validation": {
+    "firstNameRequired": "名は必須です",
+    "lastNameRequired": "姓は必須です",
+    "invalidEmail": "有効なメールアドレスを入力してください",
+    "phoneRequired": "電話番号は必須です"
+  },
+  "airasia": {
+    "indonesiatraveler": "AirAsiaの旅行者は、目的地用の無料eSIMを受け取る資格があります。\nフライト前にアクティベートして、到着時に使用可能。",
+    "footerText": "© 2025 AirAsia | 全著作権所有"
+  },
+  "freeEsimWorld": {
+    "title": "世界中で無料eSIM 🌍✨",
+    "subtitle": "スマートに旅行し、どこでも接続を維持！",
+    "intro": "旅がもっと簡単に — Yoowifi eSIMで7日間<1>無料データ（200MB/日）</1>をお楽しみください。\nSIMの差し替え不要、ローミング料金不要、どこでも即時インターネット。",
+    "howItWorks": {
+      "title": "使い方 🧳",
+      "steps": [
+        "1️⃣ ダウンロード＆アクティベート – 数分でYoowifi eSIMを入手。",
+        "2️⃣ 無料データを楽しむ – 7日間、1日200MB、完全無料。",
+        "3️⃣ もっと必要ですか？いつでもトップアップ！"
+      ]
+    },
+    "topup": {
+      "title": "数秒でデータをトップアップ 💡",
+      "desc": "データ切れですか？簡単なトップアッププランで冒険を続けましょう：",
+      "plans": [
+        "🔹 500MB – SGD $0.75/日から",
+        "🔹 1GB – SGD $1.50/日から",
+        "🔹 2GB – SGD $2.00/日から"
+      ],
+      "footer": "手頃で柔軟、必要な時にいつでも使用可能"
+    },
+    "why": {
+      "title": "旅行者がYoowifi eSIMを愛する理由 ❤️",
+      "points": [
+        "✨ 150以上の国で利用可能",
+        "✨ 即時セットアップ — 待つ必要なし、SIM不要",
+        "✨ 仕事や遊びに高速で信頼性のあるインターネット",
+        "✨ 料金は明確、隠れた費用なし"
+      ]
+    },
+    "cta": {
+      "title": "準備はできましたか？ 🚀",
+      "desc": "次の旅ではストレスフリーな接続を。",
+      "download": "👉 今すぐYoowifiアプリをダウンロードして無料eSIMを取得！",
+      "button": "無料eSIMを今すぐ取得"
+    }
+  },
+  "yoowifiNatas": {
+    "title": "個人データ処理の同意",
+    "intro": "私の個人データを提供することで、私は全日本空輸株式会社（\"ANA\"）、Yoowifi Sdn. Bhd.（\"Yoowifi\"）、および関連会社や子会社が以下の特定目的で私の個人データを収集、処理、転送、開示することに明示的に同意します：",
+    "purposes": [
+      "ANA、Yoowifi、およびその関連会社の製品・サービスに関するマーケティング資料、更新情報、オファーを送信すること。",
+      "ANA、Yoowifi、および/または関連会社間の共同プロモーションやキャンペーンに関する通知。",
+      "上記に直接関連するその他の目的で通知を受けた事項。"
+    ],
+    "acknowledgeTitle": "私は次のことを理解し、認識しています：",
+    "acknowledgements": [
+      "私の個人データは、上記の目的のみに法的に処理されます。",
+      "私の個人データはマレーシア国外（日本およびANA、Yoowifi、関連会社が事業を行うその他の国を含む）に転送・保存される場合があり、その国際転送に同意します。",
+      "個人データ保護法2010（PDPA 2010）に基づき、合理的な保護措置が適用されます。",
+      "私の個人データは、私の明示的な同意なしに第三者と共有されません、法律により要求または許可される場合を除く。",
+      "私はANA、Yoowifi、関連会社が保有する私の個人データへのアクセスおよび修正を要求する権利があります。",
+      "私はマーケティングおよびプロモーション目的での個人データ処理に対する同意を、法的または契約上の制約がある場合を除き、いつでも撤回する権利があります。"
+    ],
+    "withdrawalTitle": "同意の撤回と連絡先",
+    "withdrawalText": "同意を撤回したり、連絡先の設定を更新したりする場合は、ANA、Yoowifi、または関連会社の公式チャネルを通じて、データ保護責任者（または該当するカスタマーサービスチーム）に連絡してください。",
+    "privacyLinks": {
+      "ana": "",
+      "yoowifi": ""
+    }
+  },
+  "interntPlans": {
+    "yearly": "",
+    "monthly": "",
+    "daily": "",
+    "noPlan": ""
+  },
+  "kol": {
+    "indonesiatraveler": "Yoowifi Japan ",
+    "getFreeeSIM": "",
+    "getFreeWifi": "",
+    "termsTitle": "",
+    "termsList": [
+      " * 引き換えはお一人様一回限りです。Pocket Wifi または eSIM のいずれかをお選びください。",
+      "* Pocket Wifi の場合、配送料が発生する場合があります。",
+      "* Pocket Wifi は旅行終了後7日以内に返却してください。",
+      "* データプランおよび対応国の詳細をご確認ください。",
+      "* 一般利用規約が適用されます。"
+    ]
+  },
+  "kolButton": {
+    "buttonTextSim": "無料eSIMを申し込む",
+    "buttonTextWifi": "無料Wi-Fiを申し込む"
+  },
+  "kolInfo": {
+    "heading": "無料Wi-Fiを好きになる理由",
+    "speed": "最大150Mbpsの高速データ！",
+    "activation": "最大18時間のバッテリー寿命",
+    "compatiblephones": "最大8台のデバイスを共有可能！",
+    "absolutelyfree": "完全無料 - 隠れたローミング料金なし",
+    "rechargeanytime": "簡単にインストールして接続",
+    "pocketWifi": "ポケットWi-Fi",
+    "esim": "eSIM"
+  },
+  "kolStep": {
+    "heading": "無料WiFiを入手する3つの簡単ステップ",
+    "sectionSubHeading": "ほんの数ステップで無料WiFiを申し込み、アクティベートできます — 面倒な手続きも、ローミング料金も不要です。",
+    "one": "「引き換え」ボタンをクリックして開始します。",
+    "two": "名前、メールアドレス、携帯番号、渡航先の国、旅行開始日と終了日、配送先住所を入力してください。",
+    "three": "申し込み完了後、無料ポケットWiFiまたは無料eSIMが届くのをお待ちください！"
+  },
+  "howItConnected": {
+    "sectionHeading": "自分に合ったつながり方を選ぼう",
+    "sectionSubHeading": "ポケットWiFi、SIM、またはeSIMを選んで、どこでもオンラインに。",
+    "cards": {
+      "pocketWifi": {
+        "title": "ポケットWiFi",
+        "desc": "旅行、会議、冒険に最適なポータブルインターネット。高速で信頼性が高く、いつでも利用可能。",
+        "features": [
+          "90か国以上で年間カバー",
+          "最大6台のデバイスを共有可能",
+          "最大150Mbpsの通信速度",
+          "データ追加購入が可能",
+          "最大18時間のバッテリー持続時間"
+        ],
+        "button": "今すぐ購入"
+      },
+      "simCard": {
+        "title": "SIMカード",
+        "desc": "どこでもつながるSIMカード。シンプルで安全、いつでもすぐに使えます。",
+        "features": [
+          "ニーズに合わせた柔軟な料金設定",
+          "使用量を簡単に確認・チャージ可能",
+          "待ち時間なしですぐ接続",
+          "安全で安定した通信",
+          "複数の国でシームレスに利用可能"
+        ],
+        "button": "今すぐ購入"
+      },
+      "eSIM": {
+        "title": "eSIM",
+        "desc": "即時アクティベート、複数ネットワーク対応、物理SIM不要。いつでもどこでもスムーズに切り替え可能。",
+        "features": [
+          "即時アクティベーション",
+          "グローバル対応",
+          "ネットワークをスムーズに切り替え",
+          "環境にやさしい",
+          "簡単に管理可能"
+        ],
+        "button": "今すぐ購入"
+      }
+    }
+  },
+  "cny": {
+    "getFreeeSIM": "無料eSIMをプレゼント：かんたんインストール、7日間で1GB、すぐに使えます。",
+    "heading": "無料eSIMをおすすめする理由",
+    "sectionSubHeading": "物理SIMや高額なローミングは不要。\n以下のメリットで、かんたん・快適にインターネット接続：",
+    "termsTitle": "利用規約",
+    "termsList": [
+      "お一人様1回までの引き換え",
+      "無料eSIMは、ポケットWiFiを7日以上レンタルされたお客様のみ対象（キャンペーン期間：2026年2月28日まで）",
+      "無料eSIMは、ポケットWiFiのご注文と同一の国でのみ有効です",
+      "無料eSIMは1GB（7日間有効）を含みます",
+      "出発日が2026年4月30日以前の場合のみ適用",
+      "その他、一般利用規約が適用されます",
+      "プロモーションコード、その他のプロモーションや割引を利用した注文には適用されません。",
+      "1回の取引で注文できるeSIMは1枚のみです。"
+    ],
+    "promoText": {
+      "heading": "Pocket WiFiレンタルで888GBのデータがもらえる可能性があります！",
+      "subHeading": "Pocket WiFiをレンタルして、当選のチャンスを手に入れましょう！"
+    },
+    "ctaPrefix": "CTA :",
+    "getYoursNow": "今すぐお申し込み！",
+    "ctaSuffix": "（ウェブサイトのレンタルパッケージへのリンク）。",
+    "promoTermsTitle": "利用規約",
+    "promoTermsList": [
+      "2026年1月19日から2月28日までのプロモーション期間中にYoowifiポケットWiFiをレンタルすると、888GBデータ付きポケットWiFi端末が当たるチャンスがあります。",
+      "本抽選はシンガポール、インドネシア、フィリピン、マレーシアからのご注文が対象です。",
+      "参加地域全体から1名の当選者が選ばれます。",
+      "当選者は2026年3月2日に発表されます。",
+      "Yoowifiは利用規約を変更する権利を有します。",
+      "プロモーションコード、その他のプロモーションや割引を利用した注文には適用されません。"
+    ],
+    "howItWorks": {
+      "introText": "移動中でも接続を維持。\nPocket WiFiをレンタルして、無料のeSIMをお楽しみください—追加費用なし、手間なし。",
+      "heading": "📱 使い方",
+      "steps": [
+        {
+          "title": "Pocket WiFiをレンタル",
+          "description": "旅行先を選択し、Pocket WiFiの注文を完了してください。"
+        },
+        {
+          "title": "無料eSIMを取得",
+          "description1": "注文が確認されると、Pocket WiFiと同じ国の無料eSIMを受け取ります。",
+          "description2": "View activation of eSIM here."
+        }
+      ]
+    },
+    "howToApply": {
+      "heading": "無料eSIMの適用方法",
+      "steps": [
+        {
+          "title": "プロモコードを受け取る",
+          "description": "プロモコードを含むメールが届きます。"
+        },
+        {
+          "title": "コードを入力",
+          "description": "アプリまたはウェブサイトでプロモコードを入力してください。"
+        },
+        {
+          "title": "eSIMの準備完了！",
+          "description": "適用後、eSIMが有効化され、使用可能になります。"
+        }
+      ]
+    },
+    "eligibleCountries": {
+      "heading": "🌍 対象国",
+      "subHeading": "無料eSIMは、以下の目的地へのPocket WiFi注文で利用できます：",
+      "countries": [
+        "Austria",
+        "Australia",
+        "Belgium",
+        "Bulgaria",
+        "Cambodia",
+        "China",
+        "Croatia",
+        "Cyprus",
+        "Czech Republic",
+        "Denmark",
+        "Estonia",
+        "France",
+        "Finland",
+        "Germany",
+        "Greece",
+        "Hong Kong",
+        "Hungary",
+        "Indonesia",
+        "India",
+        "Ireland",
+        "Italy",
+        "Japan",
+        "Latvia",
+        "Lithuania",
+        "Luxembourg",
+        "Macao (China)",
+        "Malaysia",
+        "Malta",
+        "Netherlands",
+        "New Zealand",
+        "Philippines",
+        "Poland",
+        "Portugal",
+        "Slovenia",
+        "South Korea",
+        "Spain",
+        "Sweden",
+        "Taiwan",
+        "Thailand",
+        "United Kingdom",
+        "United States",
+        "Vietnam",
+        "Switzerland",
+        "Singapore",
+        "Slovakia",
+        "Turkey",
+        "Qatar",
+        "Canada"
+      ]
+    }
+  },
+  "cnyStep": {
+    "heading": "無料eSIMを入手する3つの簡単ステップ",
+    "sectionSubHeading": "数ステップで無料eSIMを受け取り、すぐに有効化 — 面倒な手続きや高額ローミングは不要です。",
+    "one": "\"引き換え\"ボタンをタップ",
+    "two": "氏名・メール・携帯番号を入力",
+    "three": "eSIMのQRコードをすぐ受け取り、有効化します。"
+  },
+  "challenger": {
+    "heading": "Yoowifiでデータを2倍に",
+    "promoText": "Yoowifiのダブルデータキャンペーンで、旅行中により多くのデータをお楽しみください。\n\n参加しているChallengerシンガポール店舗でYoowifiグローバルポケットWiFiデバイスを購入すると、データが無料でマッチングされます。",
+    "howItWorks": {
+      "heading": "仕組み：",
+      "item1": "50GB購入 → 50GB無料",
+      "item2": "100GB購入 → 100GB無料",
+      "description": "追加費用なしでデータが2倍 — ストリーミング、仕事、世界中での接続に最適です。",
+      "note": "📍 指定のChallenger店舗で利用可能"
+    },
+    "howToRedeem": {
+      "heading": "交換方法",
+      "step1": {
+        "title": "YoowifiポケットWiFiデバイスを購入",
+        "description": "参加している@challenger.sg店舗でYoowifiポケットWiFiデバイスを購入してください。"
+      },
+      "step2": {
+        "title": "フォローしてDMを送信",
+        "description": "フォローして@yoowifi.coにレシートの写真をDMで送信してください。"
+      },
+      "step3": {
+        "title": "データがマッチングされます",
+        "description": "データをマッチングします — 50GB購入で50GB無料！100GB購入で100GB無料！"
+      },
+      "note": "注意：参加している@challenger.sg店舗でYoowifiポケットWiFiデバイスを購入してください。"
+    }
+  },
+  "myAccount": {
+    "myHome": "ホーム",
+    "myAccount": "マイアカウント",
+    "myOrder": "マイオーダー",
+    "myAddress": "マイアドレス",
+    "myData": "マイデータ",
+    "myCards": "マイカード",
+    "profile": "プロフィール",
+    "logout": "ログアウト",
+    "deleteMyAccount": "アカウントを削除",
+    "myProfile": "マイプロフィール",
+    "saveProfile": "プロフィールを保存",
+    "changeDetails": "詳細を変更",
+    "addNewCards": "新しいカードを追加",
+    "chargedFee": "※有効性を確認するため、追加された各カードには加盟店よりSGD 0.01の手数料が発生します。",
+    "addCard": "カードを追加",
+    "nameonCards": "カード名義",
+    "cardNumber": "カード番号",
+    "expiry": "有効期限（MM/YY）",
+    "cvc": "CVC",
+    "addNew": "新規追加",
+    "homeAddress": "自宅/オフィス住所",
+    "HotelAddress": "ホテル住所",
+    "EditAddress": "住所を編集",
+    "save": "保存",
+    "addNewAddress": "新しい住所を追加",
+    "homeOffice": "自宅/オフィス",
+    "noCardsFound": "カードがありません",
+    "noDataFound": "データがありません",
+    "noDevicesFound": "デバイスが見つかりません",
+    "noOrdersFound": "注文が見つかりません"
+  },
+  "avia": {
+    "getFreeeSIM": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "getFreeWifi": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "termsTitle": "Terms & Conditions",
+    "termsList": [
+      "Fair Use Policy applies. 10GB of high-speed data is provided daily.",
+      "This promo code is valid for one-time use only and cannot be combined with other offers, discounts, or promotions.",
+      "This promo code is not extendable.",
+      "This promo code cannot be exchanged for cash.",
+      "Yoowifi reserves the right to amend the Terms & Conditions.",
+      "Customer needs to return back the device after use (minimal 3 Days After Travel Date Ends)",
+      "Returning Pocket wifi available in All Indomaret in indonesia",
+      {
+        "text": "How to return",
+        "link": "https://yoowifi.com/id/pick-drop-location",
+        "linkText": "https://yoowifi.com/id/pick-drop-location"
+      }
+    ],
+    "aviaButton": {
+      "buttonTextSim": "Claim My Free eSIM",
+      "buttonTextWifi": "Claim My Free Wifi"
+    },
+    "whyFreeSim": {
+      "heading": "Why Choose Avia Partner Program?",
+      "feature1": {
+        "title": "Global Coverage",
+        "description": "Stay connected in over 100+ countries with our reliable network"
+      },
+      "feature2": {
+        "title": "High Speed",
+        "description": "Experience fast and stable internet connection wherever you go"
+      },
+      "feature3": {
+        "title": "Business Solutions",
+        "description": "Tailored solutions for Avia partners and their clients"
+      }
+    }
+  },
+  "obaja": {
+    "getFreeeSIM": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "getFreeWifi": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "termsTitle": "Terms & Conditions",
+    "termsList": [
+      "Fair Use Policy applies. 10GB of high-speed data is provided daily.",
+      "This promo code is valid for one-time use only and cannot be combined with other offers, discounts, or promotions.",
+      "This promo code is not extendable.",
+      "This promo code cannot be exchanged for cash.",
+      "Yoowifi reserves the right to amend the Terms & Conditions.",
+      "Customer needs to return back the device after use (minimal 3 Days After Travel Date Ends)",
+      "Returning Pocket wifi available in All Indomaret in indonesia",
+      {
+        "text": "How to return",
+        "link": "https://yoowifi.com/id/pick-drop-location",
+        "linkText": "https://yoowifi.com/id/pick-drop-location"
+      }
+    ],
+    "obajaButton": {
+      "buttonTextSim": "Claim My Free eSIM",
+      "buttonTextWifi": "Claim My Free Wifi"
+    },
+    "whyFreeSim": {
+      "heading": "Why Choose Obaja Partner Program?",
+      "feature1": {
+        "title": "Global Coverage",
+        "description": "Stay connected in over 100+ countries with our reliable network"
+      },
+      "feature2": {
+        "title": "High Speed",
+        "description": "Experience fast and stable internet connection wherever you go"
+      },
+      "feature3": {
+        "title": "Business Solutions",
+        "description": "Tailored solutions for Obaja partners and their clients"
+      }
+    }
+  },
+  "aviaStep": {
+    "heading": "3 Easy Steps To Get Free Wifi",
+    "sectionSubHeading": "Just a few simple steps to claim and activate your free Wifi — no hassle, no roaming fees.",
+    "one": "Click the 'Redeem' button",
+    "two": "Fill in your details: Name, email, mobile, country of travel, travel start date, end date, delivery address.",
+    "three": "Claim and wait for your pocket wifi to arrive! (Download our Yoowifi App and login)"
+  },
+  "obajaStep": {
+    "heading": "3 Easy Steps To Get Free Wifi",
+    "sectionSubHeading": "Just a few simple steps to claim and activate your free Wifi — no hassle, no roaming fees.",
+    "one": "Click the 'Redeem' button",
+    "two": "Fill in your details: Name, email, mobile, country of travel, travel start date, end date, delivery address.",
+    "three": "Claim and wait for your pocket wifi to arrive! (Download our Yoowifi App and login)"
+  },
+  "wita": {
+    "getFreeeSIM": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "getFreeWifi": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "termsTitle": "Terms & Conditions",
+    "termsList": [
+      "Fair Use Policy applies. 10GB of high-speed data is provided daily.",
+      "This promo code is valid for one-time use only and cannot be combined with other offers, discounts, or promotions.",
+      "This promo code is not extendable.",
+      "This promo code cannot be exchanged for cash.",
+      "Yoowifi reserves the right to amend the Terms & Conditions.",
+      "Customer needs to return back the device after use (minimal 3 Days After Travel Date Ends)",
+      "Returning Pocket wifi available in All Indomaret in indonesia",
+      {
+        "text": "How to return",
+        "link": "https://yoowifi.com/id/pick-drop-location",
+        "linkText": "https://yoowifi.com/id/pick-drop-location"
+      }
+    ],
+    "witaButton": {
+      "buttonTextSim": "Claim My Free eSIM",
+      "buttonTextWifi": "Claim My Free Wifi"
+    },
+    "whyFreeSim": {
+      "heading": "Why Choose Wita Partner Program?",
+      "feature1": {
+        "title": "Global Coverage",
+        "description": "Stay connected in over 100+ countries with our reliable network"
+      },
+      "feature2": {
+        "title": "High Speed",
+        "description": "Experience fast and stable internet connection wherever you go"
+      },
+      "feature3": {
+        "title": "Business Solutions",
+        "description": "Tailored solutions for Wita partners and their clients"
+      }
+    }
+  },
+  "witaStep": {
+    "heading": "3 Easy Steps To Get Free Wifi",
+    "sectionSubHeading": "Just a few simple steps to claim and activate your free Wifi — no hassle, no roaming fees.",
+    "one": "Click the 'Redeem' button",
+    "two": "Fill in your details: Name, email, mobile, country of travel, travel start date, end date, delivery address.",
+    "three": "Claim and wait for your pocket wifi to arrive! (Download our Yoowifi App and login)"
+  },
+  "panorama": {
+    "getFreeeSIM": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "getFreeWifi": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "termsTitle": "Terms & Conditions",
+    "termsList": [
+      "Fair Use Policy applies. 10GB of high-speed data is provided daily.",
+      "This promo code is valid for one-time use only and cannot be combined with other offers, discounts, or promotions.",
+      "This promo code is not extendable.",
+      "This promo code cannot be exchanged for cash.",
+      "Yoowifi reserves the right to amend the Terms & Conditions.",
+      "Customer needs to return back the device after use (minimal 3 Days After Travel Date Ends)",
+      "Returning Pocket wifi available in All Indomaret in indonesia",
+      {
+        "text": "How to return",
+        "link": "https://yoowifi.com/id/pick-drop-location",
+        "linkText": "https://yoowifi.com/id/pick-drop-location"
+      }
+    ],
+    "panoramaButton": {
+      "buttonTextSim": "Claim My Free eSIM",
+      "buttonTextWifi": "Claim My Free Wifi"
+    },
+    "whyFreeSim": {
+      "heading": "Why Choose Panorama Partner Program?",
+      "feature1": {
+        "title": "Global Coverage",
+        "description": "Stay connected in over 100+ countries with our reliable network"
+      },
+      "feature2": {
+        "title": "High Speed",
+        "description": "Experience fast and stable internet connection wherever you go"
+      },
+      "feature3": {
+        "title": "Business Solutions",
+        "description": "Tailored solutions for Panorama partners and their clients"
+      }
+    }
+  },
+  "gdrama": {
+    "getFreeeSIM": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "getFreeWifi": "Get free Pocket Wifi: 150Mbps speed, 10GB/day for 14 days, share up to 6 devices.\n\nNote: If the country is not in the 90-country Free Wifi list, a daily fee applies.",
+    "termsTitle": "Terms & Conditions",
+    "termsList": [
+      "Fair Use Policy applies. 10GB of high-speed data is provided daily.",
+      "This promo code is valid for one-time use only and cannot be combined with other offers, discounts, or promotions.",
+      "This promo code is not extendable.",
+      "This promo code cannot be exchanged for cash.",
+      "Yoowifi reserves the right to amend the Terms & Conditions.",
+      "Customer needs to return back the device after use (minimal 3 Days After Travel Date Ends)",
+      "Returning Pocket wifi available in All Indomaret in indonesia",
+      {
+        "text": "How to return",
+        "link": "https://yoowifi.com/id/pick-drop-location",
+        "linkText": "https://yoowifi.com/id/pick-drop-location"
+      }
+    ],
+    "gdramaButton": {
+      "buttonTextSim": "Claim My Free eSIM",
+      "buttonTextWifi": "Claim My Free Wifi"
+    },
+    "whyFreeSim": {
+      "heading": "Why Choose Gdrama Partner Program?",
+      "feature1": {
+        "title": "Global Coverage",
+        "description": "Stay connected in over 100+ countries with our reliable network"
+      },
+      "feature2": {
+        "title": "High Speed",
+        "description": "Experience fast and stable internet connection wherever you go"
+      },
+      "feature3": {
+        "title": "Business Solutions",
+        "description": "Tailored solutions for Gdrama partners and their clients"
+      }
+    }
+  },
+  "panoramaStep": {
+    "heading": "3 Easy Steps To Get Free Wifi",
+    "sectionSubHeading": "Just a few simple steps to claim and activate your free Wifi — no hassle, no roaming fees.",
+    "one": "Click the 'Redeem' button",
+    "two": "Fill in your details: Name, email, mobile, country of travel, travel start date, end date, delivery address.",
+    "three": "Claim and wait for your pocket wifi to arrive! (Download our Yoowifi App and login)"
+  },
+  "gdramaStep": {
+    "heading": "3 Easy Steps To Get Free Wifi",
+    "sectionSubHeading": "Just a few simple steps to claim and activate your free Wifi — no hassle, no roaming fees.",
+    "one": "Click the 'Redeem' button",
+    "two": "Fill in your details: Name, email, mobile, country of travel, travel start date, end date, delivery address.",
+    "three": "Claim and wait for your pocket wifi to arrive! (Download our Yoowifi App and login)"
+  },
+  "instantEsim": {
+    "hero": {
+      "title": "eSIMを即座に受け取る",
+      "description": "速い。簡単。次の旅の準備完了。"
+    },
+    "welcome": {
+      "line1": "Shopeeでのご購入ありがとうございます。Yoowifiファミリーへようこそ。",
+      "line2": "接続まであと少しです。このページでYoowifi eSIM QRコードを安全に取得し、旅先でオンラインに接続しましょう。",
+      "tagline": "配送なし。待ち時間なし。スキャンして出発。"
+    },
+    "form": {
+      "title": "eSIMを取得する",
+      "subtitle": "Shopeeの注文と同じ詳細を以下に入力して、購入を確認しeSIMを即座に生成してください。",
+      "orderIdLabel": "Shopee注文ID",
+      "orderIdPlaceholder": "例: ORD-2024-00123456789",
+      "findOrder": "注文を検索",
+      "searching": "検索中...",
+      "orderFound": "注文が見つかりました",
+      "productName": "商品名",
+      "qty": "数量",
+      "fullName": "氏名",
+      "fullNamePlaceholder": "例: 山田太郎",
+      "phoneNumber": "電話番号",
+      "emailAddress": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "privacyNote": "この情報は注文の確認とeSIMの配信にのみ使用されます。お客様の情報は安全に保護されています。",
+      "agreeTerms": "同意します",
+      "termsAndConditions": "利用規約",
+      "and": "および",
+      "privacyPolicy": "プライバシーポリシー",
+      "generateEsim": "eSIMを生成する",
+      "generating": "生成中...",
+      "searchCountry": "国を検索..."
+    },
+    "errors": {
+      "emptyOrderId": "Shopee注文IDを入力してください。",
+      "orderNotFound": "注文が見つかりません。注文IDを確認して再度お試しください。",
+      "genericError": "エラーが発生しました。後ほどもう一度お試しください。",
+      "generateFailed": "eSIMの生成に失敗しました。もう一度お試しください。"
+    },
+    "steps": {
+      "title": "「eSIMを生成する」をクリックした後の流れ",
+      "items": [
+        {
+          "title": "注文確認",
+          "desc": "ご提供いただいた情報を使用して、Shopeeの注文を安全に確認します。"
+        },
+        {
+          "title": "eSIM即時生成",
+          "desc": "確認後、固有のeSIM QRコードが即座に生成されます。"
+        },
+        {
+          "title": "QRコード画面表示",
+          "desc": "次の画面にeSIM QRコードが表示され、すぐにスキャンできます。"
+        },
+        {
+          "title": "QRコードをメールで送信",
+          "desc": "eSIM QRコードのコピーがメールにも送信され、後からいつでもアクセスできます。"
+        },
+        {
+          "title": "インストール＆旅行準備完了",
+          "desc": "対応デバイスでQRコードをスキャンし、画面の指示に従ってeSIMをインストールしてください。"
+        }
+      ]
+    },
+    "tips": {
+      "title": "インストール前の確認事項",
+      "items": [
+        "お使いのデバイスがeSIMに対応していることを確認してください",
+        "旅行前または安定したインターネット接続がある場所でeSIMをインストールしてください",
+        "目的地に到着してからアクティベートしてください（特に指定がない限り）"
+      ]
+    },
+    "help": {
+      "title": "サポートが必要ですか？",
+      "line1": "注文が見つからない場合やサポートが必要な場合は、お気軽にお問い合わせください。すぐに接続できるようサポートいたします。",
+      "line2": "接続状況を常に把握するには、",
+      "appName": "Yoowifiアプリ",
+      "line2End": "をダウンロードして：",
+      "features": [
+        "いつでもデータ残量を確認",
+        "数タップでデータを追加購入",
+        "どこでも簡単にeSIMを管理"
+      ]
+    },
+    "modal": {
+      "title": "eSIMの準備ができました！",
+      "subtitle": "デバイスでQRコードをスキャンしてeSIMをインストールしてください",
+      "plan": "プラン",
+      "iccid": "ICCID",
+      "activationCode": "アクティベーションコード",
+      "smdp": "SM-DP+",
+      "name": "名前",
+      "phone": "電話番号",
+      "email": "メール",
+      "emailSent": "コピーがメールに送信されました。",
+      "close": "閉じる"
+    }
+  },
+  "TermsDetailsMY": [
+    {
+      "heading": "般利用規約",
+      "content": "「当社」および「当社」とは、UR COMMUNICATIONS PTE. を意味します。株式会社(ヨーワイファイ)。\n 「顧客」とは注文をする人を意味し、。\n\n 「契約は同意されました」 - 電子注文フォームに記入して送信することにより、お客様は製品の購入を申し出たことになり、当社がこれを受け入れた場合、拘束力のある契約が成立します。当社からの承諾メールにより、契約が成立したことが確認されます。\n\n Yoowifi モバイル アプリケーションを使用してコンテンツを消費したり、オンラインで製品を購入したりすることにより、顧客は 18 歳以上であることを確認し、これらの利用規約とプライバシー ポリシーに同意したものとみなされます。\n\n ポケット Wi-Fi デバイスのレンタルは Yoowifi によって提供されます。"
+    },
+    {
+      "heading": "製品の購入とレンタル",
+      "content": "1.1. お客様は、Yoowifi Malaysia Sdn. Bhd. が発行した、Yoowifi を通じた製品の購入に関するあらゆるガイドライン、通知、運営規則、ポリシーおよび指示、ならびに前述の修正に従うことに同意するものとします。 (Yoowifi)、随時_ Yoowifi は、これらのガイドライン、通知、運営規則、ポリシーおよび指示をいつでも改訂する権利を留保し、顧客は、Yoowifi 上で公開された時点で、前述の変更を認識し、それに拘束されるものとみなされます。\n\n 1.2. 注文とサブスクリプションは、Yoowifi アプリを使用して行う必要があります。 Yoowifi は、虐待的な顧客へのサービスを拒否する権利を留保します。例えば。暴言などの悪質な言葉遣いをするお客様。\n\n 1.3. すべての注文は、Yoowifi を通じて送信された時点で、取消不能かつ無条件とみなされます。"
+    },
+    {
+      "heading": "商品のお届け",
+      "content": "2.1. 顧客の注文による指定住所への宅配便の配送を含む標準配送オプションに備えるため、顧客は月曜日から金曜日の午後 5 時 (シンガポール標準時間) までに注文フォームを作成する必要があります (週末は注文は処理されません)。お客様の注文が午後 5 時以降に到着した場合、注文は翌営業日に処理されます。\n\n 2.2. 住所: 製品の配送は、注文時に顧客が指定した住所に行われます。\n 2.3. 配送期間: お客様は、製品の配送が在庫状況に応じて行われることを了承するものとします。 Yoowifi は、商品が掲載されている関連ページに記載されている配送期間内にお客様に商品をお届けするようあらゆる合理的な努力をいたしますが、お客様は、Yoowifi モバイル アプリケーションの在庫情報は定期的に更新されますが、場合によっては更新の間に商品が入手できなくなる可能性があることを了承します。\n\n 2.4. 表示されている配送時間はすべて推定値であり、遅延が発生する可能性があります。製品の納期が遅れる場合は、お客様に電子メールでその旨をご連絡し、製品は入荷次第発送させていただきます。\n\n 2.5. 顧客が配達予定日までに製品を受け取らない場合、顧客がかかる配達予定日から 3 日以内に Yoowifi に通知した場合、Yoowifi は製品を見つけて配達しようとします。 Yoowifi が配送予定日から 3 日以内に顧客から連絡がない場合、顧客は製品を受け取ったものとみなされます。\n\n 2.6 すべてのご注文はシンガポールから発送されます。配送時間は、選択したお届け先と配送方法によって異なる場合があります。目的地の国によって課される該当する輸入関税、税金、または通関手数料はお客様の負担となります。 Yoowifi は、通関手続きやその他の予期せぬ配送中断による遅延については責任を負いません。"
+    },
+    {
+      "heading": "支払い",
+      "content": "3.1. お客様は、Yoowifi が規定する支払い方法のいずれかを使用して、製品およびサービスの代金を随時支払う必要があります。登録および確認の目的で、お客様が注文する際、デバイスの紛失または破損に備えてクレジット カードの詳細を提供する必要があります。\n\n 3.2. Yoowifi モバイル アプリケーション全体の価格はシンガポール ドルで表示されており、支払いはシンガポール ドルでのみ受け付けられます。梱包および配送費用がかかる場合は、お客様の購入総額に追加されます。\n\n 3.3. Yoowifi モバイル アプリケーションに表示されている製品が、現在表示されている価格で入手できるようあらゆる努力を払っていますが、常にそうであることを保証することはできません。注文した製品が入手できない場合は、できるだけ早くお客様に通知されます。\n\n 3.4. 製品の価格がその後変更された場合でも、顧客が支払う価格は、顧客が注文した時点で表示されている製品の価格です。\n\n 3.5. 毎月の定期サービス プランの場合、お客様は月の初日に請求されます。\n\n 3.6. 日次定期サービス プランの場合、注文の送信時に選択した日数に基づいてお客様に請求されます。\n\n 3.7. 注文が正常に完了すると、顧客のクレジット カードから引き落とされます。最低請求総額は MYR10 です。\n\n 3.8. オファーに品目の値下げ（半額など）が記載されている場合、送料や梱包料が適用される前に、チェックアウト時に割引が計算されます。\n\n 3.9. 顧客が選択した支払い方法の利用規約に従って支払いを怠った場合、または何らかの理由で支払いがキャンセルされた場合、Yoowifiは他の権利を侵害することなく、支払いが全額行われるまで注文をキャンセルするか、商品の配送を一時停止する権利を有するものとします。"
+    },
+    {
+      "heading": "支払いの返金",
+      "content": "4.1. すべての払い戻しは、元の支払いメカニズムを介して、元の支払いを行った人に行われるものとします。\n\n 4.2. 当社は、お客様の口座に返金が適時に届くことについていかなる保証も行いません。支払いの処理には時間がかかる場合があり、各銀行および/または決済プロバイダーの内部処理タイムラインの影響を受けます。\n\n 4.3. 処理銀行および/または決済プロバイダーによって課される返金プロセスに関連するすべての費用は、お客様が負担するものとします。\n\n 4.4. すべての返金は、当社が製品の有効な返品を受諾することを条件とします。当社は、通知なしにいつでも返金処理の仕組みを変更する権利を留保します。返金手数料は10％かかります。\n\n 4.6 年間プランの返金資格 \n\n 4.6.1 年間プランは一度有効化されると返金不可となります。 \n\n 4.6.2 年間プランは延長または返金できません \n\n 4.7 使用量のしきい値 \n\n 4.7.1 使用量が該当する実質的使用しきい値（関連プラン条件に記載されている場合は例えば10GB）を超える場合、プランは「実質的に使用済み」とみなされ、返金は認められません。 \n\n 4.7.2 使用量が該当する実質的使用しきい値（そのしきい値が適用される場合は例えば10GB未満）を下回る場合、未使用日数に対する按分返金が、該当する事務手数料を差し引いた上で処理される場合があります。"
+    },
+    {
+      "heading": "端末の返却",
+      "content": [
+        "5.1 Yoowifi アプリで [デバイスの返品] を選択し、加入プランを終了し、デバイスと付属品を返送用の袋に梱包してください。返却用のメーラーバッグを SingPost のメールボックスに入れるか、デバイスを受け取り場所に返却してください。ホテルからのデバイスは各ホテルに返却されます。\n\n 5.2 プラン終了後 5 日以内に Yoowifi アプリからデバイスを返却する必要があります。デバイスが返却されない場合、または 7 日間使用されなかった場合は、100 シンガポールドルの手数料が課されます。端末の紛失・破損の場合は、それぞれ以下の料金をご請求させていただきます。",
+        {
+          "headers": [
+            "以下の物品の紛失、破損 ",
+            "充電器（SGD"
+          ],
+          "rows": [
+            [
+              "Yoowifi デバイス",
+              "100"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "公正使用ポリシー (FUP)",
+      "content": "6.1. 「無制限」サービスは、必ずしも制限がないわけではありません。この制限は、サービスのユーザーが使用する単位量 (分、秒、キロバイトなど) にしきい値を課す一連のルールである公正使用ポリシーで設定されます。これは通常、「無制限」と呼ばれるサービスに課せられ、当初はユーザーが提供されるサービスを好きなだけ使用できることを意味します。\n\n 6.2. 意図的か非意図的かを問わず、虐待が発生する可能性があるため、制限が課されます。 1 人または一部のユーザーによるこの不正行為の制限として、他のユーザーは罰せられます。また、サービスを提供する会社も損をします。したがって、フェアユースポリシーは悪用を回避する手段として機能し、その過程でプロバイダーだけでなく他の消費者も保護します。\n\n 6.3.  レンタル者は、各国のインターネット サービス プロバイダーによるデータ制限 (ISO 公正使用ポリシー (FUP)) に注意することをお勧めします。インターネット サービス プロバイダー (ISP) は、チャネルが過負荷になったときにユーザーにデータ制限を導入しますが、この制限はポリシー規制に応じて国によって異なります。\n\n 6.4. データ使用量が割り当てられた制限を超えた場合、ユーザーはデータ速度が遅くなったり、一定期間一時的にアイドル状態になったりすることがあります。超過したデータによって、顧客のレンタル料金に追加料金が発生することはありません。"
+    },
+    {
+      "heading": "サービスの終了",
+      "content": "7.1.  お客様がデバイスをレンタルしており、サービスの終了を希望する場合、お客様は Yoowifi モバイル アプリケーションを通じてサービス プランを終了し、デバイスを Yoowifi に返却する必要があります。お客様がサービス プランを終了し、デバイスを返却すると、定期的な支払いは停止されます。お客様は、Yoowifi モバイル アプリケーション内の「お問い合わせ」ページを通じて Yoowifi に書面で通知することで、製品を発送する前に注文をキャンセルすることができます。製品がすでに発送されている場合、お客様は注文をキャンセルすることはできませんが、製品を返品することのみが可能です。"
+    },
+    {
+      "heading": "購入したポータブル デバイスの保証条件",
+      "content": "8.1. デバイスは、購入日から 6 か月間 (以下「保証期間」) の限定保証の対象となります。\n\n 8.2. 保証期間中、当社は独自の裁量により、通常の使用条件下で発生した材料または製造上の欠陥に起因するデバイスまたはそのコンポーネントの欠陥を修理または交換します。\n\n 8.3.  当社は、独自の裁量により、デバイスに対象となるハードウェアの問題があると確認した場合、デバイスの修理または同等の機能との交換を進めるものとします。交換用デバイスは正常な動作状態にありますが、新品ではなく再生ユニットである可能性があります。\n\n 8.4. この保証は、以下の原因による損傷または欠陥には適用されません。\n\n     • 液体への暴露、湿気、水への浸漬などの外部要因。\n      • デバイスの外部ケースの亀裂、破損、損傷を含むがこれらに限定されない物理的損傷。\n     • 許可されていない改造、修理、改造。\n     • 過失、誤用、誤った取り扱い、または不適切な取り付け。\n     • 事故、火災、盗難、自然災害、またはその他の外部要因。\n\n 8.5 この期間を過ぎた後、デバイスは通常の摩耗の対象となり、交換の対象外となります。"
+    }
+  ],
+  "policyDetailsMY": [
+    {
+      "heading": "プライバシーポリシー",
+      "subheading": "お客様向けのデータ保護に関する通知",
+      "content": "このデータ保護通知(\"<strong>「通知」</strong>\") は、<strong>UR COMMUNICATIONS PTE.</strong> 株式会社</strong> (\"<strong>「当社」</strong>\")は、個人データ保護法 (\"<strong>「PDPA」</strong>\"). に従って、お客様の個人データを収集、使用、開示、またはその他の方法で処理する場合があります。この通知は、当社が保有または管理している個人データに適用されます。これには、当社の目的のために個人データの収集、使用、開示、または処理を委託した組織が保有する個人データも含まれます。"
+    },
+    {
+      "heading": "個人データ",
+      "subheading": null,
+      "content": "1. この通知で使用されるもの:\n\n <strong>「顧客」</strong>とは、(a) 当社が提供する商品またはサービスの詳細を知るために何らかの手段を通じて当社に連絡した個人、または (b) 当社による商品またはサービスの供給について当社と契約を締結した可能性がある、または締結した個人を指します。 「個人データ」とは、真実かどうかにかかわらず、次のとおり識別できる顧客に関するデータを意味します。(a) そのデータから。または (b) 当社がアクセスできる、またはアクセスできる可能性があるデータおよびその他の情報から。\n\n1. 当社とのやり取りの性質に応じて、当社がお客様から収集する個人データの例には、名前、居住地住所、電子メール アドレス、電話番号、国籍、性別、生年月日、写真が含まれます。 \n\n2. この通知で使用されるその他の用語は、PDPA で与えられた意味を有するものとします (文脈が許可する場合)。"
+    },
+    {
+      "heading": "個人データの収集、使用、開示",
+      "subheading": null,
+      "content": "1. 当社は、次のいずれかの場合に、お客様の個人データを収集します。(a) お客様が自発的に当社に直接提供する場合、または、お客様が当社に個人データを開示することを正式に認めた第三者（お客様の「認可代理人」）が提供する場合で、かつお客様（またはお客様の認可代理人）がデータ収集の目的を通知されている場合。または (b) 同意なしの当該収集、使用または開示が、シンガポールの2012年個人データ保護法（PDPA）またはその他の適用法律により認められているか、または要求されている場合。お客様が自発的に当社に個人データを提供する場合、お客様は、お客様に通知した目的およびそれらに合理的に関連する目的のために、当社による当該個人データの収集、使用および開示に同意したものとみなされます。PDPAまたはその他の適用法律で認められているか認可されている場合、当社は、追加の同意なくお客様の個人データを収集、使用または開示することがあります。\n\n2. 当社は、次の目的のいずれかまたはすべてのために、お客様の個人データを収集および使用することがあります。\n\n2.1 お客様が要求した商品および/またはサービスの提供の過程において、またはそれに関連して、当社の義務を履行すること；\n2.2 お客様の本人確認；\n2.3 お客様からのお問い合わせ、ご要望、申請、苦情およびフィードバックへの対応、処理および取扱い；\n2.4 お客様と当社との関係の管理；\n2.5 支払いまたはクレジット取引の処理；\n2.6 適用される法律、規制、実務規範、ガイドラインまたは規則の遵守、またはいずれの政府および/または規制当局による法執行および調査の支援；\n2.7 PDPAおよびその他の適用法律に従い、電子メール、SMS、電話、WhatsAppメッセージおよび/またはその他のメッセージングプラットフォームを通じて、当社の製品、サービス、プロモーション、イベント、キャンペーンまたは特別オファー（該当する場合、当社の関連法人、パートナーまたは関連会社のものを含む）に関するマーケティング、広告、プロモーションおよび/またはダイレクトマーケティングの通信をお客様に送信すること。お客様は、通信に記載の配信停止手順に従うか、当社に直接連絡することにより、いつでもかかるマーケティング通信の受信を選択解除することができます；\n2.8 お客様が情報を提供したその他の目的；\n2.9 前述の目的のために、当社の第三者サービスプロバイダーおよび代理人、ならびに関連する政府および/または規制当局（シンガポール国内または国外を問わず）を含む、無関係の第三者へのお客様の個人データの送信；および\n2.10 上記に関連する、またはそれと関連するその他の付随的な業務目的。"
+    },
+    {
+      "heading": "当社はお客様の個人データを開示する場合があります。",
+      "subheading": null,
+      "content": "1. お客様が要求した商品やサービスの当社の提供の過程で、またはそれに関連して義務を履行するためにかかる開示が必要な場合。または \n\n2. 上記の目的に関連して当社が業務の遂行に従事する第三者サービスプロバイダー、代理店、その他の組織に対して。\n\n3. 上記の条項に記載された目的は、お客様と当社との関係（例えば、契約に基づく）が何らかの形で終了または変更された状況であっても、その後の合理的な期間（該当する場合、当社がお客様との契約に基づく権利を行使できる期間を含む）は引き続き適用されることがあります。"
+    },
+    {
+      "heading": "正当な利益の例外への依存",
+      "subheading": null,
+      "content": "1.  PDPA に従い、当社は、Yoowifi Malaysia Sdn. Bhd またはその他の者の正当な利益のために、お客様の同意なしにお客様の個人データを収集、使用、または開示する場合があります。 PDPA の例外として正当な利益に依存する場合、UR COMMUNICATIONS PTE.株式会社個人に対する起こり得る悪影響を評価し、正当な利益が悪影響を上回ると判断します。 \n3. 不正行為の検出と防止。 \n4. サービスの不正使用の検出と防止。 \n5. 詐欺や金融犯罪を防止し、信用分析を行うためのネットワーク分析。そして \n6. データ損失を防ぐため、会社支給のデバイスで個人データを収集および使用します。 \n\n 上記の条項に記載されている目的は、お客様と当社との関係 (たとえば、契約に基づく) が何らかの形で終了または変更された状況でも、その後の合理的な期間は引き続き適用される場合があります。"
+    },
+    {
+      "heading": "同意の撤回",
+      "subheading": null,
+      "content": "1. お客様の個人データの収集、使用、開示に対する同意は、お客様が書面により撤回するまで有効です。お客様は、下記の連絡先詳細にあるデータ保護担当者に書面または電子メールで要求を提出することにより、同意を撤回し、上記の目的のいずれかまたはすべてでの個人データの収集、使用、および/または開示の停止を当社に要求することができます。 \n\n2.  お客様からの同意撤回の書面による要求を受け取った後、当社は、お客様の要求が処理され、当社に対するお客様の権利と責任に影響を与える可能性のある法的結果を含む、当社がこれに同意した場合の結果をお客様に通知するまでに、（要求の複雑さおよびお客様との関係への影響に応じて）合理的な時間を要する場合があります。通常、当社はお客様のリクエストを受領してから 60 営業日以内に処理するよう努めるものとします。 \n\n3. 当社は、同意を撤回するというお客様の決定を尊重しますが、お客様のリクエストの性質および範囲によっては、当社の商品またはサービスをお客様に提供し続けることができない場合があり、そのような状況では、当社はお客様のリクエストの処理を完了する前にお客様に通知するものとします。同意の撤回を取り消す場合は、上記第 8 項に記載の方法で書面で当社に通知してください。 \n\n4. 適用法の下で同意なしでの個人データの収集、使用、開示が許可または義務付けられている場合、同意を撤回しても、個人データの収集、使用、開示を継続する当社の権利には影響しないことにご注意ください。"
+    },
+    {
+      "heading": "個人データへのアクセスと修正",
+      "subheading": null,
+      "content": "1. お客様が、(a) 当社がお客様について保持している個人データのコピー、または当社がお客様の個人データを使用または開示する方法に関する情報へのアクセス要求、または (b) 当社がお客様について保持している個人データの修正または更新を求める修正要求を行うことを希望する場合は、書面または電子メールで、下記の連絡先詳細にある当社のデータ保護担当者に要求を提出することができます。 \n\n2. アクセス要求には相応の料金が請求される場合があることに注意してください。その場合、リクエストを処理する前に料金をお知らせします。 \n\n3. 当社は、合理的に可能な限り速やかにお客様のリクエストに対応します。通常、弊社からの返答は 60 営業日以内に行われます。お客様のリクエストを受け取ってから 30 日以内に当社がお客様のリクエストに回答できない場合は、お客様のリクエストに回答できるようになるまでの時間を 30 日以内に書面で通知します。当社が個人データをお客様に提供できない場合、またはお客様が要求した修正を行うことができない場合は、通常、提供できない理由をお客様に通知します (PDPA に基づいてそうする必要がない場合を除く)。"
+    },
+    {
+      "heading": "個人データの保護",
+      "subheading": null,
+      "content": "1.  お客様の個人データを不正アクセス、収集、使用、開示、コピー、変更、廃棄または同様のリスクから保護するために、当社は、個人データの収集の最小限化、認証およびアクセス制御（適切なパスワードの実践、データ開示の根拠の必要性など）、データの暗号化、最新のウイルス対策保護、オペレーティング システムおよびその他のソフトウェアの定期的なパッチ適用、ワンタイム パスワード（otp）/2要素認証の使用など、適切な管理的、物理的および技術的対策を導入しています。 (2fa)/多要素認証 (mfa) によりアクセスを保護します。 \n\n2.  ただし、インターネット上の送信方法や電子保存方法は完全に安全ではないことに注意してください。セキュリティを保証することはできませんが、当社はお客様の情報のセキュリティを保護するよう努め、情報セキュリティ対策を常に見直し、強化しています。"
+    },
+    {
+      "heading": "個人データの正確性",
+      "subheading": null,
+      "content": "当社は通常、お客様 (またはお客様の権限のある代理人) から提供された個人データに依存します。お客様の個人データが最新、完全、正確であることを保証するため、お客様の個人データに変更があった場合は、当社のデータ保護担当者に書面または下記の連絡先詳細に電子メールで通知して最新情報をお知らせください。"
+    },
+    {
+      "heading": "個人データの保持",
+      "subheading": null,
+      "content": "1. 当社は、収集された目的を達成するために必要な期間、または適用される法律で要求または許可されている限り、お客様の個人データを保持することがあります。\n\n2. 当社は、そのような保持が個人データが収集された目的を果たさなくなり、法律上またはビジネス上の目的で不要になったと想定するのが合理的であると判断され次第、お客様の個人データの保持を停止するか、データをお客様に関連付けることができる手段を削除します。"
+    },
+    {
+      "heading": "シンガポール国外への個人データの転送",
+      "subheading": null,
+      "content": "当社は通常、お客様の個人データをシンガポール以外の国に転送しません。ただし、その場合、当社は転送が行われることについてお客様の同意を得て、お客様の個人データが少なくとも PDPA に基づいて提供される保護基準と同等の保護基準を受け続けることを保証するための措置を講じます。"
+    },
+    {
+      "heading": "データ保護責任者",
+      "subheading": null,
+      "content": "当社の個人データ保護ポリシーおよび手順に関する問い合わせやフィードバックがある場合、またはリクエストを希望する場合は、次の方法で当社のデータ保護責任者に連絡することができます。\n\n連絡先番号: +65 6100 9998\nメールアドレス: <span class=\"text-red-400\">hello@yoowifi.com</span>."
+    },
+    {
+      "heading": "通知の効果と通知の変更",
+      "subheading": null,
+      "content": "1. この通知は、当社によるお客様の個人データの収集、使用、開示に関連して適用される他の通知、契約条項、および同意条項と併せて適用されます。\n\n2.  当社は、予告なく本通知を随時改訂することがあります。この通知が最後に更新された日付を参照することで、そのような改訂が行われたかどうかを判断できます。当社のサービスを継続してご利用いただくことにより、かかる変更を承認し、受諾したものとみなされます。\n\n発効日: 2022 年 8 月 16 日\n最終更新日:2022/08/16"
+    }
+  ],
+  "DeviceReturnRebate": {
+    "bannerAlt": "デバイス返却リベート",
+    "yellowAlt": "リベート対象の黄色のデバイス",
+    "greyAlt": "リベート対象外のライトグレーのデバイス",
+    "eligibleHeading": "リベート対象のデバイスモデル",
+    "eligibleCaption": "対象デバイス",
+    "notEligibleCaption": "ライトグレーのデバイスはリベート対象外です",
+    "stepsHeading": "手順",
+    "step1": "お持ちのデバイスを確認し、リベート対象（黄色のデバイス）であることを確認してください。",
+    "step2Lead": "デバイスを梱包し、次の住所へ送付してください：",
+    "address": "5D Figaro Street, 458329, Singapore",
+    "step2Trail": "。荷物に以下の情報を同封してください：",
+    "formHeading": "デバイス返却リベート",
+    "nameLabel": "氏名：",
+    "mobileLabel": "携帯電話番号：",
+    "payNowNote": "$10はPayNowでご登録の携帯番号へお戻しします。",
+    "termsHeading": "利用規約",
+    "termsCardTitle": "デバイス返却で$10リベート",
+    "terms": [
+      "お客様は旧デバイスを下取りし、新規デバイス購入時に$10のリベートを受け取ることができます。",
+      "下取りデバイスは動作する状態（電源が入り、重大な損傷がないこと）である必要があります。",
+      "著しい損傷、故障、または部品欠品のあるデバイスは対象外です。",
+      "$10のリベートは購入価格から即時に差し引かれます。",
+      "リベートは譲渡不可、交換不可、現金への換金はできません。",
+      "お客様1人につき1取引あたり1回のリベートが適用されます（別途定める場合を除く）。",
+      "Yoowifiは、適用基準を満たさない下取りデバイスを拒否する権利を留保します。",
+      "Yoowifiは、事前の通知なく本規約を変更する権利を留保します。"
+    ]
+  },
+  "marin": {
+    "heroTitle": "STAY CONNECTED BETWEEN DESTIONATIONS",
+    "heroSubtitle": "Affordable, high-speed connectivity for seafarers, ship crews, and overseas workers. Stay connected anywhere with Pocket Wifi, SIM, or eSIM.",
+    "heroImage": "marine-captain.webp",
+    "maritimeSection": {
+      "heading": "Smarter Internet for Maritime Life",
+      "subheading": "No roaming shocks. No SIM swapping. Just seamless connectivity.",
+      "items": [
+        {
+          "title": "Instant Digital Activation",
+          "description": "Activate your connection digitally in minutes. No paperwork. No waiting.",
+          "image": ""
+        },
+        {
+          "title": "One Network, Everywhere",
+          "description": "No more SIM swapping, stay connected at every stop.",
+          "image": ""
+        },
+        {
+          "title": "Optimized for Life at Sea",
+          "description": "Designed for maritime conditions, delivering stable performance even on long routes.",
+          "image": ""
+        }
+      ]
+    },
+    "smarterInternet": {
+      "heading": "Want a personalized data Customized for you?",
+      "description": "Let us navigate your internet needs on the high seas. We can keep your crew connected and business afloat with our solutions. Therefore, no matter where the vessel roams, you can enjoy broadband without borders.",
+      "bullets": [
+        "Single or Multiple Countries",
+        "Fast deployment",
+        "Customized solution to keep your team globally connected"
+      ],
+      "enquireCta": "Enquire Today"
+    }
+  },
+  "welcomeCredit": {
+    "heroTitle": "Yoowifiに参加して{{credit}}のウェルカムトラベルクレジットをゲット",
+    "heroSubtitle": "到着した瞬間からつながった旅を始めましょう。",
+    "creditTag": "{{credit}}",
+    "heroParagraph1": "Yoowifiに参加して{{credit}}のウェルカムトラベルクレジットを獲得し、世界中のどのYooWifiデータプランにもご利用いただけます。複雑な手順なし。待ち時間なし。どこへ行っても高速で信頼性の高いデータ通信をお楽しみください。",
+    "heroParagraph2": "目的地を選び、プランを有効化して、地図、乗り物、メッセージなどすべてをオンラインで利用しましょう。クレジットはチェックアウト時に即時適用されるので、より少ない費用でより賢く旅行できます。",
+    "heroParagraph3": "共有されたプロモコードで今すぐ申請して、数分でつながりましょう！",
+    "orderToday": "今すぐ登録",
+    "stepsTitle": "簡単なステップに従ってください",
+    "steps": [
+      "Yoowifiアプリをダウンロードして登録する",
+      "ウェルカムメールに記載されたプロモコードを入力し、注文の詳細を記入してください",
+      "{{credit}}の割引はチェックアウト時に自動的に適用されます",
+      "支払いが完了すると、ご注文はすぐにホームページに表示されます"
+    ],
+    "termsTitle": "利用規約",
+    "termsSections": [
+      {
+        "title": "1. 対象者",
+        "content": "このプロモーションはYoowifiの新規ユーザーのみを対象としています。「新規ユーザー」とは、Yoowifi（ウェブサイトまたはアプリ）で以前に登録または購入したことのない顧客と定義されます。ユーザー、アカウント、メールアドレス、デバイスごとに1（1）クレジットに限定されます。"
+      },
+      {
+        "title": "2. クレジットの発行",
+        "content": "{{credit}}のトラベルクレジットは、登録成功後にユーザーの登録メールアドレスに送信されるプロモコードを通じて発行されます。プロモコードは譲渡不可であり、現金と交換することはできません。"
+      },
+      {
+        "title": "3. 利用条件",
+        "content": "{{credit}}のトラベルクレジットは、ポケットWiFiレンタル、SIMカード、eSIMプランを含むすべてのYoowifi製品にご利用いただけます。クレジットを使用するには{{minSpend}}（または現地通貨相当額）以上のご購入が必要です。クレジットは提供されたプロモコードを使用してチェックアウト時に適用する必要があります。"
+      },
+      {
+        "title": "4. 有効期限",
+        "content": "トラベルクレジットは、特別な記載がない限り、発行日から365日間有効です。期限切れのクレジットは再発行または延長されません。"
+      },
+      {
+        "title": "5. 重複使用と組み合わせ",
+        "content": "{{credit}}のトラベルクレジットは、明示的に記載されていない限り、他のプロモコード、割引、またはキャンペーンと組み合わせることはできません。標準価格や非プロモーション提供と併用することができます。"
+      },
+      {
+        "title": "6. 返金とキャンセル",
+        "content": "トラベルクレジットを使用した注文がキャンセルまたは返金された場合、クレジットは復元または返金されません。クレジットには現金価値はなく、いかなる形でも返却されません。"
+      },
+      {
+        "title": "7. 不正使用防止",
+        "content": "複数アカウントの作成、自己紹介、使い捨てや偽のメールアカウントの使用など、疑わしい不正使用や詐欺が検出された場合、Yoowifiはトラベルクレジットのキャンセルまたは取り消し、アカウントの停止または終了、または注文の拒否を行う権利を有します。"
+      },
+      {
+        "title": "8. 変更と終了",
+        "content": "Yoowifiは、事前の通知なしにいつでもこの利用規約を変更、またはプロモーションを停止または終了する権利を有します。"
+      },
+      {
+        "title": "9. 一般",
+        "content": "このプロモーションに参加することで、ユーザーはこの利用規約に同意したものとみなします。このプロモーションに関するすべての事項についてのYoowifiの決定は最終的であり、拘束力を持ちます。"
+      }
+    ]
+  },
+  "info": {
+    "businessFeatures": {
+      "title": "現代のビジネス出張向けグローバル接続ソリューション",
+      "subtitle": "仕事が求める場所でチームを常に接続。Yoowifiは、ポケットWiFi、eSIM、グローバルSIMカードを含む、ビジネストラベラー向けの信頼性が高く柔軟でコスト効率の良い接続ソリューションを提供します。専任サポートと企業向け請求制度により、世界中で組織の生産性と管理を維持します。",
+      "bestForLabel": "最適な用途：",
+      "items": [
+        {
+          "id": "pocket-wifi",
+          "title": "ポケットWiFi",
+          "description": "海外出張するチーム向けの信頼性の高い高速インターネット。",
+          "highlights": [
+            "複数デバイスを同時接続",
+            "長時間駆動のバッテリー",
+            "安全で安定した接続",
+            "出張、会議、グループ旅行に最適"
+          ],
+          "bestFor": "チーム、プロジェクトグループ、共有接続が必要な旅行者。",
+          "image": "yoowifi-info-1.webp",
+          "alt": "ポケットWiFi"
+        },
+        {
+          "id": "esim",
+          "title": "eSIM",
+          "description": "物理SIMカード不要の即時デジタル接続。",
+          "highlights": [
+            "即時アクティベーション",
+            "物理SIM不要",
+            "旅行者への迅速な展開",
+            "分散チームの簡単な管理"
+          ],
+          "bestFor": "頻繁に出張する方、リモート社員、直前の出張ニーズ。",
+          "image": "yoowifi-info-2.webp",
+          "alt": "eSIM"
+        },
+        {
+          "id": "sim-card",
+          "title": "SIMカード",
+          "description": "海外ビジネス出張向けに設計された信頼性の高いモバイルデータソリューション。",
+          "highlights": [
+            "ローカルおよび地域カバレッジオプション",
+            "プラグアンドプレイ設定",
+            "目的地間での一貫した接続",
+            "コスト効率の良い国際ローミング代替"
+          ],
+          "bestFor": "長期出張の接続が必要な社員。",
+          "image": "yoowifi-info-3.webp",
+          "alt": "SIMカード"
+        }
+      ]
+    },
+    "globalConnectivity": {
+      "headline": "ビジネス出張の接続をよりスマートに管理",
+      "subheading": "出張社員の接続管理は複雑である必要はありません。Yoowifiは、グローバル接続の単一パートナーとして組織を支援し、ローミングコストの削減、展開の簡素化、旅行者体験の向上を実現します。柔軟なソリューション、透明な請求、専任サポートにより、手間なく接続を維持できます。",
+      "benefitsLabel": "メリット",
+      "image": {
+        "src": "yoowifi-info-4.webp",
+        "alt": "ビジネス出張の接続をよりスマートに管理"
+      },
+      "benefits": [
+        "200以上の国と地域をカバーする接続エリア",
+        {
+          "title": "柔軟なプランと料金",
+          "description": "組織の出張パターンと予算に合ったプランをお選びいただけます。"
+        },
+        {
+          "title": "シンプルな月次請求",
+          "description": "経理・出張管理チーム向けの統合請求と簡単な経費管理。"
+        },
+        "完全な管理権限と可視性を備えた管理ポータル",
+        "24時間年中無休の専任カスタマー＆テクニカルサポート"
+      ],
+      "ctaText": "お問い合わせ"
+    }
+  },
+  "ana1gb": {
+    "heading": "日本国内1GB・7日間の無料eSIMを取得",
+    "getFreeeSIM": "日本国内で7日間1GBを無料でご利用いただけます。さらに、目的地に応じた地域カバレッジ付きで15日間のデータ無制限プランへアップグレードすることも可能です（1日あたりの公正利用ポリシーが適用されます）。"
+  },
+  "ana1gbButton": {
+    "buttonTextSim": "無料の1GB eSIMを申し込む"
+  },
+  "ana1gbCountryCoverage": {
+    "heading": "プランの対応エリア",
+    "headingNote": "（選択した地域により異なります）",
+    "subHeading": "広範なeSIMネットワークカバレッジで、世界40以上の目的地でつながり続けましょう",
+    "countriesCovered": "対応国数"
+  },
+  "ana1gbUpgradeCoverage": {
+    "heading": "アップグレードプランの対応エリア",
+    "subHeading": "選択した地域により異なります",
+    "countriesCovered": "カ国",
+    "totalCountries": "6地域の対応国",
+    "regions": {
+      "asia": "アジア",
+      "saudiArabia": "サウジアラビア",
+      "singapore": "シンガポール",
+      "australiaNewZealand": "オーストラリア・ニュージーランド",
+      "northAmerica": "北米",
+      "europe": "ヨーロッパ"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# Project: YooWiFi
+# Description: Asia's #1 Travel WiFi provider offering Pocket WiFi, Routers, and eSIM solutions.
+
+# Primary AI Context (Summary of products, awards, and pricing model)
+https://yoowifi.com/yoowifi-ai-summary.md
+
+# Product Specific Context
+https://yoowifi.com/product/pocket-wifi
+https://yoowifi.com/product/sim
+
+# Support & FAQ Context
+https://yoowifi.com/contact
+https://yoowifi.com/about-us

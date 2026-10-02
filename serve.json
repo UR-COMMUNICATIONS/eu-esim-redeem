@@ -1,0 +1,8 @@
+{
+    "headers": {
+        "/**": {
+            "X-Custom-Header": "MyHeaderValue",
+            "Access-Control-Expose-Headers": "X-Custom-Header"
+        }
+    }
+}

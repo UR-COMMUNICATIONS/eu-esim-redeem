@@ -1,0 +1,166 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.country-search .stdropdown-container {
+  font-family: "DMSans" !important;
+}
+
+.country-search .stdropdown-container .stdropdown-menu .stdropdown-item {
+  display: flex;
+  gap: 8px;
+}
+
+.country-search .stdropdown-container span {
+  font-family: "Twemoji Mozilla", sans-serif !important;
+}
+
+.country-select .stdropdown-container {
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+}
+
+.country-select .stdropdown-input {
+  padding: 8px;
+}
+
+.country-select .stdropdown-item span {
+  padding: 8px;
+}
+
+.country-select .stdropdown-menu {
+  max-height: 380px;
+}
+
+.country-search .stdropdown-container {
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.country-search.blackSearch .stdropdown-container {
+  border: 1px solid #424242;
+}
+
+.country-search .stsearch-box input::placeholder {
+  color: #eee;
+  font-weight: 400;
+}
+
+.country-search.blackSearch .stsearch-box input::placeholder {
+  color: #727272;
+}
+
+.country-search .stsearch-box input {
+  padding-left: 32px;
+  font-weight: 400;
+}
+
+.country-search.blackSearch .stsearch-box input {
+  color: #fff;
+}
+
+.nav-white .stsearch-box input {
+  color: #000;
+}
+
+.nav-white .stsearch-box input::placeholder {
+  color: #888888;
+}
+
+.nav-white .stdropdown-container {
+  border: 1px solid #eeeeee;
+}
+
+.country-search.whiteText .stsearch-box input {
+  color: #191919;
+}
+
+.country-search.blackText .stsearch-box input {
+  color: #e0e0e0;
+}
+
+.country-search .stdropdown-menu {
+  color: #191919;
+}
+
+.country-search .stdropdown-tools {
+  display: none;
+}
+
+/* Hide the spinner in number inputs for Webkit browsers (Chrome, Safari, Edge) */
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Hide the spinner in number inputs for Firefox */
+.no-spinner[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.flag-dropdown {
+  font-family: "Twemoji Mozilla" !important;
+}
+
+/* Phone Input */
+.react-international-phone-input-container {
+  width: 100% !important;
+  padding: 0px !important;
+}
+
+.react-international-phone-country-selector-button {
+  background: #fafafa !important;
+  border: 1px solid #e0e0e0 !important;
+  padding: 16px !important;
+  height: 52px !important;
+  border-radius: 8px !important;
+  width: 86px !important;
+}
+
+.react-international-phone-input {
+  background: #fafafa !important;
+  width: 100% !important;
+  border-width: 0px !important;
+  border: 1px solid #e0e0e0 !important;
+  padding: 16px !important;
+  height: 52px !important;
+  border-radius: 8px !important;
+  margin-left: 8px !important;
+  font-size: 14px !important;
+  line-height: 1.5 !important;
+  color: #191919 !important;
+}
+
+.navbarLang .countryName {
+  display: none !important;
+}
+
+@media (max-width: 1280px) {
+  .navbarLang .countryName {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .react-international-phone-country-selector-button {
+    padding: 12px !important;
+    height: 44px !important;
+  }
+
+  .react-international-phone-input {
+    padding: 12px !important;
+    height: 44px !important;
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+  }
+}
+
+body[data-scroll-locked="1"] .scrollLocked {
+  width: calc(100% - 17px);
+  transition-duration: 0ms;
+}
