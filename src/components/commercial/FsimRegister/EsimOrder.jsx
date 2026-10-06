@@ -106,26 +106,39 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
         // console.log("Order response", { res })
         // Campaigns that hand activation to the app place the order only —
         // no activateEsim, so cart.esimDetails stays empty and no QR is shown.
-        if (!skipActivation) {
-          esimActivation({
-            requestType: "activateEsim",
-            orderId: res?.orderId,
-            userId: user?.userId,
-            appUserId: user?.appUserId,
+        if (res?.result || res?.status?.result) {
+          if (!skipActivation) {
+            esimActivation({
+              requestType: "activateEsim",
+              orderId: res?.orderId,
+              userId: user?.userId,
+              appUserId: user?.appUserId,
+            });
+          }
+          // setOrderId(res?.orderId)
+          dispatch(setCartData({ isCallFreeEsim: false }));
+          setProcess({
+            // ...prev,
+            isProcessing: false,
+            isSuccess: true,
+            title: res?.result
+              ? t("orderSummary.orderConfirmed")
+              : t("orderSummary.orderFailed"),
+            alertType: res?.result ? "success" : "error",
+            alertMessage: res?.message || t("orderSummary.somethingWrong"),
           });
         }
-        // setOrderId(res?.orderId)
-        dispatch(setCartData({ isCallFreeEsim: false }));
-        setProcess({
-          // ...prev,
-          isProcessing: false,
-          isSuccess: true,
-          title: res?.result
-            ? t("orderSummary.orderConfirmed")
-            : t("orderSummary.orderFailed"),
-          alertType: res?.result ? "success" : "error",
-          alertMessage: res?.message || t("orderSummary.somethingWrong"),
-        });
+        else {
+          dispatch(setCartData({ isCallFreeEsim: false }));
+          setProcess({
+            // ...prev,
+            isProcessing: false,
+            isSuccess: false,
+            title: t("orderSummary.orderFailed"),
+            alertType: "error",
+            alertMessage: res?.message || res?.status?.message || t("orderSummary.somethingWrong"),
+          });
+        }
       })
       .catch((error) => {
         console.error("Error placing order:", error);

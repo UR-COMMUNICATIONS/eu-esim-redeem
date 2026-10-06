@@ -44,7 +44,7 @@ const commercialRoutes = {
   // This app's campaign page, reached from the partner site with
   // ?promocode=XXX&varid=N. Same flow as natasEsimRedeem.
   euEsimRedeem: {
-    path: "/EU/esim-redeem",
+    path: "/eu/esim-redeem",
     name: "EU eSIM Redeem",
     activePath: "euEsimRedeem",
   },
