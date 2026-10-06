@@ -38,6 +38,15 @@ const LanguageSelect = () => {
   // const currentCountry = cart.userCountry?.country
   // console.log("lang option", isTargetCountry, currentCountry);
 
+  // @malik Arslan, always resolve equal amount of hooks that are declared, so we can't conditionally call useTranslation() or useSelector() based on isTargetCountry. Instead, we filter the options after resolving them all.
+  const resolvedOptions = languageOptions.map((option) => ({
+    ...option,
+    flagSrc: option.flag(),
+  }));
+  const visibleOptions = resolvedOptions.filter((lang) =>
+    isTargetCountry ? languages[currentCountry]?.includes(lang.value) : lang,
+  );
+
   return (
     <Select
       value={lang}
@@ -51,33 +60,21 @@ const LanguageSelect = () => {
         <SelectValue placeholder="Select Language" />
       </SelectTrigger>
       <SelectContent align="end" side="bottom">
-        {languageOptions
-          ?.filter((lang) =>
-            isTargetCountry
-              ? languages[currentCountry]?.includes(lang.value)
-              : lang,
-          )
-          // filter(lang => currentCountry === 'JP' ? ['en', 'jp'].includes(lang.value) : lang)?.
-          ?.map(({ _id, label, value, flag }, index) => (
-            <SelectItem
-              key={_id}
-              value={value}
-              className={"flex flex-row gap-1 items-center"}
-            >
-              <img
-                src={flag()}
-                // alt={label}
-                // alt={t(`languageOptions.${index}.label`)}
-                alt={t(`languageOptions.${value}`)}
-                className="w-6 h-4 inline-block"
-                title={t(`languageOptions.${value}`)}
-              />{" "}
-              {/* <span className="countryName">{label}</span> */}
-              <span className="countryName">
-                {t(`languageOptions.${value}`)}
-              </span>
-            </SelectItem>
-          ))}
+        {visibleOptions.map(({ _id, value, flagSrc }) => (
+          <SelectItem
+            key={_id}
+            value={value}
+            className={"flex flex-row gap-1 items-center"}
+          >
+            <img
+              src={flagSrc}
+              alt={t(`languageOptions.${value}`)}
+              className="w-6 h-4 inline-block"
+              title={t(`languageOptions.${value}`)}
+            />{" "}
+            <span className="countryName">{t(`languageOptions.${value}`)}</span>
+          </SelectItem>
+        ))}
       </SelectContent>
     </Select>
   );

@@ -103,7 +103,7 @@ export const languageOptions = [
     _id: 6,
     label: "Japanese",
     value: "jp",
-    flag: () => useDynamicImages("country-coverage", "Japan"),
+    flag: () => useDynamicImages("country-coverage", "japan"),
   },
   {
     _id: 7,
