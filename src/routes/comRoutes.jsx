@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { Navigate } from "react-router-dom";
 import { commercialRoutes as routes } from "@/services";
 // import CommercialLayout from "@/components/layout/CommercialLayout";
 // import PocketWifiLayout from "@/components/layout/PocketWifiLayout";
@@ -593,9 +594,9 @@ export const comRoutes = [
       // },
       {
         path: home.path,
-        // [PHASE1-HIDDEN] Home landing page - "/" now serves the EU eSIM claim campaign
-        // element: <DynamicComponent Comp={Home} />,
-        element: <DynamicComponent Comp={EsimRedeem} campaign="eu" />,
+        // Canonical landing page is the EU campaign URL; redirect the root path
+        // so the public homepage resolves at /EU/esim-redeem.
+        element: <Navigate to={euEsimRedeem.path} replace />,
       },
       // [PHASE1-HIDDEN] quick signup / natas campaign routes
       // {
