@@ -12,6 +12,10 @@ const FsimRegister = () => {
 
   const regImage =
     fsimConfig[comp]?.registerImage || fsimConfig["default"]?.registerImage;
+  // Hoisted out of the comp !== "kol" branch below: /:brand is a layout route,
+  // so the param can change without remounting this component, and a hook
+  // inside that branch would appear and vanish between renders (React #300).
+  const regImageSrc = useDynamicImages("fsim-banner", regImage);
 
   return (
     <div className="flex flex-col lg:flex-row min-h-screen w-full font-sans">
@@ -19,7 +23,7 @@ const FsimRegister = () => {
       {comp !== "kol" && (
         <div className="w-full lg:w-[50%] hidden lg:block shrink-0">
           <img
-            src={useDynamicImages("fsim-banner", regImage)}
+            src={regImageSrc}
             alt={isEuWifi ? "EU Pocket WiFi" : "Registration"}
             className="block w-full h-auto"
           />
