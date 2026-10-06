@@ -914,7 +914,7 @@ const SimpleSignup = ({ className, onSuccess, type }) => {
             <div className="flex justify-center mb-4">
               <ReCAPTCHA
                 ref={recaptchaRef}
-                sitekey="6Ld3PTkrAAAAAEGBI0Xwlo6q2lmmuLQ_ZkLNECXm"
+                sitekey={import.meta.env.VITE_captchaKey}
                 onChange={handleCaptchaVerify}
                 onExpired={() => setCaptchaToken(null)}
               />

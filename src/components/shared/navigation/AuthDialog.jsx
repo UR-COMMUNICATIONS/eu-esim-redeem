@@ -822,7 +822,7 @@ const AuthDialog = ({ isOpen, setIsOpen, initialFlow = "signIn" }) => {
               <ReCAPTCHA
                 key={captchaKey}
                 ref={recaptchaRef}
-                sitekey="6Ld3PTkrAAAAAEGBI0Xwlo6q2lmmuLQ_ZkLNECXm"
+                sitekey={import.meta.env.VITE_captchaKey}
                 onChange={handleCaptchaVerify}
                 onExpired={() => {
                   setCaptchaToken(null);
