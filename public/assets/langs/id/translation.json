@@ -1682,7 +1682,7 @@
     ],
     "menuData": [
       {
-        "title": "YOOWIFI",
+        "title": "EUWIFI",
         "links": [
           {
             "label": "Tentang Kami"
@@ -5033,34 +5033,34 @@
   },
   "euEsimRedeem": {
     "landing": {
-      "imageAlt": "Yoowifi eSIM",
+      "imageAlt": "EU Wifi eSIM",
       "steps": {
         "heading": "3 Langkah Mengaktifkan eSIM Anda",
         "items": {
           "one": {
             "title": "Isi Informasi",
-            "description": "Silakan isi nama lengkap, alamat email, dan nomor telepon Anda."
+            "description": "Silakan isi detail Anda dan setujui syarat dan ketentuan, lalu klik “Klaim eSIM Anda”."
           },
           "two": {
-            "title": "Klik “Klaim eSIM Anda”",
-            "description": "Untuk memulai aktivasi eSIM, klik tombol “Klaim eSIM Anda” di atas."
+            "title": "Pasang eSIM",
+            "description": "Unduh kode QR dan pasang eSIM di ponsel Anda."
           },
           "three": {
-            "title": "Pindai Barcode",
-            "description": "Setelah pendaftaran selesai, Barcode eSIM Anda akan ditampilkan dan langsung dapat diaktifkan."
+            "title": "Aktifkan Roaming",
+            "description": "Silakan aktifkan Data Roaming di ponsel Anda. Data eSIM Anda akan tersedia setelah Anda tiba di tujuan dan terhubung ke jaringan yang didukung."
           }
-        }
+        },
+        "badge": "Hubungkan ke wifi atau internet sebelum pemasangan"
       },
       "features": {
-        "fastStable": "Koneksi Cepat<br />dan Stabil",
-        "supporting5g": "Mendukung<br />Koneksi 5G",
-        "coveringCountries": "Menjangkau<br />160+ Negara",
-        "support": "Dukungan Pelanggan<br />24/7"
+        "hotspotReady": "Hotspot<br /><strong>Siap</strong>",
+        "support": "Dukungan<br /><strong>Pelanggan 24/7</strong>"
       },
-      "terms": "<strong>Syarat & Ketentuan:</strong><br />eSIM ini tidak dapat dikembalikan, tidak dapat dipindahtangankan, dan tidak dapat ditukar dengan uang tunai. Yoowifi berhak mengubah Syarat & Ketentuan ini tanpa pemberitahuan sebelumnya. Aktifkan sebelum 31 Desember 2027."
+      "terms": "<strong>Syarat & Ketentuan:</strong><br />eSIM ini tidak dapat dikembalikan, tidak dapat dipindahtangankan, dan tidak dapat ditukar dengan uang tunai.<br />Euwifi berhak mengubah Syarat & Ketentuan ini tanpa pemberitahuan sebelumnya.",
+      "appBannerAlt": "Unduh Aplikasi EU Wifi"
     },
     "form": {
-      "imageAlt": "Yoowifi eSIM",
+      "imageAlt": "EU Wifi eSIM",
       "heading": "Tetap Online di Mana Pun Anda Mendarat",
       "dec": "Cukup isi beberapa detail singkat untuk memverifikasi paket dan data Anda, lalu eSIM Anda siap diaktifkan.",
       "email": "Masukkan Alamat Email",
@@ -5075,7 +5075,7 @@
       "orderFailed": "Kami tidak dapat menetapkan eSIM Anda. Silakan coba lagi atau hubungi dukungan."
     },
     "ready": {
-      "heading": "eSIM Anda berhasil didaftarkan!",
+      "heading": "<accent>eSIM</accent> Anda berhasil diaktifkan!",
       "description": "Pindai kode QR di bawah ini untuk memasang eSIM Anda, atau gunakan detail pemasangan manual yang tersedia di bawahnya.",
       "qrAlt": "Kode QR eSIM",
       "saveQrCode": "Simpan Kode QR",
@@ -5087,7 +5087,7 @@
       "iccid": "ICCID"
     },
     "claim": {
-      "planFallback": "Yoowifi eSIM",
+      "planFallback": "EU Wifi eSIM",
       "unlimitedData": "Tanpa Batas",
       "days": "Hari"
     }

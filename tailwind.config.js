@@ -66,6 +66,25 @@ export default {
           900: "#811B1D",
           950: "#46090A",
         },
+        // EU Wifi's gold accent — the "wifi" in the logo, and the header's
+        // account button. `goldGradient` below is the three-stop sweep these
+        // two sit at either end of.
+        gold: {
+          400: "#EDBC7E",
+          600: "#BB8E5B",
+          DEFAULT: "#BB8E5B",
+        },
+        // EU Wifi brand navy. Kept separate from `main` (Yoowifi red) so the
+        // two brands can coexist while the rebrand is in flight.
+        eu: {
+          50: "#F2F6FC",
+          100: "#E3EBF7",
+          200: "#C7D6EC",
+          500: "#2C4A8F",
+          600: "#223870",
+          700: "#1A2B57",
+          DEFAULT: "#223870",
+        },
         black: {
           100: "#E7E7E7",
           200: "#D1D1D1",
@@ -124,6 +143,8 @@ export default {
         login: "url('./assets/images/loginBg.png')",
         mainGradient:
           "linear-gradient(1deg, #D33739 0.75%, #D33739 30.9%, rgba(211, 55, 57, 0.00) 89.76%)",
+        goldGradient:
+          "linear-gradient(95.69deg, #BB8E5B -22.39%, #EDBC7E 59.42%, #BB8E5B 141.23%)",
       },
       borderRadius: {
         lg: "var(--radius)",

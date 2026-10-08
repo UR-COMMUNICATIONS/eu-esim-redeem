@@ -1,6 +1,8 @@
 import defineCampaign from "./defineCampaign";
 import { PARTNER_DESTINATIONS, YW3GB_DESTINATIONS } from "./destinations";
 import NatasClaim from "../NatasClaim";
+import EuClaim from "../EuClaim";
+import EuEsimReadyPage from "../EuEsimReadyPage";
 
 /**
  * Every voucher-driven eSIM redeem campaign, defined in one place because a
@@ -32,16 +34,29 @@ const natas = defineCampaign({
 });
 
 // /EU/esim-redeem?promocode=XXX&varid=N — this app's campaign. Same two-screen
-// flow and design as Natas for now (its artwork too, until EU's own is ready);
-// its copy lives under `euEsimRedeem` in the language files.
+// flow as Natas and the same resolved-from-the-link data, but both screens are
+// EU's own (../EuClaim, ../EuEsimReadyPage) rather than the shared ones: the
+// design is a light layout on white with the brand navy, which shares no
+// markup with Natas's gradient banner. Its copy lives under `euEsimRedeem` in
+// the language files and its artwork in assets/images/esim-redeem.
+//
+// Two features rather than the usual three-plus-support, because that is what
+// the design shows; both icons ship with the campaign's own artwork.
 const eu = defineCampaign({
   key: "eu",
-  image: { folder: "fsim-banner", name: "natas-esim-landing" },
+  image: { folder: "esim-redeem", name: "esim-icon" },
   plan: { variationBy: "varid" },
   destination: { from: "planCountries" },
-  landing: { showTerms: true },
-  form: { Component: NatasClaim },
-  completion: { mode: "esim" },
+  landing: {
+    showTerms: true,
+    features: [
+      { key: "hotspotReady", folder: "esim-redeem", icon: "hotspot-icon" },
+      { key: "support", folder: "esim-redeem", icon: "customer-support-icon" },
+    ],
+    showSupportFeature: false,
+  },
+  form: { Component: EuClaim },
+  completion: { mode: "esim", Component: EuEsimReadyPage },
 });
 
 // /yw3gb?annex=YW3GB — the promo never varies, so the param is really just the

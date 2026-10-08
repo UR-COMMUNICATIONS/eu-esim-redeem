@@ -10,7 +10,8 @@ import { Outlet } from "react-router-dom";
 
 // [PHASE1-HIDDEN] wesim logo (wesim-only header)
 // import logoWesim from "@/assets/images/logo-wesim.webp";
-import Footer from "@/components/shared/navigation/Footer";
+// [PHASE1-HIDDEN] site-wide footer - EU pages close with their own app banner
+// import Footer from "@/components/shared/navigation/Footer";
 // [PHASE1-HIDDEN] NavBar (the "/" header) - NavBarSecondary is used everywhere now
 // import NavBar from "@/components/shared/navigation/NavBar";
 import NavBarSecondary from "@/components/shared/navigation/NavBarSecondary";
@@ -84,7 +85,9 @@ function CommercialLayout() {
           <Footer />
         </>
       )} */}
-      <Footer />
+      {/* [PHASE1-HIDDEN] site-wide footer. The EU screens end with their own
+          app-download banner (see pages/commercial/esimRedeem/EuAppBanner),
+          so the Yoowifi footer below it was both redundant and off-brand. */}
       {authModal}
       {loginModal}
       {appDownloadModal}

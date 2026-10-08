@@ -1726,7 +1726,7 @@
     ],
     "menuData": [
       {
-        "title": "YOOWIFI",
+        "title": "EUWIFI",
         "links": [
           {
             "label": "About Us"
@@ -4086,34 +4086,34 @@
   },
   "euEsimRedeem": {
     "landing": {
-      "imageAlt": "Yoowifi eSIM",
+      "imageAlt": "EU Wifi eSIM",
       "steps": {
         "heading": "3 Steps to Activate your eSIM",
         "items": {
           "one": {
             "title": "Fill in Information",
-            "description": "Please provide your full name, email address, phone number."
+            "description": "Please enter your details and agree to the terms and conditions and then click “Claim Your eSIM”."
           },
           "two": {
-            "title": "Click \"Claim Your eSIM\"",
-            "description": "To begin your eSIM activation, click the \"Claim Your eSIM\" button above."
+            "title": "Install the eSIM",
+            "description": "Download the QR code and install the eSIM on your phone."
           },
           "three": {
-            "title": "Scan the Barcode",
-            "description": "After completing your registration, your eSIM Barcode will be shown and activate right away."
+            "title": "Enable Roaming",
+            "description": "Please turn on Data Roaming on your phone. Your eSIM data will become available once you arrive at your designated destination and connect to a supported network."
           }
-        }
+        },
+        "badge": "Connect to wifi or internet before install"
       },
       "features": {
-        "fastStable": "Fast & Stable<br />Connection",
-        "supporting5g": "Supporting<br />5G Connection",
-        "coveringCountries": "Covering<br />160+ Countries",
-        "support": "Customer<br />Support 24/7"
+        "hotspotReady": "Hotspot<br /><strong>Ready</strong>",
+        "support": "Customer<br /><strong>Support 24/7</strong>"
       },
-      "terms": "<strong>Terms & Conditions:</strong><br />This eSIM is non-refundable, non-transferable, and cannot be redeemed for cash. Yoowifi reserves the right to amend these Terms & Conditions without prior notice. Activate before 31 December 2027."
+      "terms": "<strong>Terms & Conditions:</strong><br />This eSIM is non-refundable, non-transferable, and cannot be redeemed for cash.<br />Euwifi reserves the right to amend these Terms & Conditions without prior notice.",
+      "appBannerAlt": "Download the EU Wifi App"
     },
     "form": {
-      "imageAlt": "Yoowifi eSIM",
+      "imageAlt": "EU Wifi eSIM",
       "heading": "Stay Online Wherever You Land",
       "dec": "Just a few quick details to verify your plan and information then your eSIM is ready to be activated.",
       "email": "Enter Email Address",
@@ -4128,7 +4128,7 @@
       "orderFailed": "We couldn't assign your eSIM. Please try again or contact support."
     },
     "ready": {
-      "heading": "You've successfully registered your eSIM!",
+      "heading": "You’ve successfully activated your <accent>eSIM</accent>!",
       "description": "Scan the QR code below to install your eSIM, or use the manual installation details provided underneath.",
       "qrAlt": "eSIM QR code",
       "saveQrCode": "Save QR Code",
@@ -4140,7 +4140,7 @@
       "iccid": "ICCID"
     },
     "claim": {
-      "planFallback": "Yoowifi eSIM",
+      "planFallback": "EU Wifi eSIM",
       "unlimitedData": "Unlimited",
       "days": "Days"
     }

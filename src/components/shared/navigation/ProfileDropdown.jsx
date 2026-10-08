@@ -213,7 +213,7 @@ function ProfileDropdown() {
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setOpen(!open)}
-        className="min-w-10 min-h-10 p-0 rounded-[10px] hidden xl:flex justify-center items-center bg-secondary-500 border-secondary-500 hover:bg-secondary-400"
+        className="min-w-10 min-h-10 p-0 rounded-[10px] hidden xl:flex justify-center items-center bg-goldGradient border-gold-600 hover:opacity-90"
       >
         <PersonIcon className="!h-6 !w-6 shrink-0" />
       </button>

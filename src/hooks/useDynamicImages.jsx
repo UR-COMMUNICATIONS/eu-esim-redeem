@@ -124,6 +124,9 @@ const banner = import.meta.glob("@/assets/images/banner/*.{png,jpg,webp}");
 const welcomeCredit = import.meta.glob(
   "@/assets/images/welcome-credit/*.{png,jpg,webp}",
 );
+const esimRedeem = import.meta.glob(
+  "@/assets/images/esim-redeem/*.{png,jpg,webp}",
+);
 
 const allImages = {
   ...collaborators,
@@ -139,6 +142,7 @@ const allImages = {
   ...productRouters,
   ...banner,
   ...welcomeCredit,
+  ...esimRedeem,
 };
 
 const useDynamicImages = (imgPath, imgName, ext = "webp") => {

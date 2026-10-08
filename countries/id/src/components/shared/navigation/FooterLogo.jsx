@@ -1,17 +1,7 @@
-import { images } from "@/services";
-import { LazyLoadImage } from "react-lazy-load-image-component";
-function FooterLogo({}) {
-  return (
-    <>
-      <LazyLoadImage
-        src={images.yoowifiRedId}
-        alt="logo"
-        title="logo"
-        // className="md:h-[95px] w-auto"
-        className="h-12 md:h-14 w-auto aspect-auto"
-      />
-    </>
-  );
+import EuWifiLogo from "@/components/shared/navigation/EuWifiLogo";
+
+function FooterLogo() {
+  return <EuWifiLogo className="h-[71px] w-auto" />;
 }
 
 export default FooterLogo;

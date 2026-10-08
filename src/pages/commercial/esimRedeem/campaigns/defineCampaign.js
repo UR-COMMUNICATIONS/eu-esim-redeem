@@ -67,6 +67,8 @@ const DEFAULT_LANDING = {
  *   "esim" — activate, then show the eSIM QR and manual install details.
  *   "app"  — place the order only, then show the app-download QR and send the
  *            user to the Yoowifi app to activate.
+ *   Set `completion.Component` to render a bespoke final screen instead of the
+ *   shared one the mode selects; the mode still decides what actually happens.
  */
 export default function defineCampaign({
   key,
@@ -131,6 +133,10 @@ export default function defineCampaign({
     },
     completion: {
       mode: "app",
+      // A bespoke final screen, rendered in place of the one `mode` selects.
+      // The mode still governs the flow itself (whether the eSIM is activated
+      // here), so a campaign setting this must keep it correct.
+      Component: null,
       // The app-download QR on an "app" campaign's final screen. Not an eSIM
       // QR — scanning it installs the Yoowifi app, where activation happens.
       // Which listing it points at is per storefront, so `qrImage` is the

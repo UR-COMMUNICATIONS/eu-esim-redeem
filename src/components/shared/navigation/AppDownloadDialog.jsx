@@ -14,7 +14,7 @@ const AppDownloadDialog = ({ isOpen, setIsOpen }) => {
       <DialogContent
         showCloseIcon={true}
         className={cn(
-          "bg-main-600 w-[calc(100vw-32px)] max-w-[540px] h-auto min-h-[286px] sm:min-h-[438px] rounded-xl md:rounded-3xl flex flex_center flex-col px-4 md:px-8 lg:px-[60px] pt-10 md:pt-[60px] pb-6 md:pb-[60px] gap-6 md:gap-12 border-0 ring-0 outline-0"
+          "bg-eu-600 w-[calc(100vw-32px)] max-w-[540px] h-auto min-h-[286px] sm:min-h-[438px] rounded-xl md:rounded-3xl flex flex_center flex-col px-4 md:px-8 lg:px-[60px] pt-10 md:pt-[60px] pb-6 md:pb-[60px] gap-6 md:gap-12 border-0 ring-0 outline-0"
         )}
       >
         <DialogTitle className={"hidden"} />
@@ -24,7 +24,7 @@ const AppDownloadDialog = ({ isOpen, setIsOpen }) => {
             {t("downloadYooWifi.downloadText")}
           </h2>
           <h3 className="text-6xl md:text-[5rem] font-bold md:font-extrabold text-white mt-1 md:mt-4">
-            Yoowifi
+            Euwifi
           </h3>
           <p className="text-base md:text-xl text-white">
             {t("downloadYooWifi.ctaText")}

@@ -21,8 +21,8 @@ import { cn } from "@/lib/utils";
 //   corporateRoutes,
 // } from "@/services";
 import {
+  CellphoneIcon,
   CloseIcon,
-  LogoIcon,
   PersonIcon,
   commercialRoutes,
 } from "@/services";
@@ -36,6 +36,7 @@ import { useTranslation } from "react-i18next";
 import { useSelector } from "react-redux";
 // [PHASE1-HIDDEN] useNavigate (country-coverage search navigation)
 // import { Link, useLocation, useNavigate } from "react-router-dom";
+import EuWifiLogo from "@/components/shared/navigation/EuWifiLogo";
 import { Link, useLocation } from "react-router-dom";
 // [PHASE1-HIDDEN] CustomDropdown (destination search)
 // import CustomDropdown from "../CustomDropdown";
@@ -351,7 +352,7 @@ const NavBarSecondary = () => {
             <div className="max-w-[360px] pt-10 xl:pt-0 xl:max-w-none mx-auto flex-1 xl:flex flex-col xl:flex-row xl:items-center xl:justify-between">
               <div className="flex xl:hidden w-full xl:w-auto items-center justify-between pb-10">
                 <Link to={commercialRoutes.home.path}>
-                  <LogoIcon color="#E41F26" />
+                  <EuWifiLogo className="h-auto w-[120px]" />
                 </Link>
                 <button
                   type="butotn"
@@ -515,17 +516,15 @@ const NavBarSecondary = () => {
                     <span> {t(`buttonText.login`)}</span>
                   </Button>
                 )}
-                {/* [PHASE1-HIDDEN] app download button
                 <Button
                   className={cn(
-                    "px-6 py-3 rounded-[10px] w-full max-w-[320px] xl:w-auto bg-main-600 text-white",
+                    "px-6 py-3 rounded-[10px] w-full max-w-[320px] xl:w-auto bg-eu-600 text-white hover:bg-eu-500",
                   )}
                   onClick={() => handleModalOpen("download", true)}
                 >
                   <CellphoneIcon color="#fff" className="w-5 h-5 shrink-0" />
                   <span>{t("buttonText.downloadApp")}</span>
                 </Button>
-                */}
                 <LanguageSelect />
                 {user?.userId ? (
                   <ProfileDropdown />
@@ -534,7 +533,7 @@ const NavBarSecondary = () => {
                     className={
                       "min-w-10 min-h-10 p-0 rounded-[10px] hidden xl:flex"
                     }
-                    variant="secondary"
+                    variant="gold"
                     onClick={() => handleModalOpen("auth", true)}
                     aria-label="Modal"
                   >

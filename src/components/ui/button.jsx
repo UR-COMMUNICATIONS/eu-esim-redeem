@@ -11,6 +11,8 @@ const buttonVariants = cva(
       variant: {
         default: "bg-main-600 text-white shadow hover:bg-main-500",
         secondary: "bg-secondary-500 hover:bg-secondary-400 text-black-900",
+        // EU Wifi's gold sweep — the header account button.
+        gold: "bg-goldGradient text-black-900 shadow hover:opacity-90",
         alert: "bg-secondary-500 text-black-900",
         outline:
           "border border-neutral-400 hover:border-neutral-600 hover:bg-neutral-300/50 hover:text-black-900",

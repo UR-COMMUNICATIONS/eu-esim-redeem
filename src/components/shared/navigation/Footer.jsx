@@ -59,7 +59,7 @@ const Footer = () => {
     ],
     menuData: [
       {
-        title: "YOOWIFI",
+        title: "EUWIFI",
         links: [
           // [PHASE1-HIDDEN] About Us + FAQ pages
           // { label: "About Us", path: commercialRoutes.aboutUs.path },
@@ -333,7 +333,7 @@ const Footer = () => {
 
       <div className="container2X sec_common_40 lg:px-4 flex flex-col md:flex-row gap-2 justify-between md:items-center">
         <p className="text-sm md:text-base text-white !leading-[1.4]">
-          ©2024 <span className="font-semibold">Yoowifi</span>.{" "}
+          ©2024 <span className="font-semibold">Euwifi</span>.{" "}
           {t("footer.copyRightText")}
         </p>
 

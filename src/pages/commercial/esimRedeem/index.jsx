@@ -88,7 +88,9 @@ export default function EsimRedeem({ campaign: campaignKey }) {
   }
 
   if (step === "ready") {
-    const ReadyScreen = COMPLETION_SCREENS[campaign.completion.mode];
+    const ReadyScreen =
+      campaign.completion.Component ||
+      COMPLETION_SCREENS[campaign.completion.mode];
     return <ReadyScreen campaign={campaign} />;
   }
 

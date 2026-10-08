@@ -4,9 +4,10 @@ Each campaign is its own URL, translation namespace and coverage list, running
 on the shared flow in `../` (landing → register form → final screen). In the
 common case you write no new components.
 
-Natas is the exception: it sets `form.Component`, which both supplies a bespoke
-form screen and drops the separate landing step, giving a two-screen flow
-(claim page → eSIM QR).
+Natas and EU are the exceptions: both set `form.Component`, which supplies a
+bespoke form screen and drops the separate landing step, giving a two-screen
+flow (claim page → eSIM QR). EU additionally sets `completion.Component` for
+its own final screen, since its design differs from the shared one.
 
 ## One URL, several campaigns
 
@@ -115,6 +116,10 @@ For an `"app"` campaign the `ready` block drops the QR keys (`qrAlt`,
 Drop the landing/form/ready image into `src/assets/images/fsim-banner/` as
 `.webp`, named to match the campaign file.
 
+A campaign with its own look can keep its artwork in its own folder instead —
+EU uses `src/assets/images/esim-redeem/` — but any new folder has to be added
+to the glob list in `@/hooks/useDynamicImages`, or nothing in it resolves.
+
 ## If a design diverges
 
 Set `landing.Component` for a bespoke landing, or `form.Component` for a
@@ -123,5 +128,11 @@ Setting `form.Component` also removes the separate landing step, so that one
 component owns the whole pre-order page — this is how Natas runs on two
 screens. Either way the claim itself (field state, createUser, the wait for
 the link's plan, the hand-off to ProcessOrder) comes from `useClaimOrder`, so a
-bespoke screen only writes markup. The ready screens are driven by the API flow
-and shouldn't need this.
+bespoke screen only writes markup.
+
+The final screen works the same way: set `completion.Component` to render your
+own instead of the one `completion.mode` selects. The mode still decides what
+actually happens (whether the eSIM is activated here at all), so keep it
+correct — the override only changes the markup. EU does this; the shared
+`EsimReadyPage`/`AppReadyPage` are enough for everything else, since they read
+the eSIM straight out of the cart.
