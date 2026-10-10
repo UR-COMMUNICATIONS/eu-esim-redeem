@@ -193,18 +193,36 @@ function ProfileDropdown() {
   const DropdownItem = ({ item, isLast }) => {
     const [isHovered, setIsHovered] = useState(false);
     const Icon = item.icon;
-    const color = isHovered ? "#f24144" : item.color || "#888888";
+    const isDestructive = item.key === "logout";
+    const color = isHovered
+      ? isDestructive
+        ? "#DE3737"
+        : "#223870"
+      : item.color || "#888888";
 
     return (
       <div
-        className={`flex items-center gap-3 px-4 py-3 cursor-pointer rounded-md hover:bg-[#FEF2F2] hover:font-medium
-          ${item.color === "#f24144" ? "text-[#f24144]" : ""} ${!isLast ? "border-b border-[#EEEEEE]" : ""}`}
+        className={`flex cursor-pointer items-center gap-3 rounded-md px-4 py-3 hover:font-medium ${
+          isDestructive
+            ? "hover:bg-red-50"
+            : "hover:bg-eu-50"
+        } ${!isLast ? "border-b border-[#EEEEEE]" : ""}`}
         onClick={() => handleClick(item)}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         <Icon className="w-5 h-5" color={color} />
-        <span className={isHovered ? "text-[#f24144]" : ""}>{item.label}</span>
+        <span
+          className={
+            isHovered
+              ? isDestructive
+                ? "text-[#DE3737]"
+                : "text-eu-600"
+              : ""
+          }
+        >
+          {item.label}
+        </span>
       </div>
     );
   };

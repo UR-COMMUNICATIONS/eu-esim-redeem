@@ -7,6 +7,11 @@ export const GARUDA_BASE = import.meta.env.DEV
   ? "http://localhost:3001"
   : "https://garuda.yoowifi.com";
 
+export const EU_HOLIDAYS_LEGAL_URLS = {
+  terms: "https://www.euholidays.com.sg/tnc",
+  privacy: "https://www.euholidays.com.sg/privacy-policy",
+};
+
 // True when this garuda build is running inside the urwifi iframe.
 // Detected at runtime: garuda is always exactly one level deep inside an iframe.
 // We can't read window.top.location (cross-origin), but we CAN check nesting depth.

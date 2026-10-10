@@ -1,12 +1,11 @@
-import { Link } from "react-router-dom";
 import { Trans, useTranslation } from "react-i18next";
 import { PhoneInput } from "react-international-phone";
 import "react-international-phone/style.css";
 import { TriangleAlert } from "lucide-react";
+import { EU_HOLIDAYS_LEGAL_URLS } from "@/constants/urls";
 import useDynamicImages from "@/hooks/useDynamicImages";
 import useUserLocationLanguage from "@/hooks/useUserLocationLanguage";
 import { countries as allCountries } from "@/general/Arrays";
-import { commercialRoutes } from "@/services";
 import { Input } from "@/components/ui/input";
 import { Switch } from "@/components/ui/switch";
 import { Button } from "@/components/ui/button";
@@ -105,7 +104,7 @@ function StepCard({ index, title, description }) {
 function FeatureItem({ folder, icon, i18nKey }) {
   const iconSrc = useDynamicImages(folder, icon);
   return (
-    <div className="flex min-w-0 items-center gap-4">
+    <div className="flex w-full max-w-[260px] min-w-0 items-center gap-4 sm:w-auto sm:max-w-none">
       <img
         src={iconSrc}
         alt=""
@@ -278,16 +277,16 @@ export default function EuClaim({
                   i18nKey={`${ns}.form.agree`}
                   components={{
                     terms: (
-                      <Link
-                        to={commercialRoutes.termsService.path}
+                      <a
+                        href={EU_HOLIDAYS_LEGAL_URLS.terms}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-bold text-black-900 underline"
                       />
                     ),
                     privacy: (
-                      <Link
-                        to={commercialRoutes.privacyPolicy.path}
+                      <a
+                        href={EU_HOLIDAYS_LEGAL_URLS.privacy}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-bold text-black-900 underline"

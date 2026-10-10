@@ -55,7 +55,7 @@ const LanguageSelect = () => {
     >
       <SelectTrigger
         aria-label="selectLanguage"
-        className="w-full max-w-[320px] xl:w-16 h-10 px-2 rounded-lg bg-main-20 navbarLang"
+        className="navbarLang h-10 w-full max-w-[320px] rounded-lg bg-eu-50 px-2 xl:w-16"
       >
         <SelectValue placeholder="Select Language" />
       </SelectTrigger>

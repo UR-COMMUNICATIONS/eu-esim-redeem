@@ -48,23 +48,26 @@ export default {
           800: "#985308",
           900: "#7C440B",
         },
+        // EU Wifi primary palette. `main` remains as a compatibility alias for
+        // legacy components, so every existing main-* utility now follows the
+        // current blue theme without route-specific checks.
         main: {
-          10: "#FFF1F1",
-          20: "#FFF2F2",
-          50: "#FEF2F2",
-          60: "#E2CACA",
-          100: "#FFE1E1",
-          200: "#FFC9CA",
-          300: "#FEA3A4",
-          400: "#FB6E70",
-          500: "#F24144",
-          650: "#E41F26",
-          600: "#a31515",
-          700: "#BC191C",
-          750: "#E52226",
-          800: "#9B191B",
-          900: "#811B1D",
-          950: "#46090A",
+          10: "#F8FAFD",
+          20: "#F5F8FC",
+          50: "#F2F6FC",
+          60: "#EDF2FA",
+          100: "#E3EBF7",
+          200: "#C7D6EC",
+          300: "#A7BCDD",
+          400: "#6E8FC3",
+          500: "#2C4A8F",
+          600: "#223870",
+          650: "#1F3468",
+          700: "#1A2B57",
+          750: "#18284F",
+          800: "#142144",
+          900: "#101A36",
+          950: "#0A1124",
         },
         // EU Wifi's gold accent — the "wifi" in the logo, and the header's
         // account button. `goldGradient` below is the three-stop sweep these
@@ -74,8 +77,7 @@ export default {
           600: "#BB8E5B",
           DEFAULT: "#BB8E5B",
         },
-        // EU Wifi brand navy. Kept separate from `main` (Yoowifi red) so the
-        // two brands can coexist while the rebrand is in flight.
+        // Explicit EU Wifi brand utilities used by the rebranded screens.
         eu: {
           50: "#F2F6FC",
           100: "#E3EBF7",

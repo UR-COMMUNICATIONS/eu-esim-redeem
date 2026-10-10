@@ -1,13 +1,12 @@
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
-import { qrcode } from "@/services/images";
 import { useTranslation } from "react-i18next";
 import useUserLocationLanguage from "@/hooks/useUserLocationLanguage";
 import useDynamicImages from "@/hooks/useDynamicImages";
 
 const AppDownloadDialog = ({ isOpen, setIsOpen }) => {
   const { t } = useTranslation();
-  const { supportQrcode } = useUserLocationLanguage()
+  const { supportQrcode } = useUserLocationLanguage();
 
   return (
     <Dialog open={isOpen} onOpenChange={() => setIsOpen(!isOpen)}>
@@ -24,7 +23,7 @@ const AppDownloadDialog = ({ isOpen, setIsOpen }) => {
             {t("downloadYooWifi.downloadText")}
           </h2>
           <h3 className="text-6xl md:text-[5rem] font-bold md:font-extrabold text-white mt-1 md:mt-4">
-            Euwifi
+            EUwifi
           </h3>
           <p className="text-base md:text-xl text-white">
             {t("downloadYooWifi.ctaText")}
@@ -57,6 +56,7 @@ const AppDownloadDialog = ({ isOpen, setIsOpen }) => {
               </a>
             </div>
             <div>
+              {/* TODO: Replace this Yoowifi QR with the supplied EU app QR asset. */}
               <img
                 src={supportQrcode}
                 alt="google play"

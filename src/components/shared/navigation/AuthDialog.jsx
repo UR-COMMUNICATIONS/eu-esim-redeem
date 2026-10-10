@@ -79,7 +79,7 @@ const BottomTextLink = ({ text, linkText, onClick }) => (
   <p className="text-sm md:text-base font-normal text-black-600 mt-2 md:mt-3">
     {text}{" "}
     <span
-      className="font-semibold text-main-600 hover:underline cursor-pointer"
+      className="cursor-pointer font-semibold text-eu-600 hover:underline"
       onClick={onClick}
     >
       {linkText}
@@ -535,7 +535,9 @@ const AuthDialog = ({ isOpen, setIsOpen, initialFlow = "signIn" }) => {
           showCloseIcon={true}
           className={cn(
             "w-[calc(100vw-32px)] max-w-[540px] h-auto min-h-[286px] sm:min-h-[438px] rounded-xl md:rounded-3xl flex flex_center flex-col px-4 md:px-8 lg:px-[60px] pt-10 md:pt-[60px] pb-6 md:pb-[60px] gap-6 md:gap-12",
-            signInStage === 3 || signUpStage === 4 ? "bg-main-50" : "bg-white",
+            signInStage === 3 || signUpStage === 4
+              ? "bg-eu-50"
+              : "bg-white",
           )}
         >
           <DialogTitle className={"hidden"} />
@@ -688,7 +690,7 @@ const AuthDialog = ({ isOpen, setIsOpen, initialFlow = "signIn" }) => {
             <div className="flex flex-col items-center gap-6">
               <div className="flex items-center justify-center">
                 <User2Icon
-                  className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 bg-main-500 rounded-full"
+                  className="h-20 w-20 rounded-full bg-eu-600 sm:h-24 sm:w-24 md:h-28 md:w-28"
                   stroke="#fff"
                 />
               </div>
@@ -722,6 +724,7 @@ const AuthDialog = ({ isOpen, setIsOpen, initialFlow = "signIn" }) => {
                 className={cn(
                   "h-11 md:h-[52px] text-base font-semibold !leading-[1.2] rounded-xl select-none",
                   isButtonDisabled && "bg-disabled",
+                  "bg-eu-600 hover:bg-eu-500",
                   "w-full",
                 )}
                 disabled={isButtonDisabled}

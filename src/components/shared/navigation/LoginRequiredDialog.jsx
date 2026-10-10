@@ -25,7 +25,8 @@ const LoginRequiredDialog = ({ isOpen, setIsOpen, setIsAuthDialogOpen }) => {
       <DialogContent
         showCloseIcon={true}
         className={cn(
-          "w-[calc(100vw-32px)] max-w-[540px] h-auto min-h-[286px] sm:min-h-[438px] rounded-xl md:rounded-3xl flex flex_center flex-col px-4 md:px-8 lg:px-[60px] pt-10 md:pt-[60px] pb-6 md:pb-[60px] gap-6 md:gap-12 bg-main-50"
+          "w-[calc(100vw-32px)] max-w-[540px] h-auto min-h-[286px] sm:min-h-[438px] rounded-xl md:rounded-3xl flex flex_center flex-col px-4 md:px-8 lg:px-[60px] pt-10 md:pt-[60px] pb-6 md:pb-[60px] gap-6 md:gap-12",
+          "bg-eu-50",
         )}
       >
         <DialogTitle className={"hidden"} />
@@ -37,6 +38,7 @@ const LoginRequiredDialog = ({ isOpen, setIsOpen, setIsAuthDialogOpen }) => {
           <DialogHeader title={t(`login.title`)} text={t(`login.text`)} />
           <div className="flex_center">
             <Button
+              className="bg-eu-600 hover:bg-eu-500"
               onClick={() => {
                 setIsOpen(false);
                 setIsAuthDialogOpen(true);

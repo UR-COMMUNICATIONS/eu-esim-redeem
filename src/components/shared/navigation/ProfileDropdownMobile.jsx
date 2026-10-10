@@ -110,18 +110,36 @@ function ProfileDropdownMobile({ setIsShowMenu = () => {} }) {
   const DropdownItem = ({ item }) => {
     const [isHovered, setIsHovered] = useState(false);
     const Icon = item.icon;
-    const color = isHovered ? "#f24144" : item.color || "white";
+    const isDestructive = item.key === "logout";
+    const color = isHovered
+      ? isDestructive
+        ? "#DE3737"
+        : "#2C4A8F"
+      : item.color || "white";
 
     return (
       <div
-        className={`flex items-center gap-3 px-4 py-3 cursor-pointer rounded-md hover:bg-[#FEF2F2] hover:font-medium
-                  ${item.color === "#f24144" ? "text-[#f24144]" : ""}`}
+        className={`flex cursor-pointer items-center gap-3 rounded-md px-4 py-3 hover:font-medium ${
+          isDestructive
+            ? "hover:bg-red-50"
+            : "hover:bg-eu-50"
+        }`}
         onClick={() => handleClick(item)}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         <Icon className="w-6 h-6" color={color} />
-        <span className={isHovered ? "text-[#f24144]" : ""}>{item.label}</span>
+        <span
+          className={
+            isHovered
+              ? isDestructive
+                ? "text-[#DE3737]"
+                : "text-eu-500"
+              : ""
+          }
+        >
+          {item.label}
+        </span>
       </div>
     );
   };
@@ -130,7 +148,7 @@ function ProfileDropdownMobile({ setIsShowMenu = () => {} }) {
     <div className="relative xl:hidden" ref={dropdownRef}>
       <button
         onClick={() => setOpen(!open)}
-        className="px-4 py-3 rounded-[10px] w-full max-w-[320px] flex justify-between items-center bg-[#f24144] border-[#f24144] hover:bg-[#f24144] text-white font-bold"
+        className="flex w-full max-w-[320px] items-center justify-between rounded-[10px] border border-eu-600 bg-eu-600 px-4 py-3 font-bold text-white hover:bg-eu-500"
       >
         <div className="flex items-center gap-2">
           <PersonIcon className="!h-6 !w-6" color="white" />

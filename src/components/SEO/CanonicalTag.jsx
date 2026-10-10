@@ -13,6 +13,7 @@ const CanonicalTag = () => {
     ogTitle:
       "Yoowifi: Best Portable WiFi Routers & Travel eSIM Solutions for Global Connectivity",
     ogImage: "https://yoowifi.com/yoowifi_thumbnail.png",
+    ogUrl: null,
   };
 
   const metaData = {
@@ -36,9 +37,18 @@ const CanonicalTag = () => {
       description:
         "Rent pocket WiFi in Singapore for seamless international travel. Enjoy affordable, secure, and fast internet access on the go—perfect for tourists and business travelers.",
     },
+    "/eu/esim-redeem": {
+      title: "EUWiFi: Europe Travel eSIM & Portable WiFi",
+      keywords: "EUWiFi, Europe eSIM, portable WiFi, travel connectivity",
+      description:
+        "Buy the best Europe eSIMs and portable WiFi for seamless travel. Enjoy reliable data, easy setup, and fast connectivity across Europe.",
+      ogTitle: "EUWiFi: Europe Travel eSIM & Portable WiFi",
+      ogImage: "https://euwifi.eu/euwifi_thumbnail.png",
+      ogUrl: "https://euwifi.eu",
+    },
   };
 
-  const currentMeta = metaData[pathname] || defaultMeta;
+  const currentMeta = metaData[pathname.toLowerCase()] || defaultMeta;
 
   // If title is empty, fall back to default title
   const finalTitle = currentMeta.title || defaultMeta.title;
@@ -74,7 +84,11 @@ const CanonicalTag = () => {
         data-rh="true"
       />
       <meta property="og:image" content={finalOgImage} data-rh="true" />
-      <meta property="og:url" content={window.location.href} data-rh="true" />
+      <meta
+        property="og:url"
+        content={currentMeta.ogUrl || window.location.href}
+        data-rh="true"
+      />
       <meta property="og:type" content="website" data-rh="true" />
 
       {/* Twitter Card Meta Tags for Preview */}

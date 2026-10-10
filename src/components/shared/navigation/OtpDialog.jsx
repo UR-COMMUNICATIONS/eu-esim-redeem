@@ -71,7 +71,7 @@ const BottomTextLink = ({ text, linkText, onClick }) => (
     <p className="text-sm md:text-base font-normal text-black-600 mt-2 md:mt-3">
         {text}{" "}
         <span
-            className="font-semibold text-main-600 hover:underline cursor-pointer"
+            className="cursor-pointer font-semibold text-eu-600 hover:underline"
             onClick={onClick}
         >
             {linkText}
@@ -173,6 +173,7 @@ const OtpDialog = ({ isOpen, setIsOpen }) => {
                         className={cn(
                             "h-11 md:h-[52px] text-base font-semibold !leading-[1.2] rounded-xl select-none",
                             isButtonDisabled && "bg-disabled",
+                            "bg-eu-600 hover:bg-eu-500",
                             "w-full"
                         )}
                         disabled={isButtonDisabled}

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { EU_HOLIDAYS_LEGAL_URLS } from "@/constants/urls";
 // [PHASE1-HIDDEN] useActiveMenuItem (only the hidden menu tabs used it)
 // import useActiveMenuItem from "@/hooks/useActiveMenuItem";
 import useDynamicImports from "@/hooks/useDynamicImports";
@@ -116,8 +117,16 @@ const NavBarSecondary = () => {
   // from navbar.commercialLatest.* so they follow the language selector.
   const navTabs = [
     { value: "home", path: commercialRoutes.home.path },
-    { value: "privacyPolicy", path: commercialRoutes.privacyPolicy.path },
-    { value: "termsService", path: commercialRoutes.termsService.path },
+    {
+      value: "privacyPolicy",
+      path: EU_HOLIDAYS_LEGAL_URLS.privacy,
+      external: true,
+    },
+    {
+      value: "termsService",
+      path: EU_HOLIDAYS_LEGAL_URLS.terms,
+      external: true,
+    },
   ];
 
   // [PHASE1-HIDDEN] header menu tabs (Home, Pocket WIFI, Router, SIM/eSIM, Contact, About Us)
@@ -219,8 +228,8 @@ const NavBarSecondary = () => {
           )}
         >
           <div className="flex w-full xl:w-auto items-center gap-2 sm:gap-6 justify-between">
-            <Link to={commercialRoutes.home.path}>
-              <div className="relative w-[140px] h-auto">
+            <Link to={commercialRoutes.home.path} className="block shrink-0">
+              <div className="relative h-[54px] w-[100px] md:h-11 md:w-[140px]">
                 <Suspense
                   fallback={
                     <div className="absolute inset-0 flex items-center justify-center">
@@ -363,22 +372,41 @@ const NavBarSecondary = () => {
                 </button>
               </div>
               <ul className="flex flex-col xl:flex-row xl:items-center gap-y-1 gap-x-2">
-                {navTabs.map((item) => (
-                  <li key={item.value}>
-                    <Link
-                      className={cn(
-                        "menuItem hover:after:bg-main-600",
-                        pathname.toLowerCase() === item.path.toLowerCase()
-                          ? "after:scale-x-100 font-semibold after:bg-main-600 bg-main-600 xl:bg-transparent"
-                          : "",
+                {navTabs.map((item) => {
+                  const className = cn(
+                    "menuItem",
+                    "hover:bg-eu-600 hover:after:bg-eu-600",
+                    !item.external &&
+                      pathname.toLowerCase() === item.path.toLowerCase()
+                      ? "after:scale-x-100 bg-eu-600 font-semibold after:bg-eu-600 xl:bg-transparent"
+                      : "",
+                  );
+                  const label = t(`navbar.commercialLatest.${item.value}`);
+
+                  return (
+                    <li key={item.value}>
+                      {item.external ? (
+                        <a
+                          className={className}
+                          href={item.path}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => setIsShowMenu(false)}
+                        >
+                          {label}
+                        </a>
+                      ) : (
+                        <Link
+                          className={className}
+                          onClick={() => setIsShowMenu(false)}
+                          to={item.path}
+                        >
+                          {label}
+                        </Link>
                       )}
-                      onClick={() => setIsShowMenu(false)}
-                      to={item.path}
-                    >
-                      {t(`navbar.commercialLatest.${item.value}`)}
-                    </Link>
-                  </li>
-                ))}
+                    </li>
+                  );
+                })}
               </ul>
               {/* [PHASE1-HIDDEN] header menu tabs
               <ul className="flex flex-col xl:flex-row xl:items-center gap-y-1 gap-x-2">
@@ -508,9 +536,10 @@ const NavBarSecondary = () => {
                 ) : (
                   <Button
                     variant="outline"
-                    className={
-                      "px-6 py-3 bg-transparent border-main-600 text-main-600 hover:bg-main-600 hover:text-white rounded-[10px] w-full max-w-[320px] xl:w-auto xl:hidden"
-                    }
+                    className={cn(
+                      "w-full max-w-[320px] rounded-[10px] bg-transparent px-6 py-3 hover:text-white xl:hidden xl:w-auto",
+                      "border-eu-600 text-eu-600 hover:bg-eu-600",
+                    )}
                     onClick={() => handleModalOpen("auth", true)}
                   >
                     <span> {t(`buttonText.login`)}</span>
