@@ -1,17 +1,17 @@
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import { cn } from "@/lib/utils";
 import { useTranslation } from "react-i18next";
-import useUserLocationLanguage from "@/hooks/useUserLocationLanguage";
 import useDynamicImages from "@/hooks/useDynamicImages";
+import euAppQr from "@/assets/images/esim-redeem/EUApp-qr.webp";
 
 const AppDownloadDialog = ({ isOpen, setIsOpen }) => {
   const { t } = useTranslation();
-  const { supportQrcode } = useUserLocationLanguage();
 
   return (
     <Dialog open={isOpen} onOpenChange={() => setIsOpen(!isOpen)}>
       <DialogContent
         showCloseIcon={true}
+        closeIconClassName="text-white data-[state=open]:text-white"
         className={cn(
           "bg-eu-600 w-[calc(100vw-32px)] max-w-[540px] h-auto min-h-[286px] sm:min-h-[438px] rounded-xl md:rounded-3xl flex flex_center flex-col px-4 md:px-8 lg:px-[60px] pt-10 md:pt-[60px] pb-6 md:pb-[60px] gap-6 md:gap-12 border-0 ring-0 outline-0"
         )}
@@ -56,10 +56,9 @@ const AppDownloadDialog = ({ isOpen, setIsOpen }) => {
               </a>
             </div>
             <div>
-              {/* TODO: Replace this Yoowifi QR with the supplied EU app QR asset. */}
               <img
-                src={supportQrcode}
-                alt="google play"
+                src={euAppQr}
+                alt="QR code to download the EU Wifi App"
                 className="w-[110px] md:w-[160px] aspect-square"
               />
             </div>
