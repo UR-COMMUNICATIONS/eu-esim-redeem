@@ -5078,6 +5078,8 @@
       "heading": "<accent>eSIM</accent> Anda berhasil diaktifkan!",
       "description": "Pindai kode QR di bawah ini untuk memasang eSIM Anda, atau gunakan detail pemasangan manual yang tersedia di bawahnya.",
       "qrAlt": "Kode QR eSIM",
+      "installEsim": "Pasang eSIM di Perangkat Ini",
+      "installEsimHelp": "Pemasangan sekali ketuk di ponsel dan tablet yang didukung.",
       "saveQrCode": "Simpan Kode QR",
       "reminderLabel": "Pengingat:",
       "reminderText": "Harap simpan kode QR dan detail pemasangan manual Anda sekarang sebelum menutup halaman ini.",

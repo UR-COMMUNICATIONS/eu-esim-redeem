@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
 import { Trans, useTranslation } from "react-i18next";
-import { Copy, Check, Mail } from "lucide-react";
+import { Copy, Check, Mail, Smartphone } from "lucide-react";
 import { hostServices } from "@/general/host.services";
 import { Button } from "@/components/ui/button";
 import { DownloadFillIcon } from "@/services";
@@ -14,6 +14,43 @@ const DETAIL_FIELDS = [
   { key: "activationCode", labelKey: "activationCode" },
   { key: "iccid", labelKey: "iccid" },
 ];
+
+const buildEsimQrPayload = (esim) => {
+  const activationCode = esim?.activationCode?.trim();
+  if (!activationCode) return null;
+
+  return /^LPA:1\$/i.test(activationCode)
+    ? activationCode
+    : esim?.smdp?.trim()
+      ? `LPA:1$${esim.smdp.trim()}$${activationCode}`
+      : null;
+};
+
+const buildEsimInstallUrls = (esim) => {
+  const qrPayload = buildEsimQrPayload(esim);
+  if (!qrPayload) return { android: null, apple: null };
+
+  const cardData = encodeURIComponent(qrPayload);
+
+  return {
+    android: `https://esimsetup.android.com/esim_qrcode_provisioning?carddata=${cardData}`,
+    apple: `https://esimsetup.apple.com/esim_qrcode_provisioning?carddata=${cardData}`,
+  };
+};
+
+const getMobilePlatform = () => {
+  if (typeof navigator === "undefined") return null;
+
+  const { userAgent = "", platform = "", maxTouchPoints = 0 } = navigator;
+  const isAppleMobile =
+    /iPhone|iPad|iPod/i.test(userAgent) ||
+    ((platform === "MacIntel" || /Macintosh/i.test(userAgent)) &&
+      maxTouchPoints > 1);
+
+  if (isAppleMobile) return "apple";
+  if (/Android/i.test(userAgent)) return "android";
+  return null;
+};
 
 function CopyableDetail({ label, value }) {
   const [copied, setCopied] = useState(false);
@@ -64,6 +101,9 @@ export default function EuEsimReadyPage({ campaign }) {
   const qrCodeUrl = esim?.qrCode
     ? `${hostServices.remote}/jane/esim/${esim.qrCode}`
     : null;
+  const installUrls = buildEsimInstallUrls(esim);
+  const mobilePlatform = getMobilePlatform();
+  const installUrl = mobilePlatform ? installUrls[mobilePlatform] : null;
 
   const handleSaveQr = () => {
     if (!qrCodeUrl) return;
@@ -98,6 +138,23 @@ export default function EuEsimReadyPage({ campaign }) {
           </div>
 
           <div className="flex flex-col items-center gap-6">
+            {installUrl && (
+              <div className="flex flex-col items-center gap-2">
+                <Button
+                  asChild
+                  className="max-w-full whitespace-normal rounded-2xl bg-eu-600 px-8 py-5 text-base font-semibold hover:bg-eu-500 md:px-10 md:text-lg"
+                >
+                  <a href={installUrl} rel="noopener noreferrer">
+                    <Smartphone className="!h-6 !w-6" />
+                    {t(`${ns}.ready.installEsim`)}
+                  </a>
+                </Button>
+                <p className="text-sm text-black-600">
+                  {t(`${ns}.ready.installEsimHelp`)}
+                </p>
+              </div>
+            )}
+
             <div className="flex aspect-square w-full max-w-[300px] items-center justify-center rounded-[2.5rem] border border-eu-100 bg-eu-50">
               {qrCodeUrl && (
                 <img
