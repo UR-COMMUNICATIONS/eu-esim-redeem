@@ -114,6 +114,10 @@ const KolOrder = ({
 
   useEffect(() => {
     if (planInfo?.planCode && variation?.variationId && user?.userId) {
+      if (!cart.isCallFreeEsim) {
+        return;
+      }
+      console.log("create order request");
       onCreateRequest(planInfo, variation, user);
     }
   }, [planInfo, variation, user]);
@@ -200,10 +204,9 @@ const KolOrder = ({
           <button
             onClick={handleContinue}
             className={`px-10 py-4 rounded-xl font-medium shadow-md transition-all duration-300 
-              ${
-                orderProcess.alertType === "success"
-                  ? "bg-green-500 hover:bg-green-600 hover:shadow-green-200"
-                  : "bg-red-500 hover:bg-red-600 hover:shadow-red-200"
+              ${orderProcess.alertType === "success"
+                ? "bg-green-500 hover:bg-green-600 hover:shadow-green-200"
+                : "bg-red-500 hover:bg-red-600 hover:shadow-red-200"
               } text-white`}
           >
             {/* {t("FsimRegister.activateEsim", "Activate Esim")} */}
