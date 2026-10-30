@@ -10,7 +10,7 @@ function DownloadYoowifi() {
   return (
     <section className="bg-main-600 relative overflow-hidden">
       <YooWifiLogoIcon className="absolute top-1/2 left-0 -translate-y-1/2 z-[1] w-[326px] md:w-[880px] h-full" />
-      <div className="w-full max-w-[1220px] mx-auto relative z-[3] sec_common_60 xl:px-0 bg-lime-500">
+      <div className="w-full max-w-[1220px] mx-auto relative z-[3] sec_common_60 xl:px-0">
         <div className="w-full max-w-[400px] md:max-w-[650px] mb-9 md:mb-0 px-0 relative z-[3]">
           <p className="text-base md:text-3xl md:font-semibold text-status-alert leading-[120%] md:uppercase">
             {t("downloadYooWifi.downloadText")}
