@@ -22,7 +22,7 @@ const KolOrder = ({
   const navigate = useNavigate();
 
   const { fetchLocalPlans, process } = useLocalPlan();
-  const { userInfo, user } = useSelector((state) => state.auth);
+  const { userInfo } = useSelector((state) => state.auth);
   const { cart } = useSelector((state) => state.cart);
   const { package: planInfo, variation } = cart;
 
@@ -44,6 +44,10 @@ const KolOrder = ({
   // later unrelated update (e.g. the plan chain still mid-flight) silently
   // overwrites an error one of them already set, reviving the spinner.
   const hardErrorRef = useRef(false);
+  const lookupStartedRef = useRef(false);
+  const orderStartedRef = useRef(false);
+  // Only the lookup for this claim may supply the user for its order.
+  const [resolvedUser, setResolvedUser] = useState(null);
 
   const handleContinue = () => {
     if (onSuccess && orderProcess.isSuccess) {
@@ -63,8 +67,9 @@ const KolOrder = ({
   const getUser = useDisApi({
     apiCall: "getUser",
     setCallBack: (res) => {
-      if (res?.user) {
-        dispatch(setUserData(res?.user));
+      if (res?.user?.userId) {
+        dispatch(setUserData(res.user));
+        setResolvedUser(res.user);
       } else {
         // Without this, a failed lookup here left the trio-wait below stuck
         // forever: user never populates, onCreateRequest never fires, and the
@@ -100,27 +105,44 @@ const KolOrder = ({
   });
 
   useEffect(() => {
+    if (lookupStartedRef.current) return;
     if (!cart.isCallFreeEsim) {
       navigate(`/${comp}`);
       return;
     }
+    lookupStartedRef.current = true;
     getUser({ userId: userInfo?.email });
     if (isCallLocalPlans) {
       getShippingRate({ countryCode: "JP" });
       fetchLocalPlans(cart?.promoCode || "   ", userInfo?.locationCode, true);
     }
-    dispatch(setCartData({ isCallFreeEsim: false }));
   }, []);
 
   useEffect(() => {
-    if (planInfo?.planCode && variation?.variationId && user?.userId) {
-      if (!cart.isCallFreeEsim) {
-        return;
-      }
-      console.log("create order request");
-      onCreateRequest(planInfo, variation, user);
+    if (
+      orderStartedRef.current ||
+      hardErrorRef.current ||
+      !cart.isCallFreeEsim ||
+      !planInfo?.planCode ||
+      !variation?.variationId ||
+      !resolvedUser?.userId
+    ) {
+      return;
     }
-  }, [planInfo, variation, user]);
+
+    // Consume the claim only when all inputs are ready. The ref also guards
+    // effect replays and rerenders before Redux's flag update is observed.
+    orderStartedRef.current = true;
+    dispatch(setCartData({ isCallFreeEsim: false }));
+    onCreateRequest(planInfo, variation, resolvedUser);
+  }, [
+    planInfo,
+    variation,
+    resolvedUser,
+    cart.isCallFreeEsim,
+    dispatch,
+    onCreateRequest,
+  ]);
 
   useEffect(() => {
     if (hardErrorRef.current) return;

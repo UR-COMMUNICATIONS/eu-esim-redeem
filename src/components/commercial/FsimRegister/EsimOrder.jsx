@@ -14,7 +14,7 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const { userInfo, user } = useSelector((state) => state.auth);
+  const { userInfo } = useSelector((state) => state.auth);
   const { cart } = useSelector((state) => state.cart);
 
   const [process, setProcess] = useState({
@@ -33,7 +33,6 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
   });
 
   const createRequest = (planInfo, variation, user) => {
-    console.log("createRequest esim");
     const date = dateformat(null);
     let request = {
       orderType: "buy-esim",
@@ -69,7 +68,7 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
   };
 
   const submitRequest = (request) => {
-    console.log("FINAL REQUEST", request);
+    // console.log("FINAL REQUEST", request);
     // setTimeout(() => {
     //     const res = {
     //         "result": true,
@@ -111,8 +110,8 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
             esimActivation({
               requestType: "activateEsim",
               orderId: res?.orderId,
-              userId: user?.userId,
-              appUserId: user?.appUserId,
+              userId: request.userId,
+              appUserId: request.appUserId,
             });
           }
           // setOrderId(res?.orderId)

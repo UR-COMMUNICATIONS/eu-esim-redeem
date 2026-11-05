@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { useTranslation } from "react-i18next";
 import { useDisApi } from "@/general";
 import { fetchStateDataToken } from "@/general/getStateData";
-import { saveAuthData, setUserInfo } from "@/store/module/auth/slice";
+import { saveAuthData, setUserData, setUserInfo } from "@/store/module/auth/slice";
 import { setCartData } from "@/store/module/cart/cartSlice";
 import { countries } from "@/general/Arrays";
 import { APP_SOURCE } from "@/constants/app";
@@ -20,8 +20,8 @@ import { APP_SOURCE } from "@/constants/app";
  * The caller renders <ProcessOrder {...orderProps} /> while `ordering` is set,
  * rather than this hook doing it, so the order screen inherits each layout's
  * own chrome. Crucially the caller must keep that inside the same component
- * instance — unmounting the form on a failed order would lose `userCreated`
- * and register the user a second time on retry.
+ * instance — unmounting the form on a failed order would lose
+ * `createdAccountRef` and register the user a second time on retry.
  */
 export default function useClaimOrder({
   campaign,
@@ -62,12 +62,16 @@ export default function useClaimOrder({
   // State, not a ref: the effect below waits on this, and a ref mutation
   // wouldn't re-render — leaving the form stuck on "Processing…" whenever the
   // plan had already resolved (i.e. almost always).
-  const [userCreated, setUserCreated] = useState(false);
+  const [sessionReady, setSessionReady] = useState(false);
   // useDisApi memoizes createUser's callback via useCallback([apiCall,
   // dispatch]), so it never picks up a fresh closure after the first render —
   // `email` read directly inside that callback would always be "" (the
   // initial state). This ref is refreshed on every submit instead.
   const emailRef = useRef("");
+  // The account this form registered, kept apart from sessionReady: a retry
+  // needs a new token (a failed getUser clears the old one) but must not
+  // register the same account again.
+  const createdAccountRef = useRef(null);
 
   const planErrorText = planErrorCode ? t(`${ns}.form.${planErrorCode}`) : "";
   // Campaigns that resolve up front can't be claimed on a broken link; the
@@ -123,6 +127,40 @@ export default function useClaimOrder({
     setOrdering(true);
   };
 
+  // createUser (unlike addUser/verifyAndLogin) returns no bearer token, but
+  // every request after this now requires one (getUser included) — fetch one
+  // for the account, using its email as the identifier, rather than making the
+  // visitor verify again for an account this same form just made.
+  //
+  // source must match what the account was actually created with, not the
+  // campaign key: apidispatcher's createUser case ignores whatever source it's
+  // passed and always writes sessionStorage["source"] || APP_SOURCE
+  // (general.services.js, unconditional after the switch) — so that's what's
+  // really on file for this account.
+  const startSession = async (account) => {
+    try {
+      const result = await fetchStateDataToken({
+        userId: account.email,
+        source: sessionStorage.getItem("source") || APP_SOURCE,
+      });
+      if (!result?.token) throw new Error("no token");
+      dispatch(saveAuthData({ token: result.token }));
+      // apidispatcher adds auth.user.appUserId to every request, and that can
+      // still hold an earlier account restored from localStorage. Replace it,
+      // or getUser goes out with this token but another account's id.
+      dispatch(
+        setUserData({
+          userId: account.email,
+          appUserId: result.appUserId ?? account.appUserId,
+        }),
+      );
+      setSessionReady(true);
+    } catch {
+      setSubmitting(false);
+      setError(t(`${ns}.form.registrationFailed`));
+    }
+  };
+
   const createUser = useDisApi({
     apiCall: "createUser",
     setCallBack: async (res) => {
@@ -131,29 +169,11 @@ export default function useClaimOrder({
         setError(res?.message || t(`${ns}.form.registrationFailed`));
         return;
       }
-      // createUser (unlike addUser/verifyAndLogin) returns no bearer token,
-      // but every request after this now requires one (getUser included) —
-      // fetch one for the account we just created, using the same email as
-      // its identifier, rather than making the visitor verify again for an
-      // account this same request just made.
-      //
-      // source must match what the account was actually created with, not
-      // the campaign key: apidispatcher's createUser case ignores whatever
-      // source it's passed and always writes sessionStorage["source"] ||
-      // APP_SOURCE (general.services.js, unconditional after the switch) —
-      // so that's what's really on file for this account.
-      try {
-        const result = await fetchStateDataToken({
-          userId: emailRef.current,
-          source: sessionStorage.getItem("source") || APP_SOURCE,
-        });
-        if (!result?.token) throw new Error("no token");
-        dispatch(saveAuthData({ token: result.token }));
-        setUserCreated(true);
-      } catch {
-        setSubmitting(false);
-        setError(t(`${ns}.form.registrationFailed`));
-      }
+      createdAccountRef.current = {
+        email: emailRef.current,
+        appUserId: res.userId,
+      };
+      await startSession(createdAccountRef.current);
     },
   });
 
@@ -161,13 +181,17 @@ export default function useClaimOrder({
     e.preventDefault();
     if (!canSubmit) return;
     setError("");
-    // Retry after a failed order — the account already exists, so go
-    // straight back to placing the order instead of registering again.
-    if (userCreated) {
-      startOrder();
+    setSubmitting(true);
+    // Cleared first so the effect below waits for this attempt's token rather
+    // than placing the order on the previous attempt's flag.
+    setSessionReady(false);
+    // Retry after a failed order — this account already exists, so skip
+    // registering and just get a new token. A changed email is a different
+    // account, so it registers as normal.
+    if (createdAccountRef.current?.email === email.trim()) {
+      startSession(createdAccountRef.current);
       return;
     }
-    setSubmitting(true);
     emailRef.current = email.trim();
     createUser({
       email: email.trim(),
@@ -178,11 +202,11 @@ export default function useClaimOrder({
     });
   };
 
-  // Once the account is created and the link's plan has resolved, place the
+  // Once the account has a token and the link's plan has resolved, place the
   // order. Either can settle first, so this waits on both and re-checks
   // whenever one of them changes.
   useEffect(() => {
-    if (!submitting || !userCreated) return;
+    if (!submitting || !sessionReady) return;
 
     // localPlans campaigns have nothing to wait for — the plan is looked up
     // during the order step, against the destination just chosen.
@@ -202,7 +226,7 @@ export default function useClaimOrder({
     setSubmitting(false);
     startOrder();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [submitting, userCreated, planStatus, planResult, planErrorText]);
+  }, [submitting, sessionReady, planStatus, planResult, planErrorText]);
 
   const handleOrderFailed = (message) => {
     setOrdering(false);
