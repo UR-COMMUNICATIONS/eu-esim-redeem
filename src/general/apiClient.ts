@@ -11,6 +11,7 @@
  */
 
 import { store } from "@/store";
+import { APP_SOURCE } from "@/constants/app";
 
 // Define types for interceptors
 type RequestInterceptor = (config: RequestConfig) => RequestConfig;
@@ -214,7 +215,9 @@ class ApiService {
 
       const enhancedData: RequestDataType & StandardRequestProps = {
         ...requestData,
-        source: webSource || "urwifi",
+        // Same fallback as apidispatcher: this app books every account and
+        // order under APP_SOURCE ("eu"), never another brand's source.
+        source: webSource || APP_SOURCE,
         platform: "web",
       };
 
