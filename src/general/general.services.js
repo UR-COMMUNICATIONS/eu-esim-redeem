@@ -642,6 +642,14 @@ export function apidispatcher(object, type) {
 
       break;
 
+    // Which eSIM a voucher produced, if it has been redeemed: esim.iccid is
+    // set when it has, empty with status.result false when it hasn't.
+    case "validateRedumption":
+      obj["requestType"] = "validateRedumption";
+      obj["promoCode"] = object.promoCode;
+
+      break;
+
     case "getPromoType":
       obj["requestType"] = "getPromoType";
       obj["promoCode"] = object.promoCode;

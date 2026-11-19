@@ -51,7 +51,7 @@ const pickVariation = (variations, { variationBy, variationId }, linkVarid) => {
 };
 
 const usePromoVariationPlan = (campaign) => {
-  const [status, setStatus] = useState("idle"); // idle | loading | success | error
+  const [status, setStatus] = useState("idle"); // idle | loading | success | redeemed | error
   const [errorCode, setErrorCode] = useState("");
   const [result, setResult] = useState(null);
 
@@ -127,13 +127,29 @@ const usePromoVariationPlan = (campaign) => {
     },
   });
 
+  // A voucher the promo service no longer accepts is either bad or already
+  // spent. The two are told apart by whether it produced an eSIM: one that did
+  // ends in "redeemed" (result.iccid), anything else is an invalid link.
+  const validateRedumption = useDisApi({
+    apiCall: "validateRedumption",
+    setCallBack: (res) => {
+      const iccid = res?.status?.result ? res?.esim?.iccid : null;
+      if (iccid) {
+        setResult({ iccid });
+        setStatus("redeemed");
+        return;
+      }
+      setStatus("error");
+      setErrorCode(ERROR_CODES.INVALID_LINK);
+    },
+  });
+
   const getPromoDetail = useDisApi({
     apiCall: "getPromoDetail",
     setCallBack: (res, params) => {
       const planCode = res?.promoPlan;
       if (!res?.status?.result || !planCode) {
-        setStatus("error");
-        setErrorCode(ERROR_CODES.INVALID_LINK);
+        validateRedumption({ promoCode: params.promoCode });
         return;
       }
       // Fired here rather than chained, so the name arrives while the

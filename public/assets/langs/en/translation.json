@@ -329,28 +329,16 @@
       "menuItems": [
         {
           "title": "Travel Data",
-          "items": [
-            "Pocket Wifi",
-            "Sim/eSim"
-          ]
+          "items": ["Pocket Wifi", "Sim/eSim"]
         },
         {
           "title": "Country Coverage",
-          "items": [
-            "Asia",
-            "Europe",
-            "Americas",
-            "Oceania",
-            "Africa"
-          ]
+          "items": ["Asia", "Europe", "Americas", "Oceania", "Africa"]
         },
         {
           "title": "Pickup/Drop Off Location",
           "titleJP": "Drop Off Location",
-          "items": [
-            "Pickup Location",
-            "Drop Off Location"
-          ]
+          "items": ["Pickup Location", "Drop Off Location"]
         },
         {
           "title": "How To",
@@ -369,10 +357,7 @@
         },
         {
           "title": "How To",
-          "items": [
-            "Set an eSIM",
-            "How to Connect to Your Pocket Wifi?"
-          ]
+          "items": ["Set an eSIM", "How to Connect to Your Pocket Wifi?"]
         }
       ]
     }
@@ -514,13 +499,7 @@
   "stayConnectedRegions": {
     "sectionHeading": "Stay Connected Everywhere",
     "sectionSubHeading": "Choose your dream destination and perfect package now",
-    "regions": [
-      "Asia",
-      "Americas",
-      "Africa",
-      "Oceania",
-      "Europe"
-    ]
+    "regions": ["Asia", "Americas", "Africa", "Oceania", "Europe"]
   },
   "customerTestimonial": {
     "sectionHeading": "What Our Customers Say",
@@ -894,10 +873,7 @@
     "whatsIncluded": {
       "heading": "What's included",
       "subHeading": "Everything You Need for Seamless Connectivity",
-      "includedList": [
-        "x1 Wifi Router",
-        "x1 Power Adapter"
-      ]
+      "includedList": ["x1 Wifi Router", "x1 Power Adapter"]
     },
     "howToConnectRouter": {
       "heading": "How to connect Router?",
@@ -1929,11 +1905,7 @@
   },
   "corporateSharedHero": {
     "heading": "Travel Connected",
-    "items": [
-      "Portable Hotspot to Pocket Wifi",
-      "eSim",
-      "SIM card"
-    ]
+    "items": ["Portable Hotspot to Pocket Wifi", "eSim", "SIM card"]
   },
   "corporateAccount": {
     "title": "Yoowifi Corporate Account",
@@ -1979,41 +1951,24 @@
   },
   "pocketWifiDetails": {
     "pocketWifiDayPass": {
-      "headers": [
-        "Pocket Wifi Monster Daily Plan",
-        "3GB/day",
-        "10GB/day"
-      ],
+      "headers": ["Pocket Wifi Monster Daily Plan", "3GB/day", "10GB/day"],
       "plans": [
         {
           "region": "Brunei, Cambodia, Thailand, Vietnam, Hong Kong, Indonesia, Japan, Laos, Macau, Malaysia, Philippines, Singapore, South Korea, and Taiwan",
-          "prices": [
-            "From\nS$2.50",
-            "From\nS$2.50"
-          ]
+          "prices": ["From\nS$2.50", "From\nS$2.50"]
         },
         {
           "region": "Albania, Andorra, Australia, Austria, Belgium, Bosnia and Herzegovina, Brunei, Bulgaria, Cambodia, Canada, China, Croatia, Czech Republic, Denmark, Estonia, Finland, France, Germany, Gibraltar, Greece, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Laos, Latvia, Liechtenstein, Lithuania, Luxembourg, Macedonia, Malta, Mexico, Monaco, Montenegro, Netherlands, New Zealand, Norway, Poland, Portugal, Romania, Russia, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Turkey, Ukraine, United Kingdom, USA, Vatican",
-          "prices": [
-            "From\nS$2.90",
-            "From\nS$4.90"
-          ]
+          "prices": ["From\nS$2.90", "From\nS$4.90"]
         },
         {
           "region": "Armenia, Bahrain, Bangladesh, Cyprus, Egypt, Georgia, India, Israel, Jordan, Kazakhstan, Kuwait, Morocco, Nepal, Oman, Pakistan, Qatar, Reunion, Saudi Arabia, South Africa, Sri Lanka, UAE, Uzbekistan, (Kyrgyzstan, Tajikistan, Tunisia - Only available for 3GB/day & 10GB/day)",
-          "prices": [
-            "From\nS$3.90",
-            "From\n$S6.90"
-          ]
+          "prices": ["From\nS$3.90", "From\n$S6.90"]
         }
       ]
     },
     "restOfTheWorldDayPass": {
-      "headers": [
-        "Rest of the World-Unlimited Daypass",
-        "1GB/day",
-        "5GB/day"
-      ],
+      "headers": ["Rest of the World-Unlimited Daypass", "1GB/day", "5GB/day"],
       "plan": "Algeria, Anguilla, Antigua and Barbuda, Argentina, Aruba, Azerbaijan, Bolivia, Brazil, British Virgin Islands, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Fiji, French Antilles(Martinique), French Sint Maarten, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Jamaica, Kyrgyzstan, Maldives, Mongolia, Myanmar, Netherlands Antilles(Curacao), Nicaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Vincent and the Grenadines, Suriname, Tahiti, Tajikistan, the CaymanIslands, Trinidad and Tobago Turks and Caicos Islands, Uruguay, Venezuela"
     },
     "sim": {
@@ -2046,11 +2001,7 @@
     "regionalCountries": "Europe*: Albania, Armenia, Andorra, Austria, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Georgia, Gibraltar, Greece, Guernsey, Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Latvia, Liechtenstein, Lithuania, Luxembourg, Macedonia, Malta, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Ukraine, United Kingdom, Vatican"
   },
   "pocketWifiRegion": {
-    "tabs": [
-      "Pocket WIFI",
-      "SIM/eSIM",
-      "Router"
-    ],
+    "tabs": ["Pocket WIFI", "SIM/eSIM", "Router"],
     "header": {
       "text": "Select Product"
     },
@@ -2073,12 +2024,7 @@
   },
   "pocketWifiPlan": {
     "heading": "Select a Plan",
-    "tabs": [
-      "all",
-      "daily",
-      "monthly",
-      "multi-country"
-    ]
+    "tabs": ["all", "daily", "monthly", "multi-country"]
   },
   "discountDownloadApp": {
     "title": "On Mobile App",
@@ -2089,11 +2035,7 @@
     "heroTitle": "Pickup & drop off locations"
   },
   "routerRegion": {
-    "tabs": [
-      "Pocket WIFI",
-      "SIM/eSIM",
-      "Router"
-    ],
+    "tabs": ["Pocket WIFI", "SIM/eSIM", "Router"],
     "header": {
       "text": "Select Product"
     },
@@ -2116,19 +2058,10 @@
   },
   "routerPlan": {
     "heading": "Select a Plan",
-    "tabs": [
-      "all",
-      "daily",
-      "monthly",
-      "multi-country"
-    ]
+    "tabs": ["all", "daily", "monthly", "multi-country"]
   },
   "simRegion": {
-    "tabs": [
-      "Pocket WIFI",
-      "SIM/eSIM",
-      "Router"
-    ],
+    "tabs": ["Pocket WIFI", "SIM/eSIM", "Router"],
     "header": {
       "text": "Select Product"
     },
@@ -2151,12 +2084,7 @@
   },
   "simPlan": {
     "heading": "Select a Plan",
-    "tabs": [
-      "all",
-      "daily",
-      "monthly",
-      "multi-country"
-    ]
+    "tabs": ["all", "daily", "monthly", "multi-country"]
   },
   "simInformation": {
     "accordionData": {
@@ -2551,23 +2479,11 @@
       "content": [
         "5.1 Please select Return device and end the subscribed plan on the Yoowifi app, pack the device and accessories in the return mailer bag. Drop the return mailer bag into the SingPost mailbox or return the device to the location where the device was picked up from. Devices from hotels are to be returned to the respective hotels.\n\n 5.2 You will need to return the device within 5 days after you end the plan via the Yoowifi app. A fee of SGD $100 will be imposed if the device is not returned or when there's 7 days of non-usage. If there is any loss of or damage to the device, the following fees will be imposed respectively:",
         {
-          "headers": [
-            "Loss, Damage of the following items",
-            "Chargers (SGD)"
-          ],
+          "headers": ["Loss, Damage of the following items", "Chargers (SGD)"],
           "rows": [
-            [
-              "Yoowifi Device",
-              "100"
-            ],
-            [
-              "Travel Pouch",
-              "20"
-            ],
-            [
-              "USB Cable",
-              "20"
-            ]
+            ["Yoowifi Device", "100"],
+            ["Travel Pouch", "20"],
+            ["USB Cable", "20"]
           ]
         }
       ]
@@ -4060,7 +3976,7 @@
       "submit": "Claim Your eSIM",
       "processing": "Processing...",
       "claimWindow": "Please ensure you claim within 30 days of your travel date.",
-      "invalidLink": "This link isn't valid or has expired.",
+      "invalidLink": "This link isn't valid.",
       "planUnavailable": "This link's plan is no longer available.",
       "missingDestination": "This link is missing its destination details.",
       "registrationFailed": "Registration failed. Please try again.",
@@ -4121,7 +4037,7 @@
       "submit": "Claim Your eSIM",
       "processing": "Processing...",
       "claimWindow": "Please ensure you claim within 30 days of your travel date.",
-      "invalidLink": "This link isn't valid or has expired.",
+      "invalidLink": "This link isn't valid.",
       "planUnavailable": "This link's plan is no longer available.",
       "missingDestination": "This link is missing its destination details.",
       "registrationFailed": "Registration failed. Please try again.",
@@ -4188,7 +4104,7 @@
       "submit": "Continue to Claim Your Free eSIM",
       "processing": "Processing...",
       "claimWindow": "Please ensure you claim within 30 days of your travel date.",
-      "invalidLink": "This link isn't valid or has expired.",
+      "invalidLink": "This link isn't valid.",
       "planUnavailable": "This link's plan is no longer available.",
       "missingDestination": "This link is missing its destination details.",
       "registrationFailed": "Registration failed. Please try again.",
@@ -4243,7 +4159,7 @@
       "submit": "Continue to Claim Your Free eSIM",
       "processing": "Processing...",
       "claimWindow": "Please ensure you claim within 30 days of your travel date.",
-      "invalidLink": "This link isn't valid or has expired.",
+      "invalidLink": "This link isn't valid.",
       "planUnavailable": "This link's plan is no longer available.",
       "missingDestination": "This link is missing its destination details.",
       "registrationFailed": "Registration failed. Please try again.",
@@ -4297,7 +4213,7 @@
       "submit": "Continue to Claim Your Free eSIM",
       "processing": "Processing...",
       "claimWindow": "Please ensure you claim within 30 days of your travel date.",
-      "invalidLink": "This link isn't valid or has expired.",
+      "invalidLink": "This link isn't valid.",
       "planUnavailable": "This link's plan is no longer available.",
       "missingDestination": "This link is missing its destination details.",
       "registrationFailed": "Registration failed. Please try again.",
@@ -5856,16 +5772,8 @@
       "content": [
         "5.1 Please select Return device and end the subscribed plan on the Yoowifi app, pack the device and accessories in the return mailer bag. Drop the return mailer bag into the SingPost mailbox or return the device to the location where the device was picked up from. Devices from hotels are to be returned to the respective hotels.\n\n 5.2 You will need to return the device within 5 days after you end the plan via the Yoowifi app. A fee of MYR100 will be imposed if the device is not returned or when there's 7 days of non-usage. If there is any loss of or damage to the device, the following fees will be imposed respectively:",
         {
-          "headers": [
-            "Loss, Damage of the following items",
-            "Chargers (MYR)"
-          ],
-          "rows": [
-            [
-              "Yoowifi Device",
-              "100"
-            ]
-          ]
+          "headers": ["Loss, Damage of the following items", "Chargers (MYR)"],
+          "rows": [["Yoowifi Device", "100"]]
         }
       ]
     },

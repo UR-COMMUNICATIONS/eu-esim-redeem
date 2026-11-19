@@ -297,27 +297,15 @@
       "menuItems": [
         {
           "title": "Data Perjalanan",
-          "items": [
-            "Detail Pocket WiFi",
-            "Detail Sim/eSim"
-          ]
+          "items": ["Detail Pocket WiFi", "Detail Sim/eSim"]
         },
         {
           "title": "Cakupan Negara",
-          "items": [
-            "Asia",
-            "Eropa",
-            "Amerika",
-            "Australia",
-            "Afrika"
-          ]
+          "items": ["Asia", "Eropa", "Amerika", "Australia", "Afrika"]
         },
         {
           "title": "Lokasi Penjemputan/Penurunan",
-          "items": [
-            "Lokasi Penjemputan",
-            "Lokasi Penurunan"
-          ]
+          "items": ["Lokasi Penjemputan", "Lokasi Penurunan"]
         },
         {
           "title": "Cara Kerja",
@@ -336,10 +324,7 @@
         },
         {
           "title": "Cara Memasang",
-          "items": [
-            "Pasang eSIM",
-            "Cara Menghubungkan Pocketwifi?"
-          ]
+          "items": ["Pasang eSIM", "Cara Menghubungkan Pocketwifi?"]
         }
       ]
     }
@@ -472,13 +457,7 @@
   "stayConnectedRegions": {
     "sectionHeading": "Tetap Terhubung Dimana Saja",
     "sectionSubHeading": "Pilih Tujuan Impian Anda dan Paket Sempurna Sekarang",
-    "regions": [
-      "Asia",
-      "Amerika",
-      "Afrika",
-      "Australia",
-      "Eropa"
-    ]
+    "regions": ["Asia", "Amerika", "Afrika", "Australia", "Eropa"]
   },
   "customerTestimonial": {
     "sectionHeading": "Apa Kata Pelanggan Kami",
@@ -852,10 +831,7 @@
     "whatsIncluded": {
       "heading": "Apa yang Termasuk",
       "subHeading": "Semua yang Anda Butuhkan untuk Konektivitas Tanpa Gangguan",
-      "includedList": [
-        "x1 Wifi Router",
-        "x1 Adaptor Daya"
-      ]
+      "includedList": ["x1 Wifi Router", "x1 Adaptor Daya"]
     },
     "howToConnectRouter": {
       "heading": "Bagaimana Cara Menghubungkan Router?",
@@ -1890,11 +1866,7 @@
   },
   "corporateSharedHero": {
     "heading": "Terhubung dalam Perjalanan",
-    "items": [
-      "Pocket WiFi",
-      "eSim",
-      "Kartu SIM"
-    ]
+    "items": ["Pocket WiFi", "eSim", "Kartu SIM"]
   },
   "corporateAccount": {
     "title": "Akun Korporat Yoowifi",
@@ -1940,41 +1912,24 @@
   },
   "pocketWifiDetails": {
     "pocketWifiDayPass": {
-      "headers": [
-        "Paket Harian Pocket Wifi Monster",
-        "3GB/hari",
-        "10GB/hari"
-      ],
+      "headers": ["Paket Harian Pocket Wifi Monster", "3GB/hari", "10GB/hari"],
       "plans": [
         {
           "region": "Brunei, Kamboja, Thailand, Vietnam, Hong Kong, Indonesia, Jepang, Laos, Makau, Malaysia, Filipina, Singapura, Korea Selatan, dan Taiwan",
-          "prices": [
-            "Mulai dari\nS$2.50",
-            "Mulai dari\nS$2.50"
-          ]
+          "prices": ["Mulai dari\nS$2.50", "Mulai dari\nS$2.50"]
         },
         {
           "region": "Albania, Andorra, Australia, Austria, Belgia, Bosnia dan Herzegovina, Brunei, Bulgaria, Kamboja, Kanada, Tiongkok, Kroasia, Republik Ceko, Denmark, Estonia, Finlandia, Prancis, Jerman, Gibraltar, Yunani, Guernsey, Hungaria, Islandia, Irlandia, Isle of Man, Italia, Jersey, Laos, Latvia, Liechtenstein, Lituania, Luksemburg, Makedonia, Malta, Meksiko, Monako, Montenegro, Belanda, Selandia Baru, Norwegia, Polandia, Portugal, Rumania, Rusia, San Marino, Serbia, Slovakia, Slovenia, Spanyol, Swedia, Swiss, Turki, Ukraina, Inggris Raya, Amerika Serikat, Vatikan",
-          "prices": [
-            "Mulai dari\nS$2.90",
-            "Mulai dari\nS$4.90"
-          ]
+          "prices": ["Mulai dari\nS$2.90", "Mulai dari\nS$4.90"]
         },
         {
           "region": "Armenia, Bahrain, Bangladesh, Siprus, Mesir, Georgia, India, Israel, Yordania, Kazakhstan, Kuwait, Maroko, Nepal, Oman, Pakistan, Qatar, Réunion, Arab Saudi, Afrika Selatan, Sri Lanka, UEA, Uzbekistan, (Kirgistan, Tajikistan, Tunisia - Hanya tersedia untuk 3GB/hari & 10GB/hari)",
-          "prices": [
-            "Mulai dari\nS$3.90",
-            "Mulai dari\nS$6.90"
-          ]
+          "prices": ["Mulai dari\nS$3.90", "Mulai dari\nS$6.90"]
         }
       ]
     },
     "restOfTheWorldDayPass": {
-      "headers": [
-        "Sisa Dunia-Unlimited Daypass",
-        "1GB/hari",
-        "5GB/hari"
-      ],
+      "headers": ["Sisa Dunia-Unlimited Daypass", "1GB/hari", "5GB/hari"],
       "plan": "Aljazair, Anguilla, Antigua dan Barbuda, Argentina, Aruba, Azerbaijan, Bolivia, Brasil, Kepulauan Virgin Inggris, Chile, Kolombia, Costa Rica, Republik Dominika, Ekuador, El Salvador, Fiji, Antilles Prancis (Martinique), Sint Maarten Prancis, Grenada, Guadeloupe, Guatemala, Guyana, Haiti, Jamaika, Kyrgyzstan, Maladewa, Mongolia, Myanmar, Antilles Belanda (Curacao), Nikaragua, Panama, Paraguay, Peru, Puerto Rico, Saint Vincent dan Grenadines, Suriname, Tahiti, Tajikistan, Kepulauan Cayman, Trinidad dan Tobago, Kepulauan Turks dan Caicos, Uruguay, Venezuela"
     },
     "sim": {
@@ -2007,11 +1962,7 @@
     "regionalCountries": "*Eropa: Albania, Armenia, Andorra, Austria, Belgia, Bosnia dan Herzegovina, Bulgaria, Kroasia, Siprus, Republik Ceko, Denmark, Estonia, Finlandia, Prancis, Jerman, Georgia, Gibraltar, Yunani, Guernsey, Hungaria, Islandia, Irlandia, Isle of Man, Italia, Jersey, Latvia, Liechtenstein, Lituania, Luksemburg, Makedonia, Malta, Monako, Montenegro, Belanda, Norwegia, Polandia, Portugal, Rumania, San Marino, Serbia, Slovakia, Slovenia, Spanyol, Swedia, Swiss, Ukraina, Inggris Raya, Vatikan"
   },
   "pocketWifiRegion": {
-    "tabs": [
-      "Pocket WiFi",
-      "SIM/eSIM",
-      "Router"
-    ],
+    "tabs": ["Pocket WiFi", "SIM/eSIM", "Router"],
     "header": {
       "text": "Pilih Produk"
     },
@@ -2034,12 +1985,7 @@
   },
   "pocketWifiPlan": {
     "heading": "Pilih Paket",
-    "tabs": [
-      "semua",
-      "harian",
-      "bulanan",
-      "multi-negara"
-    ]
+    "tabs": ["semua", "harian", "bulanan", "multi-negara"]
   },
   "discountDownloadApp": {
     "title": "Pada Aplikasi Mobile",
@@ -2050,11 +1996,7 @@
     "heroTitle": "Lokasi Pengambilan & Pengembalian"
   },
   "routerRegion": {
-    "tabs": [
-      "Pocket WiFi",
-      "SIM/eSIM",
-      "Router"
-    ],
+    "tabs": ["Pocket WiFi", "SIM/eSIM", "Router"],
     "header": {
       "text": "Pilih Produk"
     },
@@ -2077,19 +2019,10 @@
   },
   "routerPlan": {
     "heading": "Pilih Paket",
-    "tabs": [
-      "semua",
-      "harian",
-      "bulanan",
-      "multi-negara"
-    ]
+    "tabs": ["semua", "harian", "bulanan", "multi-negara"]
   },
   "simRegion": {
-    "tabs": [
-      "Pocket WiFi",
-      "SIM/eSIM",
-      "Router"
-    ],
+    "tabs": ["Pocket WiFi", "SIM/eSIM", "Router"],
     "header": {
       "text": "Pilih Produk"
     },
@@ -2112,12 +2045,7 @@
   },
   "simPlan": {
     "heading": "Pilih Paket",
-    "tabs": [
-      "semua",
-      "harian",
-      "bulanan",
-      "multi-negara"
-    ]
+    "tabs": ["semua", "harian", "bulanan", "multi-negara"]
   },
   "simInformation": {
     "accordionData": {
@@ -2545,18 +2473,9 @@
             "Chargers (SGD)"
           ],
           "rows": [
-            [
-              "Perangkat Yoowifi",
-              "100"
-            ],
-            [
-              "Kantong Perjalanan",
-              "20"
-            ],
-            [
-              "Kabel USB",
-              "20"
-            ]
+            ["Perangkat Yoowifi", "100"],
+            ["Kantong Perjalanan", "20"],
+            ["Kabel USB", "20"]
           ]
         }
       ]
@@ -4660,12 +4579,7 @@
             "Kehilangan, Kerusakan pada item berikut",
             "Chargers (MYR)"
           ],
-          "rows": [
-            [
-              "Perangkat Yoowifi",
-              "100"
-            ]
-          ]
+          "rows": [["Perangkat Yoowifi", "100"]]
         }
       ]
     },
@@ -5007,7 +4921,7 @@
       "submit": "Klaim eSIM Anda",
       "processing": "Memproses...",
       "claimWindow": "Pastikan Anda melakukan klaim dalam 30 hari sejak tanggal perjalanan Anda.",
-      "invalidLink": "Tautan ini tidak valid atau sudah kedaluwarsa.",
+      "invalidLink": "Tautan ini tidak valid.",
       "planUnavailable": "Paket pada tautan ini sudah tidak tersedia.",
       "missingDestination": "Tautan ini tidak memiliki detail tujuan.",
       "registrationFailed": "Pendaftaran gagal. Silakan coba lagi.",
@@ -5068,7 +4982,7 @@
       "submit": "Klaim eSIM Anda",
       "processing": "Memproses...",
       "claimWindow": "Pastikan Anda melakukan klaim dalam 30 hari sejak tanggal perjalanan Anda.",
-      "invalidLink": "Tautan ini tidak valid atau sudah kedaluwarsa.",
+      "invalidLink": "Tautan ini tidak valid.",
       "planUnavailable": "Paket pada tautan ini sudah tidak tersedia.",
       "missingDestination": "Tautan ini tidak memiliki detail tujuan.",
       "registrationFailed": "Pendaftaran gagal. Silakan coba lagi.",
@@ -5135,7 +5049,7 @@
       "submit": "Lanjutkan untuk Klaim eSIM Gratis Anda",
       "processing": "Memproses...",
       "claimWindow": "Pastikan Anda melakukan klaim dalam 30 hari sejak tanggal perjalanan Anda.",
-      "invalidLink": "Tautan ini tidak valid atau sudah kedaluwarsa.",
+      "invalidLink": "Tautan ini tidak valid.",
       "planUnavailable": "Paket pada tautan ini sudah tidak tersedia.",
       "missingDestination": "Tautan ini tidak memiliki detail tujuan.",
       "registrationFailed": "Pendaftaran gagal. Silakan coba lagi.",
@@ -5190,7 +5104,7 @@
       "submit": "Lanjutkan untuk Klaim eSIM Gratis Anda",
       "processing": "Memproses...",
       "claimWindow": "Pastikan Anda melakukan klaim dalam 30 hari sejak tanggal perjalanan Anda.",
-      "invalidLink": "Tautan ini tidak valid atau sudah kedaluwarsa.",
+      "invalidLink": "Tautan ini tidak valid.",
       "planUnavailable": "Paket pada tautan ini sudah tidak tersedia.",
       "missingDestination": "Tautan ini tidak memiliki detail tujuan.",
       "registrationFailed": "Pendaftaran gagal. Silakan coba lagi.",
@@ -5244,7 +5158,7 @@
       "submit": "Lanjutkan untuk Klaim eSIM Gratis Anda",
       "processing": "Memproses...",
       "claimWindow": "Pastikan Anda melakukan klaim dalam 30 hari sejak tanggal perjalanan Anda.",
-      "invalidLink": "Tautan ini tidak valid atau sudah kedaluwarsa.",
+      "invalidLink": "Tautan ini tidak valid.",
       "planUnavailable": "Paket pada tautan ini sudah tidak tersedia.",
       "missingDestination": "Tautan ini tidak memiliki detail tujuan.",
       "registrationFailed": "Pendaftaran gagal. Silakan coba lagi.",

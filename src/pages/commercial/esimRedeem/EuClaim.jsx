@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button";
 import ProcessOrder from "@/components/commercial/FsimRegister/ProcessOrder";
 import useClaimOrder from "./useClaimOrder";
 import EuAppBanner from "./EuAppBanner";
+import RedeemedView from "./RedeemedView";
 
 /**
  * EU Wifi's single-page claim: hero, register form, activation steps and
@@ -53,7 +54,9 @@ const countryLabel = ({ countryCode, countryName }, language) => {
 // than losing a word to the split.
 const splitPlanName = (name) => {
   const match = /^(.*\S)\s+(esim)$/i.exec(name?.trim() || "");
-  return match ? { lead: match[1], accent: match[2] } : { lead: name, accent: "" };
+  return match
+    ? { lead: match[1], accent: match[2] }
+    : { lead: name, accent: "" };
 };
 
 // The variation carries `dataSize` + `desc` ("3" + "GB") and `days`
@@ -156,7 +159,9 @@ export default function EuClaim({
   // Keyed off the status, not off `planResult` being present: getLocalPlan
   // can land before the order chain finishes and populate the name alone,
   // which would otherwise flash a hero with no coverage line and no pill.
-  const planResolving = !planFailed && planStatus !== "success";
+  const alreadyRedeemed = planStatus === "redeemed";
+  const planResolving =
+    !planFailed && planStatus !== "success" && !alreadyRedeemed;
   // getLocalPlan supplies the name; fall back to the package's own name, then
   // to a generic label, so the hero is never blank.
   const planName =
@@ -182,7 +187,13 @@ export default function EuClaim({
           />
 
           <div className="flex w-full max-w-xl flex-col items-center gap-5 text-center md:items-start md:text-left">
-            {planResolving ? (
+            {alreadyRedeemed ? (
+              <RedeemedView
+                iccid={planResult?.iccid}
+                ns={ns}
+                onView={onReady}
+              />
+            ) : planResolving ? (
               <PlanSkeleton />
             ) : planFailed ? (
               <div className="flex w-full max-w-md flex-col items-center gap-4 rounded-3xl border border-neutral-200 bg-eu-50 p-8 text-center md:items-start md:text-left">
@@ -224,97 +235,103 @@ export default function EuClaim({
           </div>
         </section>
 
-        <section className="flex flex-col items-center gap-8">
-          <div className="flex max-w-2xl flex-col gap-2.5 text-center">
-            <h2 className="text-3xl font-bold leading-tight text-black-900 md:text-5xl md:leading-[1.15]">
-              {t(`${ns}.form.heading`)}
-            </h2>
-            <p className="text-lg text-black-600">{t(`${ns}.form.dec`)}</p>
-          </div>
-
-          <form
-            onSubmit={handleSubmit}
-            className="flex w-full max-w-2xl flex-col gap-4"
-          >
-            <Input
-              placeholder={t("signup.firstName")}
-              value={fields.firstName}
-              onChange={(e) => fields.setFirstName(e.target.value)}
-              required
-            />
-            <Input
-              placeholder={t("signup.lastName")}
-              value={fields.lastName}
-              onChange={(e) => fields.setLastName(e.target.value)}
-              required
-            />
-            <Input
-              placeholder={t(`${ns}.form.email`)}
-              type="email"
-              value={fields.email}
-              onChange={(e) =>
-                fields.setEmail(e.target.value.replace(/\s/g, "").toLowerCase())
-              }
-              required
-            />
-            {/* The country selector sits in its own box beside the number, so the
-                two parts of the control are spaced like the fields above them. */}
-            <PhoneInput
-              defaultCountry={formConfig.phoneDefaultCountry}
-              value={fields.phone}
-              onChange={(value) => fields.setPhone(value)}
-              className="!flex !gap-3 [&_.react-international-phone-country-selector-button]:!h-[3.25rem] [&_.react-international-phone-country-selector-button]:!rounded-xl [&_.react-international-phone-country-selector-button]:!border-neutral-300 [&_.react-international-phone-country-selector-button]:!bg-neutral-50 [&_.react-international-phone-country-selector-button]:!px-4 [&_.react-international-phone-input]:!h-[3.25rem] [&_.react-international-phone-input]:!w-full [&_.react-international-phone-input]:!rounded-xl [&_.react-international-phone-input]:!border-neutral-300 [&_.react-international-phone-input]:!bg-neutral-50 [&_.react-international-phone-input]:!text-base"
-            />
-
-            <label className="flex items-center gap-4 pt-1">
-              <Switch
-                checked={fields.agree}
-                onCheckedChange={fields.setAgree}
-                className="data-[state=checked]:bg-eu-600"
-              />
-              <span className="text-sm text-black-600">
-                <Trans
-                  i18nKey={`${ns}.form.agree`}
-                  components={{
-                    terms: (
-                      <a
-                        href={EU_HOLIDAYS_LEGAL_URLS.terms}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-bold text-black-900 underline"
-                      />
-                    ),
-                    privacy: (
-                      <a
-                        href={EU_HOLIDAYS_LEGAL_URLS.privacy}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="font-bold text-black-900 underline"
-                      />
-                    ),
-                  }}
-                />
-              </span>
-            </label>
-
-            {error && <p className="text-center text-sm text-eu-600">{error}</p>}
-
-            <div className="flex flex-col items-center gap-3 pt-4">
-              <Button
-                type="submit"
-                disabled={!canSubmit}
-                className="max-w-full whitespace-normal rounded-full bg-eu-600 px-10 py-4 text-lg font-semibold hover:bg-eu-500 disabled:opacity-50 md:px-20 md:py-5 md:text-xl"
-              >
-                {submitting
-                  ? t(`${ns}.form.processing`)
-                  : t(`${ns}.form.submit`)}
-              </Button>
-              <p className="text-center text-sm font-semibold text-eu-600">
-                {t(`${ns}.form.claimWindow`)}
-              </p>
+        {!alreadyRedeemed && (
+          <section className="flex flex-col items-center gap-8">
+            <div className="flex max-w-2xl flex-col gap-2.5 text-center">
+              <h2 className="text-3xl font-bold leading-tight text-black-900 md:text-5xl md:leading-[1.15]">
+                {t(`${ns}.form.heading`)}
+              </h2>
+              <p className="text-lg text-black-600">{t(`${ns}.form.dec`)}</p>
             </div>
-          </form>
-        </section>
+
+            <form
+              onSubmit={handleSubmit}
+              className="flex w-full max-w-2xl flex-col gap-4"
+            >
+              <Input
+                placeholder={t("signup.firstName")}
+                value={fields.firstName}
+                onChange={(e) => fields.setFirstName(e.target.value)}
+                required
+              />
+              <Input
+                placeholder={t("signup.lastName")}
+                value={fields.lastName}
+                onChange={(e) => fields.setLastName(e.target.value)}
+                required
+              />
+              <Input
+                placeholder={t(`${ns}.form.email`)}
+                type="email"
+                value={fields.email}
+                onChange={(e) =>
+                  fields.setEmail(
+                    e.target.value.replace(/\s/g, "").toLowerCase(),
+                  )
+                }
+                required
+              />
+              {/* The country selector sits in its own box beside the number, so the
+                two parts of the control are spaced like the fields above them. */}
+              <PhoneInput
+                defaultCountry={formConfig.phoneDefaultCountry}
+                value={fields.phone}
+                onChange={(value) => fields.setPhone(value)}
+                className="!flex !gap-3 [&_.react-international-phone-country-selector-button]:!h-[3.25rem] [&_.react-international-phone-country-selector-button]:!rounded-xl [&_.react-international-phone-country-selector-button]:!border-neutral-300 [&_.react-international-phone-country-selector-button]:!bg-neutral-50 [&_.react-international-phone-country-selector-button]:!px-4 [&_.react-international-phone-input]:!h-[3.25rem] [&_.react-international-phone-input]:!w-full [&_.react-international-phone-input]:!rounded-xl [&_.react-international-phone-input]:!border-neutral-300 [&_.react-international-phone-input]:!bg-neutral-50 [&_.react-international-phone-input]:!text-base"
+              />
+
+              <label className="flex items-center gap-4 pt-1">
+                <Switch
+                  checked={fields.agree}
+                  onCheckedChange={fields.setAgree}
+                  className="data-[state=checked]:bg-eu-600"
+                />
+                <span className="text-sm text-black-600">
+                  <Trans
+                    i18nKey={`${ns}.form.agree`}
+                    components={{
+                      terms: (
+                        <a
+                          href={EU_HOLIDAYS_LEGAL_URLS.terms}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-bold text-black-900 underline"
+                        />
+                      ),
+                      privacy: (
+                        <a
+                          href={EU_HOLIDAYS_LEGAL_URLS.privacy}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-bold text-black-900 underline"
+                        />
+                      ),
+                    }}
+                  />
+                </span>
+              </label>
+
+              {error && (
+                <p className="text-center text-sm text-eu-600">{error}</p>
+              )}
+
+              <div className="flex flex-col items-center gap-3 pt-4">
+                <Button
+                  type="submit"
+                  disabled={!canSubmit}
+                  className="max-w-full whitespace-normal rounded-full bg-eu-600 px-10 py-4 text-lg font-semibold hover:bg-eu-500 disabled:opacity-50 md:px-20 md:py-5 md:text-xl"
+                >
+                  {submitting
+                    ? t(`${ns}.form.processing`)
+                    : t(`${ns}.form.submit`)}
+                </Button>
+                <p className="text-center text-sm font-semibold text-eu-600">
+                  {t(`${ns}.form.claimWindow`)}
+                </p>
+              </div>
+            </form>
+          </section>
+        )}
 
         <section className="flex flex-col gap-10">
           <div className="flex flex-col items-center gap-4">
