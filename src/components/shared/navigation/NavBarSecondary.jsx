@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { EU_HOLIDAYS_LEGAL_URLS } from "@/constants/urls";
 // [PHASE1-HIDDEN] useActiveMenuItem (only the hidden menu tabs used it)
 // import useActiveMenuItem from "@/hooks/useActiveMenuItem";
-import useDynamicImports from "@/hooks/useDynamicImports";
 import useGteNavbarStatus from "@/hooks/useGteNavbarStatus";
 import useModal from "@/hooks/useModal";
 // [PHASE1-HIDDEN] useUserLocationLanguage (only fed the hidden menu tabs)
@@ -30,7 +29,7 @@ import {
 // [PHASE1-HIDDEN] setCartData (country-coverage search navigation)
 // import { setCartData } from "@/store/module/cart/cartSlice";
 import { MenuIcon } from "lucide-react";
-import { Suspense, memo, useState } from "react";
+import { memo, useState } from "react";
 import { useTranslation } from "react-i18next";
 // [PHASE1-HIDDEN] useDispatch (country-coverage search navigation)
 // import { useDispatch, useSelector } from "react-redux";
@@ -47,7 +46,6 @@ import LanguageSelect from "../others/LanguageChange";
 // import MobileMegaMenu from "./MobileMegaMenu";
 import ProfileDropdown from "./ProfileDropdown";
 import ProfileDropdownMobile from "./ProfileDropdownMobile";
-// import commercialMenuItems from "&/countries/{currentCountry}/src/components/shared/navigation/CommercialMenuItems.js";
 
 // Routes with LandingHeroV2 colored hero: header uses same color when not scrolled
 const HERO_NAV_ROUTES = [
@@ -86,12 +84,6 @@ const NavBarSecondary = () => {
     useGteNavbarStatus();
   const heroNavStyle = getHeroNavStyle(pathname);
   const useHeroNavColor = heroNavStyle && !isScrolled;
-  const path =
-    "&/countries/{currentCountry}/src/components/shared/navigation/NavBarLogo.jsx";
-  // const menuItemsPath = "&/countries/{currentCountry}/src/components/shared/navigation/CommercialMenuItems.js";
-
-  const NavBarLogo_Dynamic = useDynamicImports(path);
-  // const commercialMenuItems = useDynamicImports(menuItemsPath, "data");
   const [isShowMenu, setIsShowMenu] = useState(false);
   // [PHASE1-HIDDEN] mega menu + destination search state
   // const [showMegaMenu, setShowMegaMenu] = useState(false);
@@ -230,26 +222,9 @@ const NavBarSecondary = () => {
           <div className="flex w-full xl:w-auto items-center gap-2 sm:gap-6 justify-between">
             <Link to={commercialRoutes.home.path} className="block shrink-0">
               <div className="relative h-[54px] w-[100px] md:h-11 md:w-[140px]">
-                <Suspense
-                  fallback={
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-center">Loading...</span>
-                    </div>
-                  }
-                >
-                  {NavBarLogo_Dynamic ? (
-                    <div className="absolute inset-0 flex justify-between items-center">
-                      <NavBarLogo_Dynamic
-                        isSecondaryNavBar={true}
-                        forceWhite={navTextWhite}
-                      />
-                    </div>
-                  ) : (
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-center">Loading...</span>
-                    </div>
-                  )}
-                </Suspense>
+                <div className="absolute inset-0 flex justify-between items-center">
+                  <EuWifiLogo className="h-auto w-[100px] md:h-11 md:w-auto" />
+                </div>
               </div>
               {/* <LazyLoadImage
                 src={images.yoowifiWhiteJp}
