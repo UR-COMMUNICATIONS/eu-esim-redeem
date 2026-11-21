@@ -68,9 +68,11 @@ const KolOrder = ({
     apiCall: "getUser",
     setCallBack: (res) => {
       if (res?.user?.userId) {
+        console.log("[eSIM redeem] getUser: success");
         dispatch(setUserData(res.user));
         setResolvedUser(res.user);
       } else {
+        console.log("[eSIM redeem] getUser: failed");
         // Without this, a failed lookup here left the trio-wait below stuck
         // forever: user never populates, onCreateRequest never fires, and the
         // spinner had nothing telling it to stop.
@@ -111,6 +113,7 @@ const KolOrder = ({
       return;
     }
     lookupStartedRef.current = true;
+    console.log("[eSIM redeem] getUser: calling");
     getUser({ userId: userInfo?.email });
     if (isCallLocalPlans) {
       getShippingRate({ countryCode: "JP" });

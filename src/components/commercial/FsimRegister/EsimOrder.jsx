@@ -28,6 +28,10 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
   const esimActivation = useDisApi({
     apiCall: "activateEsim",
     setCallBack: (res) => {
+      console.log(
+        
+          "[eSIM redeem] activateEsim: no eSIM returned",
+      );
       dispatch(setCartData({ esimDetails: res?.esims || [] }));
     },
   });
@@ -100,13 +104,16 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
     //     });
     // }, 4000);
 
+    console.log("[eSIM redeem] placeOrder: calling");
     ApiService.request(modulesURLPath.Order.placeOrder, request)
       .then((res) => {
         // console.log("Order response", { res })
         // Campaigns that hand activation to the app place the order only —
         // no activateEsim, so cart.esimDetails stays empty and no QR is shown.
         if (res?.result || res?.status?.result) {
+          console.log("[eSIM redeem] placeOrder: success");
           if (!skipActivation) {
+            console.log("[eSIM redeem] activateEsim: calling");
             esimActivation({
               requestType: "activateEsim",
               orderId: res?.orderId,
@@ -128,6 +135,7 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
           });
         }
         else {
+          console.log("[eSIM redeem] placeOrder: failed");
           dispatch(setCartData({ isCallFreeEsim: false }));
           setProcess({
             // ...prev,
@@ -139,8 +147,9 @@ const EsimOrder = ({ comp, skipActivation, onSuccess, onFailure }) => {
           });
         }
       })
-      .catch((error) => {
-        console.error("Error placing order:", error);
+     .catch((error) => {
+  console.error("Error placing order:", error);
+
         setProcess({
           // ...prev,
           isProcessing: false,

@@ -63,10 +63,12 @@ const usePromoVariationPlan = (campaign) => {
     setCallBack: (res, params) => {
       const first = res?.countries?.[0];
       if (!first?.countryCode) {
+        console.log("[eSIM redeem] planCountriesList: no countries returned");
         setStatus("error");
         setErrorCode(ERROR_CODES.MISSING_DESTINATION);
         return;
       }
+      console.log("[eSIM redeem] planCountriesList: success");
       setResult((prev) => ({
         ...prev,
         plan: params.planInfo,
@@ -87,10 +89,11 @@ const usePromoVariationPlan = (campaign) => {
     apiCall: "getLocalPlan",
     setCallBack: (res) => {
       const planName = res?.plan?.planName || res?.planName;
-      // The payload shape isn't pinned down yet, so log what came back next
-      // to the field we picked out of it.
-      console.log("GETLOCALPLAN RESPONSE:", res, "→ planName:", planName);
-      if (!planName) return;
+      if (!planName) {
+        console.log("[eSIM redeem] getLocalPlan: no plan name returned");
+        return;
+      }
+      console.log("[eSIM redeem] getLocalPlan: success");
       setResult((prev) => ({ ...prev, planName }));
     },
   });
@@ -104,10 +107,12 @@ const usePromoVariationPlan = (campaign) => {
         params.variationId,
       );
       if (!matched) {
+        console.log("[eSIM redeem] getPlanVariations: no matching variation");
         setStatus("error");
         setErrorCode(ERROR_CODES.PLAN_UNAVAILABLE);
         return;
       }
+      console.log("[eSIM redeem] getPlanVariations: success");
       if (!needsPlanCountries) {
         // The form's dropdown supplies locationCode, so the order is already
         // fully determined.
@@ -119,6 +124,7 @@ const usePromoVariationPlan = (campaign) => {
         setStatus("success");
         return;
       }
+      console.log("[eSIM redeem] planCountriesList: calling");
       getPlanCountries({
         planCode: params.planCode,
         planInfo: params.planInfo,
@@ -135,10 +141,12 @@ const usePromoVariationPlan = (campaign) => {
     setCallBack: (res) => {
       const iccid = res?.status?.result ? res?.esim?.iccid : null;
       if (iccid) {
+        console.log("[eSIM redeem] validateRedumption: voucher already redeemed");
         setResult({ iccid });
         setStatus("redeemed");
         return;
       }
+      console.log("[eSIM redeem] validateRedumption: voucher invalid");
       setStatus("error");
       setErrorCode(ERROR_CODES.INVALID_LINK);
     },
@@ -149,12 +157,17 @@ const usePromoVariationPlan = (campaign) => {
     setCallBack: (res, params) => {
       const planCode = res?.promoPlan;
       if (!res?.status?.result || !planCode) {
+        console.log("[eSIM redeem] getPromoDetail: promo not valid");
+        console.log("[eSIM redeem] validateRedumption: calling");
         validateRedumption({ promoCode: params.promoCode });
         return;
       }
+      console.log("[eSIM redeem] getPromoDetail: success");
       // Fired here rather than chained, so the name arrives while the
       // variation and country hops are still in flight.
+      console.log("[eSIM redeem] getLocalPlan: calling");
       getLocalPlan({ planCode });
+      console.log("[eSIM redeem] getPlanVariations: calling");
       getPlanVariations({
         planCode,
         variationId: params.variationId,
@@ -178,6 +191,7 @@ const usePromoVariationPlan = (campaign) => {
         return;
       }
       setStatus("loading");
+      console.log("[eSIM redeem] getPromoDetail: calling");
       getPromoDetail({ promoCode, variationId });
     },
     [getPromoDetail, planStrategy.variationBy],

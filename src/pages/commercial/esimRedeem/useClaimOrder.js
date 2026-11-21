@@ -139,11 +139,13 @@ export default function useClaimOrder({
   // really on file for this account.
   const startSession = async (account) => {
     try {
+      console.log("[eSIM redeem] getStateData: calling");
       const result = await fetchStateDataToken({
         userId: account.email,
         source: sessionStorage.getItem("source") || APP_SOURCE,
       });
       if (!result?.token) throw new Error("no token");
+      console.log("[eSIM redeem] getStateData: success");
       dispatch(saveAuthData({ token: result.token }));
       // apidispatcher adds auth.user.appUserId to every request, and that can
       // still hold an earlier account restored from localStorage. Replace it,
@@ -156,6 +158,7 @@ export default function useClaimOrder({
       );
       setSessionReady(true);
     } catch {
+      console.log("[eSIM redeem] getStateData: failed");
       setSubmitting(false);
       setError(t(`${ns}.form.registrationFailed`));
     }
@@ -165,10 +168,12 @@ export default function useClaimOrder({
     apiCall: "createUser",
     setCallBack: async (res) => {
       if (!res?.result) {
+        console.log("[eSIM redeem] createUser: failed");
         setSubmitting(false);
         setError(res?.message || t(`${ns}.form.registrationFailed`));
         return;
       }
+      console.log("[eSIM redeem] createUser: success");
       createdAccountRef.current = {
         email: emailRef.current,
         appUserId: res.userId,
@@ -193,6 +198,7 @@ export default function useClaimOrder({
       return;
     }
     emailRef.current = email.trim();
+    console.log("[eSIM redeem] createUser: calling");
     createUser({
       email: email.trim(),
       firstName: firstName.trim(),
